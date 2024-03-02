@@ -1,0 +1,46 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "lhpapi"
+version = "1.0.0"
+authors = [
+    { name="stephan192", email="stephan192@outlook.com" },
+]
+description = "API to retrieve data from the Länderübergreifendes Hochwasser Portal (LHP)"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["lhpapi", "lhp", "hochwasser"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "beautifulsoup4>=4.12.2",
+    "lxml>=4.9.4",
+    "requests>=2.31.0",
+    "tzdata>=2024.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/stephan192/lhpapi"
+Issues = "https://github.com/stephan192/lhpapi/issues"
+
+[tool.hatch.build]
+exclude = [
+    "/.github",
+    "/docs",
+    "/tests",
+]
+
+[tool.isort]
+profile = "black"
+
+[tool.pylint.main]
+recursive = true
+
+[tool.pylint.'MESSAGES CONTROL']
+disable = 'duplicate-code'

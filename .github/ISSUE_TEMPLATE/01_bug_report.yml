@@ -1,0 +1,50 @@
+name: Bug Report
+description: File a bug report
+labels: ["bug"]
+projects: ["stephan192/lhpapi"]
+assignees: ["stephan192"]
+body:
+  - type: input
+    id: api_version
+    attributes:
+      label: LHP API version
+      description: Which version of the LHP API are you using?
+      placeholder: ex. 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: affected_pegel
+    attributes:
+      label: Affected pegel
+      description: Which pegel is affected by this issue?
+      placeholder: ex. BY_16005701
+    validations:
+      required: true
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened
+      description: In addition please tell, what did you expect to happen?
+      placeholder: Tell what you see!
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction steps
+      description: How do you trigger this bug? Please explain it step by step.
+      placeholder: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+    validations:
+      required: false
