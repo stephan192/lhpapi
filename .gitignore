@@ -1,1 +1,4 @@
+/.pytest_cache
 /dist
+/src/lhpapi/__pycache__
+/tests/__pycache__
