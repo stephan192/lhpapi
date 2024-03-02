@@ -65,6 +65,7 @@ def update_BE(static_data: StaticData) -> DynamicData:  # pylint: disable=invali
                 if len(values) == 2:
                     level = convert_to_float(values[1], True)
                     if (level is not None) and (int(level) != -777):
+                        values[0] = values[0].replace('"', "")
                         last_update = convert_to_datetime(values[0], "%d.%m.%Y %H:%M")
                     if (level is not None) and (last_update is not None):
                         break
@@ -85,6 +86,7 @@ def update_BE(static_data: StaticData) -> DynamicData:  # pylint: disable=invali
                         and (int(flow) != -777)
                         and (last_update is None)
                     ):
+                        values[0] = values[0].replace('"', "")
                         last_update = convert_to_datetime(values[0], "%d.%m.%Y %H:%M")
                     if (flow is not None) and (last_update is not None):
                         break

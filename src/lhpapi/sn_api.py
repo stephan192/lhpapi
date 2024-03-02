@@ -56,7 +56,7 @@ def update_SN(static_data: StaticData) -> DynamicData:  # pylint: disable=invali
             data = link.find_next("div", class_="popUpStatus")
             if (
                 "style" in data.attrs
-                and isinstance(data.attrs["style"], list)
+                and isinstance(data.attrs["style"], str)
                 and len(data.attrs["style"]) > 0
             ):
                 color = data.attrs["style"].split()[-1]
