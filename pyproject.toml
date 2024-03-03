@@ -4,13 +4,13 @@ build-backend = "hatchling.build"
 
 [project]
 name = "lhpapi"
-version = "1.0.1"
+version = "1.0.2"
 authors = [
     { name="stephan192", email="stephan192@outlook.com" },
 ]
 description = "API to retrieve data from the Länderübergreifendes Hochwasser Portal (LHP)"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.11"
 keywords = ["lhpapi", "lhp", "hochwasser"]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
