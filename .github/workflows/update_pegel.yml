@@ -20,10 +20,11 @@ jobs:
       - name: Install Python Packages
         run: |
           python -m pip install --upgrade pip
-          pip install -r docs/requirements_upl.txt
+          pip install .
 
       - name: Execute Python Script
-        run: python docs/update_pegel_list.py
+        run: python update_pegel_list.py
+        working-directory: ./docs
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
