@@ -11,7 +11,7 @@ permissions:
   contents: read
 
 jobs:
-  build:
+  python_testing:
     runs-on: ubuntu-latest
     strategy:
       matrix:
