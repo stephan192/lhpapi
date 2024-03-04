@@ -11,7 +11,23 @@ permissions:
   contents: read
 
 jobs:
+  isort:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+      - name: Check import sorting
+        uses: isort/isort-action@v1
+  black:
+    needs: isort
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+      - name: Check code formating
+        uses: psf/black@stable
   python_testing:
+    needs: [isort, black]
     runs-on: ubuntu-latest
     strategy:
       matrix:
