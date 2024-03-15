@@ -99,7 +99,6 @@
 | BB_5810900 | Ravensbrück / Hegensteinfließ |
 | BB_5811701 | Küstrinchen, Wehr UP / Lychener Gewässer |
 | BB_5811800 | Lychen, Wehr OP / Lychener Gewässer |
-| BB_5812401 | Storkow / Schulzenfließ |
 | BB_5815400 | Liebenwalde OP / Obere Havel-Wasserstraße / Havel-Oder-Wasserstraße |
 | BB_5815500 | Liebenwalde UP / Obere Havel-Wasserstraße / Havel-Oder-Wasserstraße |
 | BB_5815901 | Borgsdorf / Havel |
@@ -191,6 +190,7 @@
 | BB_5896901 | Neustadt, Wehr OP / Dosse-Jäglitz-Zuleiter |
 | BB_5897001 | Hohenofen, Wehr OP / Dosse |
 | BB_5897100 | Friedrichsbruch, Wehr OP / Dosse |
+| BB_5897700 | Wittstock / Glinze |
 | BB_5897800 | Stolpe, Pegel 9, Speicherbecken OP / Klempnitz |
 | BB_5897802 | Wulkow, Pegel 2, Wehr UP / Dossespeicher-Zuleiter |
 | BB_5898302 | Kyritz, B5 Brücke / Jäglitz |
@@ -1075,6 +1075,8 @@
 | BY_16427305 | Kanker HRB / Kanker |
 | BY_16427513 | Partenkirchen (neu) / Kanker |
 | BY_16427702 | Partenkirchen TÜ / Kanker |
+| BY_16427703 | Partenkirchen TÜ Q / Kanker |
+| BY_16427955 | Partenkirchen Badgasse / Kankerbach |
 | BY_16436055 | Eschenlohe / Eschenlaine |
 | BY_16438055 | Hechendorf / Ramsach |
 | BY_16455005 | Dürnhausen / Lothdorfer Bach |
@@ -1112,6 +1114,7 @@
 | BY_16645001 | Unterfinning Q / Windach |
 | BY_16646400 | Eching / Windach |
 | BY_16647458 | Obermühlhausen / Beurerbach |
+| BY_16647855 | Obermühlhausen / Schlöglbach |
 | BY_16651003 | Wörthsee / Wörthsee |
 | BY_16653055 | Hoflach / Birkenmoosgraben |
 | BY_16655004 | Dachau / Gröbenbach |
