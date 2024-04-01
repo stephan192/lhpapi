@@ -509,7 +509,6 @@
 | BW_00117 | Horb / Neckar |
 | BW_00119 | Wittelbach / Schutter |
 | BW_00121 | Donaueschingen / Breg |
-| BW_00122 | Tauberbischofsheim / Tauber |
 | BW_00124 | Kadelburg / Rhein |
 | BW_00126 | Altschweier / Bühlot |
 | BW_00127 | Steinheim / Bottwar |
@@ -536,7 +535,6 @@
 | BW_00162 | Talheim / Schozach |
 | BW_00163 | Neuenstadt / Brettach |
 | BW_00164 | Geislingen / Fils |
-| BW_00165 | Königheim / Brehmbach |
 | BW_00166 | Oberrot / Fichtenberger Rot |
 | BW_00167 | Böhringsweiler / Fichtenberger Rot |
 | BW_00168 | Bühlertann / Bühler |
@@ -1804,9 +1802,12 @@
 | MV_03156.0 | Ralswiek / Gr. Jasmunder Bodden |
 | MV_03182.1 | Pudagla / Achterwasser |
 | MV_04341.1 | Börzow / Stepenitz |
+| MV_04342.0 | Questin / Stepenitz |
+| MV_04346.0 | Schönberg / Maurine |
 | MV_04347.1 | Klocksdorf / Röggeliner See |
 | MV_04350.0 | Törber / Radegast |
 | MV_04353.0 | Gadebusch / Radegast |
+| MV_04355.0 | Wotenitz / Poischower Mühlbach |
 | MV_04360.0 | Eulenkrug / Tarnewitzer Bach |
 | MV_04370.0 | Rothentor / Wallensteingraben |
 | MV_04373.0 | Hohen Viecheln / Wallensteingraben |
