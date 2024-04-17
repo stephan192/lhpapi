@@ -317,7 +317,6 @@
 | BE_5800107 | Am Wolfsschluchtkanal / Krumme Lanke |
 | BE_5800301 | Dianasee / Dianasee |
 | BE_5800302 | Dreipfuhl / Dreipfuhl |
-| BE_5800303 | Flughafensee / Flughafensee |
 | BE_5800304 | Grunewaldsee / Fenngraben |
 | BE_5800305 | Groß Glienicker See / Groß Glienicker See |
 | BE_5800306 | Halensee / Halensee |
@@ -509,6 +508,7 @@
 | BW_00117 | Horb / Neckar |
 | BW_00119 | Wittelbach / Schutter |
 | BW_00121 | Donaueschingen / Breg |
+| BW_00122 | Tauberbischofsheim / Tauber |
 | BW_00124 | Kadelburg / Rhein |
 | BW_00126 | Altschweier / Bühlot |
 | BW_00127 | Steinheim / Bottwar |
@@ -535,6 +535,7 @@
 | BW_00162 | Talheim / Schozach |
 | BW_00163 | Neuenstadt / Brettach |
 | BW_00164 | Geislingen / Fils |
+| BW_00165 | Königheim / Brehmbach |
 | BW_00166 | Oberrot / Fichtenberger Rot |
 | BW_00167 | Böhringsweiler / Fichtenberger Rot |
 | BW_00168 | Bühlertann / Bühler |
@@ -1988,6 +1989,7 @@
 | MV_59641.0 | Drewitz / Drewitzer See |
 | MV_596410 | Findshier OP / Müritz-Elde-Wasserstrasse |
 | MV_59655.0 | Klinken / Klinker Kanal |
+| MV_59665.0 | Weisin / Weisiner See |
 | MV_596900 | Schwerin Werderbrücke / Stör-Wasserstrasse |
 | MV_596920 | Banzkow OP / Stör-Wasserstrasse |
 | MV_59805.1 | Radelübbe / Sude |
