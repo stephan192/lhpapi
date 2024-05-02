@@ -809,6 +809,7 @@
 | BY_11583303 | Nattenhausen / Günz |
 | BY_11584000 | Waldstetten / Günz |
 | BY_11587005 | Eldern HRB UW / Westliche Günz |
+| BY_11587755 | Engetried HRB UW / Östliche Günz |
 | BY_11602480 | Dirlewang HRB Abfluss / Mindel |
 | BY_11605009 | Hasberg / Östliche Mindel |
 | BY_11605202 | Hasberg / Mindel |
@@ -1804,6 +1805,7 @@
 | MV_03182.1 | Pudagla / Achterwasser |
 | MV_04341.1 | Börzow / Stepenitz |
 | MV_04342.0 | Questin / Stepenitz |
+| MV_04343.0 | Diedrichshagen / Stepenitz |
 | MV_04346.0 | Schönberg / Maurine |
 | MV_04347.1 | Klocksdorf / Röggeliner See |
 | MV_04350.0 | Törber / Radegast |
@@ -1813,6 +1815,7 @@
 | MV_04370.0 | Rothentor / Wallensteingraben |
 | MV_04373.0 | Hohen Viecheln / Wallensteingraben |
 | MV_04380.0 | Schwerin Medewege / Medeweger See |
+| MV_04381.0 | Barner Stück / Aubach |
 | MV_04388.0 | Farpen / Talsperre |
 | MV_04390.1 | Teßmannsdorf / Hellbach |
 | MV_04390.2 | Teßmannsdorf / Hellbach |
@@ -1826,6 +1829,7 @@
 | MV_04412.0 | Langen Brütz / Warnow |
 | MV_04413.0 | Rönkenhof / Warnow |
 | MV_04414.0 | Barnin / Barniner See |
+| MV_04415.0 | Godern / Pinnower See |
 | MV_04421.0 | Rostock Schmarl / Schmarler Bach |
 | MV_04422.0 | Mönchhagen / Peezer Bach |
 | MV_04423.2 | Kessin / Kösterbeck |
@@ -1855,6 +1859,7 @@
 | MV_04479.0 | Goldberg / Goldberger See |
 | MV_04490.0 | Sülten / Brüeler Bach |
 | MV_04495.0 | Warin / Wariner See |
+| MV_04498.0 | Langen Brütz / Cambser See |
 | MV_04501.0 | Ribnitz / Recknitz |
 | MV_04504.0 | Marlow / Recknitz |
 | MV_04506.1 | Bad Sülze / Recknitz |
@@ -1990,15 +1995,19 @@
 | MV_596410 | Findshier OP / Müritz-Elde-Wasserstrasse |
 | MV_59655.0 | Klinken / Klinker Kanal |
 | MV_59665.0 | Weisin / Weisiner See |
+| MV_59666.0 | Passow / Passower See |
 | MV_596900 | Schwerin Werderbrücke / Stör-Wasserstrasse |
 | MV_596920 | Banzkow OP / Stör-Wasserstrasse |
 | MV_59805.1 | Radelübbe / Sude |
 | MV_59810.0 | Garlitz / Sude |
 | MV_59831.0 | Laave / Rögnitz |
 | MV_59845.0 | Zarrentin / Schaalsee |
+| MV_59846.0 | Kölzin / Schaale |
 | MV_59848.0 | Klein Bengerstorf / Schaale |
+| MV_59855.0 | Lehsen / Motel |
 | MV_59859.0 | Camin / Schilde |
 | MV_59905.0 | Schwartow / Boize |
+| MV_59910.5 | Nostorf / Horster Mühlbach |
 | MV_9620085 | Travemünde / Trave |
 | MV_9630007 | Timmendorf Poel / Ostsee |
 | MV_9630008 | Wismar-Baumhaus-Alt / Ostsee |
@@ -2126,8 +2135,6 @@
 | NW_104 | Bad-Honnef / Rhein |
 | NW_12 | Muelheim / Ruhr |
 | NW_1234512345 | Soestbach / Soestbach |
-| NW_2420600700100 | Hellenthal / Platißbach |
-| NW_2460100100100 | Welz / Merzbach |
 | NW_2581119000100 | Feudingen / Lahn |
 | NW_25900700 | WSV_Koblenz / Rhein |
 | NW_27100400 | WSV_Andernach / Rhein |
@@ -2273,6 +2280,7 @@
 | NW_2821790000100 | Dedenborn / Rur |
 | NW_2821890000100 | Einruhr / Erkensruhr |
 | NW_2822700000200 | Kall-Sportplatz / Urft |
+| NW_2822849000100 | Hellenthal / Platißbach |
 | NW_2822870000100 | Schleiden / Olef |
 | NW_2822900000200 | Gemuend / Urft |
 | NW_2823100000100 | RurbergVA / Weidenbach |
@@ -2288,9 +2296,10 @@
 | NW_2825190000200 | Juelich-Stadion / Rur |
 | NW_2825320000100 | Kirchberg2 / Altdorf-Kirchberg-Koslarer Mühlenteich |
 | NW_2825330000100 | Linnich / Rur |
+| NW_2825349000100 | Welz / Merzbach |
 | NW_2827200000100 | Ratheim / Mühlenbach Ratheim |
 | NW_2827800000100 | Orsbeck / Schaagbach |
-| NW_2828100000100 | Kalkofen / Lahn |
+| NW_2828100000100 | Kalkofen / Wurm |
 | NW_2828200000200 | Haaren / Haarbach |
 | NW_2828300000200 | Herzogenrath_1 / Wurm |
 | NW_2828400000200 | Herzogenrath_2 / Broicher Bach |
@@ -2951,7 +2960,6 @@
 | SN_567310 | Böhrigen / Striegis |
 | SN_567400 | Tannenberg / Zschopau |
 | SN_567420 | Hopfgarten / Zschopau |
-| SN_567435 | Kunnersdorf / Zschopau |
 | SN_567451 | Lichtenwalde 1 / Zschopau |
 | SN_567470 | Kriebstein UP / Zschopau |
 | SN_567590 | Annaberg 1 / Sehma |
