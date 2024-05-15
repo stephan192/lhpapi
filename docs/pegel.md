@@ -1851,6 +1851,7 @@
 | MV_04455.2 | Liessow / Augraben |
 | MV_04455.5 | Dehmen / Augraben |
 | MV_04456.0 | Dolgen / Dolgener See |
+| MV_04459.0 | Tolzin / Kuhlensee |
 | MV_04460.1 | Klueß / Lößnitz |
 | MV_04465.0 | Sternberger Burg / Mildenitz |
 | MV_04466.0 | Sternberg / Sternberger See |
@@ -2240,6 +2241,7 @@
 | NW_2781730000200 | Neuhaus1 / Lippe |
 | NW_2781810000100 | Paderborn1 / Pader |
 | NW_2781829000100 | Paderborn2 / Rothebach |
+| NW_2782190000100 | Niederalme / Alme |
 | NW_2782330000100 | Multhaeupter Hammer / Alme |
 | NW_2782370000100 | Weine / Alme |
 | NW_2782490000200 | Bueren / Afte |
