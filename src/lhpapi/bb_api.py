@@ -107,6 +107,7 @@ def update_BB(static_data: StaticData) -> DynamicData:  # pylint: disable=invali
         lines = page.split("\n")
         # Parse data
         start_found = False
+        stage_valid = False
         prev_line = None
         for line in lines:
             line = line.strip()
