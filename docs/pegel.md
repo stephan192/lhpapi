@@ -25,6 +25,7 @@
 | BB_151140010 | Gubin / Lausitzer Neiße |
 | BB_151140011 | Zbiornik Niedów, Odpływ / Wittka |
 | BB_151140012 | Zbiornik Niedów, Dopływ / Wittka |
+| BB_151140040 | Przewóz / Lausitzer Neiße |
 | BB_151140050 | Ręczyn / Wittka |
 | BB_151150020 | Ostróżno / Wittka |
 | BB_151150080 | Żagań / Bobr |
@@ -35,7 +36,6 @@
 | BB_151160150 | Malczyce / Oder |
 | BB_151160170 | Brzeg Dolny / Oder |
 | BB_151160190 | Jarnołtów / Bystrzyca |
-| BB_151160240 | Wrocław-Rędzin / Oder |
 | BB_151170030 | Trestno / Oder |
 | BB_152140010 | Bielinek / Oder |
 | BB_152140020 | Gozdowice / Oder |
@@ -46,7 +46,6 @@
 | BB_152150040 | Gorzów Wielkopolski / Warta |
 | BB_152150050 | Nietków / Oder |
 | BB_152150130 | Cigacice / Oder |
-| BB_152150250 | Krosno Odrzańskie / Oder |
 | BB_152160140 | Poznań-Most Rocha / Warta |
 | BB_152180050 | Sławsk / Warta |
 | BB_153140020 | Widuchowa / Oder |
@@ -317,6 +316,7 @@
 | BE_5800107 | Am Wolfsschluchtkanal / Krumme Lanke |
 | BE_5800301 | Dianasee / Dianasee |
 | BE_5800302 | Dreipfuhl / Dreipfuhl |
+| BE_5800303 | Flughafensee / Flughafensee |
 | BE_5800304 | Grunewaldsee / Fenngraben |
 | BE_5800305 | Groß Glienicker See / Groß Glienicker See |
 | BE_5800306 | Halensee / Halensee |
@@ -1159,7 +1159,7 @@
 | BY_17406005 | Kalteneck / Ilz |
 | BY_17413000 | Taferlruck / Große Ohe |
 | BY_17415006 | Schönberg / Große Ohe |
-| BY_17418004 | Rachel-Diensthütte / Markungsgraben |
+| BY_17418004 | Rachel Diensthütte / Markungsgraben |
 | BY_17425000 | Eberhardsreuth / Mitternacher Ohe |
 | BY_17445007 | Grafenau / Kleine Ohe |
 | BY_17464001 | Fürsteneck / Wolfsteiner Ohe |
@@ -1334,6 +1334,7 @@
 | BY_24113506 | Neudorf / Kronach |
 | BY_24114000 | Trebgast / Trebgast |
 | BY_24115002 | Wirsberg / Schorgast |
+| BY_24116005 | Untersteinach / Schorgast |
 | BY_24117008 | Kauerndorf / Schorgast |
 | BY_24118000 | Adlerhütte / Koserbach |
 | BY_24118500 | Oberhammer / Untere Steinach |
@@ -1432,6 +1433,7 @@
 | BY_24232301 | Kreppendorf / Zenn |
 | BY_24235208 | Frauenkreuz / Gründlach |
 | BY_24236007 | Emskirchen / Aurach |
+| BY_24237005 | Herzogenaurach / Mittlere Aurach |
 | BY_24237509 | Frauenaurach / Aurach |
 | BY_24238002 | Büg / Schwabach |
 | BY_24238501 | Erlangen / Schwabach |
@@ -1859,6 +1861,7 @@
 | MV_04478.0 | Goldberg / Mildenitz |
 | MV_04479.0 | Goldberg / Goldberger See |
 | MV_04490.0 | Sülten / Brüeler Bach |
+| MV_04492.0 | Langen Jarchow / Neuhofer See |
 | MV_04495.0 | Warin / Wariner See |
 | MV_04498.0 | Langen Brütz / Cambser See |
 | MV_04501.0 | Ribnitz / Recknitz |
@@ -2172,7 +2175,6 @@
 | NW_2736510000100 | Kluserbruecke / Wupper |
 | NW_2736510000300 | Buchenhofen / Wupper |
 | NW_2736731000100 | Glueder / Wupper |
-| NW_2736790000 | Opladen_Güte / Wupper |
 | NW_2736790000200 | Opladen / Wupper |
 | NW_2736879000200 | Manfort / Dhünn |
 | NW_2738900000300 | Hilden_1 / Itter |
@@ -2207,7 +2209,6 @@
 | NW_2764590000100 | Menden_Oberroedingh / Hönne |
 | NW_2764890000100 | Hemer-Becke / Öse |
 | NW_2764950000100 | Menden_Sauerland / Hönne |
-| NW_2765190000100 | Froendenberg / Ruhr |
 | NW_2765419000100 | Iserlohn / Baarbach |
 | NW_2765490000100 | Iserlohn-Hennen / Baarbach |
 | NW_2765590000100 | Villigst / Ruhr |
@@ -2432,7 +2433,7 @@
 | RP_23770507 | Siebeldingen / Queich |
 | RP_23780500 | Neustadt Weinstraße / Speyerbach |
 | RP_23780602 | Dudenhofen / Speyerbach |
-| RP_23780806 | Speyer Nord / Nonnenbach |
+| RP_23780806 | Speyer Nord / Woogbach |
 | RP_23790504 | Rheingönheim / Rehbach |
 | RP_23800690 | Rockenau SKA / Neckar |
 | RP_23900200 | Worms / Rhein |
@@ -2475,6 +2476,7 @@
 | RP_25460613 | Rammelsbach 2 / Kuselbach |
 | RP_25460704 | Untersulzbach / Lauter |
 | RP_25460770 | Lohnweiler / Lauter |
+| RP_25460806 | Sulzhof / Sulzbach |
 | RP_25460850 | Odenbach Steinbruch 2 / Odenbach |
 | RP_25460908 | Löllbach / Jeckenbach |
 | RP_25480202 | Imsweiler / Alsenz |
@@ -2521,6 +2523,7 @@
 | RP_26300500 | Wasserliesch / Albach |
 | RP_26400220 | Sankt Arnual / Saar |
 | RP_26400550 | Fremersdorf / Saar |
+| RP_26400670 | Serrig UP / Saar |
 | RP_26420159 | Steinalben / Queidersbach |
 | RP_26420206 | Thaleischweiler 2 / Schwarzbach |
 | RP_26420308 | Contwig / Schwarzbach |
