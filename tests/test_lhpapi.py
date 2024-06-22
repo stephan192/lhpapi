@@ -21,7 +21,7 @@ testdata = [
     ("NI_4885154", "Poppenburg / Leine", True, True, False),
     ("NW_4433000000100", "Westheim / Diemel", True, True, False),
     ("RP_23900200", "Worms / Rhein", True, True, True),
-    ("SH_114044", "Leck / Lecker Au", True, True, True),
+    ("SH_114038", "Jägerkrug / Arlau", True, True, True),
     ("SL_1014120", "Urweiler / Todbach", True, True, False),
     ("SN_550810", "Elbersdorf / Wesenitz", True, True, True),
     ("ST_591070", "Wolmirstedt / Ohre", True, True, True),
