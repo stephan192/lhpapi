@@ -98,6 +98,7 @@
 | BB_5810900 | Ravensbrück / Hegensteinfließ |
 | BB_5811701 | Küstrinchen, Wehr UP / Lychener Gewässer |
 | BB_5811800 | Lychen, Wehr OP / Lychener Gewässer |
+| BB_5812401 | Storkow / Schulzenfließ |
 | BB_5815400 | Liebenwalde OP / Obere Havel-Wasserstraße / Havel-Oder-Wasserstraße |
 | BB_5815500 | Liebenwalde UP / Obere Havel-Wasserstraße / Havel-Oder-Wasserstraße |
 | BB_5815901 | Borgsdorf / Havel |
@@ -316,7 +317,6 @@
 | BE_5800107 | Am Wolfsschluchtkanal / Krumme Lanke |
 | BE_5800301 | Dianasee / Dianasee |
 | BE_5800302 | Dreipfuhl / Dreipfuhl |
-| BE_5800303 | Flughafensee / Flughafensee |
 | BE_5800304 | Grunewaldsee / Fenngraben |
 | BE_5800305 | Groß Glienicker See / Groß Glienicker See |
 | BE_5800306 | Halensee / Halensee |
@@ -1005,6 +1005,7 @@
 | BY_15228008 | Kötzting / Weißer Regen |
 | BY_15241006 | Gogl-Mühle / Chamb |
 | BY_15242304 | Eschlkam / Chamb |
+| BY_15242305 | Eschlkam Q / Chamb |
 | BY_15242406 | Drachensee Seepegel / Drachensee |
 | BY_15242508 | Drachensee Speicherabfluss / Chamb |
 | BY_15243001 | Furth im Wald / Chamb |
@@ -1432,7 +1433,7 @@
 | BY_24232006 | Laubendorf / Zenn |
 | BY_24232301 | Kreppendorf / Zenn |
 | BY_24235208 | Frauenkreuz / Gründlach |
-| BY_24236007 | Emskirchen / Aurach |
+| BY_24236007 | Emskirchen / Mittlere Aurach |
 | BY_24237005 | Herzogenaurach / Mittlere Aurach |
 | BY_24237509 | Frauenaurach / Aurach |
 | BY_24238002 | Büg / Schwabach |
@@ -1861,6 +1862,7 @@
 | MV_04478.0 | Goldberg / Mildenitz |
 | MV_04479.0 | Goldberg / Goldberger See |
 | MV_04490.0 | Sülten / Brüeler Bach |
+| MV_04491.1 | Keez / Keezer See |
 | MV_04492.0 | Langen Jarchow / Neuhofer See |
 | MV_04495.0 | Warin / Wariner See |
 | MV_04498.0 | Langen Brütz / Cambser See |
@@ -1879,8 +1881,11 @@
 | MV_04554.2 | Redebas / Barthe |
 | MV_04556.0 | Altenhagen / Barthe |
 | MV_04571.0 | Prohn SW. / Speicherbecken |
+| MV_04580.0 | Stralsund / Knieperteich |
+| MV_04581.3 | Stralsund Tierpark / Mühlgraben |
 | MV_04584.0 | Lüssow / Borgwallsee |
 | MV_04587.2 | Krummenhagen / Krummenhagener See |
+| MV_04591.0 | Andershof / Andershofer Teich |
 | MV_04602.0 | Stönkvitz / Sehrower Bach |
 | MV_04610.0 | Bergen / Nonnensee |
 | MV_04611.1 | Kluis / Duvenbach |
@@ -1997,6 +2002,8 @@
 | MV_596390 | Malliss OP / Müritz-Elde-Wasserstrasse |
 | MV_59641.0 | Drewitz / Drewitzer See |
 | MV_596410 | Findshier OP / Müritz-Elde-Wasserstrasse |
+| MV_59645.5 | Siggelkow / Mooster |
+| MV_59649.0 | Klein Pankow / Gehlsbach |
 | MV_59655.0 | Klinken / Klinker Kanal |
 | MV_59665.0 | Weisin / Weisiner See |
 | MV_59666.0 | Passow / Passower See |
@@ -2264,6 +2271,7 @@
 | NW_2785290000200 | Overhagen / Gieseler |
 | NW_2785790000300 | Kesseler_3 / Lippe |
 | NW_2786110000100 | Lohne / Ahse |
+| NW_2786330000100 | Oestinghausen / Ahse |
 | NW_2786690000100 | Sueddinker / Salzbach |
 | NW_2786700000100 | Westtuennen / Ahse |
 | NW_2787990000100 | Leven / Lippe |
