@@ -887,7 +887,6 @@
 | BY_13208000 | Manching (Ort) / Paar |
 | BY_13208509 | Manching Bahnbrücke / Paar |
 | BY_13212255 | Merching HRB Beckenpegel / HRB Merching |
-| BY_13212257 | Merching HRB Ablauf / Steinach |
 | BY_13217000 | Blumenthal / Ecknach |
 | BY_13227000 | Altenfurt / Weilach |
 | BY_13241005 | Niederstimm / Sandrach |
@@ -1035,7 +1034,6 @@
 | BY_16003502 | Bad Tölz Brücke / Isar |
 | BY_16004006 | Bad Tölz KW / Isar |
 | BY_16004403 | Puppling / Isar |
-| BY_16005009 | Baierbrunn / Isar |
 | BY_16005701 | München / Isar |
 | BY_16006500 | Freising / Isar |
 | BY_16006613 | Moosburg / Isar |
@@ -1817,8 +1815,10 @@
 | MV_04360.0 | Eulenkrug / Tarnewitzer Bach |
 | MV_04370.0 | Rothentor / Wallensteingraben |
 | MV_04373.0 | Hohen Viecheln / Wallensteingraben |
+| MV_04378.0 | Schwerin Schleifmühle / Fauler See |
 | MV_04380.0 | Schwerin Medewege / Medeweger See |
 | MV_04381.0 | Barner Stück / Aubach |
+| MV_04382.0 | Schwerin Ostorf / Unterer Ostorfer See |
 | MV_04388.0 | Farpen / Talsperre |
 | MV_04390.1 | Teßmannsdorf / Hellbach |
 | MV_04390.2 | Teßmannsdorf / Hellbach |
@@ -1880,6 +1880,7 @@
 | MV_04553.0 | Löbnitz / Langenhanshäger Bach |
 | MV_04554.2 | Redebas / Barthe |
 | MV_04556.0 | Altenhagen / Barthe |
+| MV_04559.0 | Lendershagen / Wolfsbach |
 | MV_04571.0 | Prohn SW. / Speicherbecken |
 | MV_04580.0 | Stralsund / Knieperteich |
 | MV_04581.3 | Stralsund Tierpark / Mühlgraben |
@@ -1891,6 +1892,7 @@
 | MV_04611.1 | Kluis / Duvenbach |
 | MV_04615.0 | Dolgemost / Karower Bach |
 | MV_04616.1 | Sagard Vorwerk / Sagarder Bach |
+| MV_04617.5 | Sagard / Marlower Bach |
 | MV_04620.0 | Buschvitz / Kl. Jasmunder Bodden |
 | MV_04621.0 | Binz / Schmachter See |
 | MV_04623.0 | Rosengarten / Rosengartener Beek |
@@ -2182,6 +2184,7 @@
 | NW_2736510000100 | Kluserbruecke / Wupper |
 | NW_2736510000300 | Buchenhofen / Wupper |
 | NW_2736731000100 | Glueder / Wupper |
+| NW_2736790000 | Opladen_Güte / Wupper |
 | NW_2736790000200 | Opladen / Wupper |
 | NW_2736879000200 | Manfort / Dhünn |
 | NW_2738900000300 | Hilden_1 / Itter |
@@ -2212,10 +2215,9 @@
 | NW_2762510000300 | Belecke3 / Bormelsbach |
 | NW_2763190000100 | Bachum / Ruhr |
 | NW_2764190000100 | Balve-Garbeck / Hönne |
-| NW_2764511000100 | Balve_Helle / Hönne |
-| NW_2764590000100 | Menden_Oberroedingh / Hönne |
 | NW_2764890000100 | Hemer-Becke / Öse |
 | NW_2764950000100 | Menden_Sauerland / Hönne |
+| NW_2765190000100 | Froendenberg / Ruhr |
 | NW_2765419000100 | Iserlohn / Baarbach |
 | NW_2765490000100 | Iserlohn-Hennen / Baarbach |
 | NW_2765590000100 | Villigst / Ruhr |
@@ -2393,7 +2395,6 @@
 | NW_4667100000100 | Oberahle / Else |
 | NW_4670000000100 | Loehne / Werre |
 | NW_47100100 | WSV_Porta / Weser |
-| NW_47138 | DuisburgLaar / Rhein |
 | NW_4714900000100 | Rodenbeck / Bastau |
 | NW_47300100 | WSV_Petershagen / Weser |
 | NW_4745000000100 | Bierde / Gehle |
