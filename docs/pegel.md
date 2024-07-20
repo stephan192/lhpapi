@@ -20,18 +20,18 @@
 | BB_0499700 | Suckow / Stierngraben |
 | BB_150170090 | Brzeg / Oder |
 | BB_150170130 | Ujście Nysy Kłodzkiej / Oder |
-| BB_150170140 | Skorogoszcz / Nysa Klodzka |
+| BB_150170140 | Skorogoszcz / Nysa K&#322;odzka |
 | BB_150180060 | Racibórz-Miedonia / Oder |
 | BB_151140010 | Gubin / Lausitzer Neiße |
-| BB_151140011 | Zbiornik Niedów, Odpływ / Wittka |
-| BB_151140012 | Zbiornik Niedów, Dopływ / Wittka |
+| BB_151140011 | Zbiornik Niedów, Odpływ / Witka |
+| BB_151140012 | Zbiornik Niedów, Dopływ / Witka |
 | BB_151140040 | Przewóz / Lausitzer Neiße |
-| BB_151140050 | Ręczyn / Wittka |
-| BB_151150020 | Ostróżno / Wittka |
+| BB_151140050 | Ręczyn / Witka |
+| BB_151150020 | Ostróżno / Witka |
 | BB_151150080 | Żagań / Bobr |
 | BB_151150150 | Nowa Sól / Oder |
 | BB_151160060 | Głogów / Oder |
-| BB_151160100 | Piątnica / Kaczawa(Katzbach) |
+| BB_151160100 | Piątnica / Kaczawa |
 | BB_151160130 | Ścinawa / Oder |
 | BB_151160150 | Malczyce / Oder |
 | BB_151160170 | Brzeg Dolny / Oder |
@@ -123,7 +123,10 @@
 | BB_5828000 | Bräsinchen, Hauptabflusspegel / Spree |
 | BB_5828200 | Spreewitz / Spree |
 | BB_5835300 | Burg, Friedhofswehr UP / Südumfluter |
+| BB_5836000 | Müschen, Paulicks Mühle / Greifenhainer Fließ |
+| BB_5836900 | Vetschau / Vetschauer Mühlenfließ |
 | BB_5844300 | Treppendorf / Berste |
+| BB_5845200 | Fehrow / Malxe |
 | BB_5845800 | Merzdorf 1 / Hammergraben |
 | BB_5856400 | Märkisch Buchholz 1 OP / Dahme-Umflut-Kanal |
 | BB_5856600 | Rangsdorf, Wehr OP / Zülowkanal |
@@ -357,6 +360,7 @@
 | BE_582720 | Berlin-Mühlendamm OP / Spree-Oder-Wasserstrasse |
 | BE_582730 | Berlin-Mühlendamm UP / Spree-Oder-Wasserstrasse |
 | BE_582740 | Berlin-Charlottenburg OP / Spree-Oder-Wasserstrasse |
+| BE_582750 | Berlin-Charlottenburg UP / Spree-Oder-Wasserstrasse |
 | BE_5827700 | Sophienwerder / Spree |
 | BE_585850 | Neuhaus OP / Neuhauser Speisekanal |
 | BE_585860 | Neuhaus UP / Neuhauser Speisekanal |
@@ -387,6 +391,7 @@
 | BE_586620 | Berlin-Unterschleuse OP / Landwehrkanal |
 | BE_586630 | Berlin-Unterschleuse UP / Landwehrkanal |
 | BE_5866301 | Zoo / Landwehrkanal |
+| BE_586640 | Berlin-Ploetzensee OP / Berlin-Spandauer-Schifffahrtskanal |
 | BE_586650 | Berlin-Ploetzensee UP / Berlin-Spandauer-Schifffahrtskanal |
 | BE_5866700 | Schleuse Neukölln OP / Neuk. Schifffahrtskanal |
 | BE_5866800 | Schleuse Neukölln UP / Neuk. Schifffahrtskanal |
@@ -508,7 +513,6 @@
 | BW_00117 | Horb / Neckar |
 | BW_00119 | Wittelbach / Schutter |
 | BW_00121 | Donaueschingen / Breg |
-| BW_00122 | Tauberbischofsheim / Tauber |
 | BW_00124 | Kadelburg / Rhein |
 | BW_00126 | Altschweier / Bühlot |
 | BW_00127 | Steinheim / Bottwar |
@@ -535,7 +539,6 @@
 | BW_00162 | Talheim / Schozach |
 | BW_00163 | Neuenstadt / Brettach |
 | BW_00164 | Geislingen / Fils |
-| BW_00165 | Königheim / Brehmbach |
 | BW_00166 | Oberrot / Fichtenberger Rot |
 | BW_00167 | Böhringsweiler / Fichtenberger Rot |
 | BW_00168 | Bühlertann / Bühler |
@@ -808,7 +811,9 @@
 | BY_11582300 | Lauben / Günz |
 | BY_11583303 | Nattenhausen / Günz |
 | BY_11584000 | Waldstetten / Günz |
+| BY_11587002 | Eldern HRB Beckenpegel / HRB Eldern |
 | BY_11587005 | Eldern HRB UW / Westliche Günz |
+| BY_11587753 | Engetried HRB Beckenpegel / HRB Engetried |
 | BY_11587755 | Engetried HRB UW / Östliche Günz |
 | BY_11602480 | Dirlewang HRB Abfluss / Mindel |
 | BY_11605009 | Hasberg / Östliche Mindel |
@@ -1204,7 +1209,7 @@
 | BY_18226009 | Miesbach / Schlierach |
 | BY_18242005 | Stauden / Leitzach |
 | BY_18246006 | Erb / Leitzach |
-| BY_18261000 | Mühltal / Glonn |
+| BY_18261000 | Mühlthal / Glonn |
 | BY_18262002 | Beyharting / Glonn |
 | BY_18263005 | Bad Aibling / Glonn |
 | BY_18269001 | Bad Aibling / Triftbach linker Mühlkanal |
@@ -1595,7 +1600,6 @@
 | HE_24781003 | Radmühl / Salz |
 | HE_24781004 | Ürzell2 / Steinebach |
 | HE_24781005 | Elm / Elmbach |
-| HE_24781006 | Sannerz / Kinzig |
 | HE_24781159 | Marborn / Ulmbach |
 | HE_24781206 | Ahl_UW / Kinzig |
 | HE_24781909 | Bad_Soden / Salz |
@@ -1815,6 +1819,8 @@
 | MV_04360.0 | Eulenkrug / Tarnewitzer Bach |
 | MV_04370.0 | Rothentor / Wallensteingraben |
 | MV_04373.0 | Hohen Viecheln / Wallensteingraben |
+| MV_04375.0 | Schwerin Neumühle / Neumühler See |
+| MV_04377.0 | Schwerin Lankow / Lankower See |
 | MV_04378.0 | Schwerin Schleifmühle / Fauler See |
 | MV_04380.0 | Schwerin Medewege / Medeweger See |
 | MV_04381.0 | Barner Stück / Aubach |
@@ -1880,6 +1886,7 @@
 | MV_04553.0 | Löbnitz / Langenhanshäger Bach |
 | MV_04554.2 | Redebas / Barthe |
 | MV_04556.0 | Altenhagen / Barthe |
+| MV_04557.0 | Schuenhagen / Barthe |
 | MV_04559.0 | Lendershagen / Wolfsbach |
 | MV_04571.0 | Prohn SW. / Speicherbecken |
 | MV_04580.0 | Stralsund / Knieperteich |
@@ -2146,7 +2153,6 @@
 | NI_9429105 | Vareler Schleuse / Nordsee |
 | NW_00000001 | Porta / Weser |
 | NW_104 | Bad-Honnef / Rhein |
-| NW_12 | Muelheim / Ruhr |
 | NW_1234512345 | Soestbach / Soestbach |
 | NW_2581119000100 | Feudingen / Lahn |
 | NW_25900700 | WSV_Koblenz / Rhein |
@@ -2294,6 +2300,7 @@
 | NW_2821890000100 | Einruhr / Erkensruhr |
 | NW_2822700000200 | Kall-Sportplatz / Urft |
 | NW_2822849000100 | Hellenthal / Platißbach |
+| NW_2822867000200 | Reifferscheid2 / Rur |
 | NW_2822870000100 | Schleiden / Olef |
 | NW_2822900000200 | Gemuend / Urft |
 | NW_2823100000100 | RurbergVA / Weidenbach |
@@ -2358,6 +2365,7 @@
 | NW_3448390000200 | Hoerstel / Ibbenbürener Aa |
 | NW_39492001 | Kaarst / Nordkanal |
 | NW_39899002 | Wesel / Lippe |
+| NW_4157 | Hattingen / Ruhr |
 | NW_4281319000100 | Muesse / Eder |
 | NW_4281334000100 | Aue / Preisdorf |
 | NW_4281490000100 | Raumland / Odeborn |
@@ -2835,7 +2843,7 @@
 | SL_1502120 | Mettlach / Saar |
 | SL_1631120 | Beeden / Erbach |
 | SL_1641120 | Ihn / Ihner Bach |
-| SL_1651120 | Körprich / Prims |
+| SL_1651120 | Körprich / Primss |
 | SL_1661120 | Bardenbach / Wahrnbach |
 | SN_1000000 | Hohberg / Rosenbach |
 | SN_1000001 | Burgneudorf / Kleine Spree |
