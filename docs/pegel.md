@@ -196,6 +196,8 @@
 | BB_5897700 | Wittstock / Glinze |
 | BB_5897800 | Stolpe, Pegel 9, Speicherbecken OP / Klempnitz |
 | BB_5897802 | Wulkow, Pegel 2, Wehr UP / Dossespeicher-Zuleiter |
+| BB_5898050 | Minnashöh UP / Nadelbach |
+| BB_5898202 | Wutike, Wehr UP / Jäglitz |
 | BB_5898302 | Kyritz, B5 Brücke / Jäglitz |
 | BB_5898601 | Rübehorst, Brücke / Alte Jäglitz |
 | BB_5898801 | Voigtsbrügge, Wehr OP / Jäglitz |
@@ -513,6 +515,7 @@
 | BW_00117 | Horb / Neckar |
 | BW_00119 | Wittelbach / Schutter |
 | BW_00121 | Donaueschingen / Breg |
+| BW_00122 | Tauberbischofsheim / Tauber |
 | BW_00124 | Kadelburg / Rhein |
 | BW_00126 | Altschweier / Bühlot |
 | BW_00127 | Steinheim / Bottwar |
@@ -539,6 +542,7 @@
 | BW_00162 | Talheim / Schozach |
 | BW_00163 | Neuenstadt / Brettach |
 | BW_00164 | Geislingen / Fils |
+| BW_00165 | Königheim / Brehmbach |
 | BW_00166 | Oberrot / Fichtenberger Rot |
 | BW_00167 | Böhringsweiler / Fichtenberger Rot |
 | BW_00168 | Bühlertann / Bühler |
@@ -892,6 +896,7 @@
 | BY_13208000 | Manching (Ort) / Paar |
 | BY_13208509 | Manching Bahnbrücke / Paar |
 | BY_13212255 | Merching HRB Beckenpegel / HRB Merching |
+| BY_13212257 | Merching HRB Ablauf / Steinach |
 | BY_13217000 | Blumenthal / Ecknach |
 | BY_13227000 | Altenfurt / Weilach |
 | BY_13241005 | Niederstimm / Sandrach |
@@ -1578,6 +1583,7 @@
 | HE_23942300 | Lorsch / Weschnitz |
 | HE_23950104 | Bensheim / Lauter |
 | HE_23950250 | Auerbach / Winkelbach |
+| HE_23960356 | Ober-Ramstadt / Modau |
 | HE_23960709 | Eberstadt / Modau |
 | HE_23980309 | Mönchbruch2 / Geräthsbach |
 | HE_23980353 | Nauheim / Schwarzbach |
@@ -1715,6 +1721,7 @@
 | HE_42560300 | Kirchheim / Aula |
 | HE_42590301 | Bad_Hersfeld2 / Geis |
 | HE_42650050 | Melzdorf / Haune |
+| HE_42650108 | Marbach / Haune |
 | HE_42660451 | Silges / Nüst |
 | HE_42670557 | Hermannspiegel / Haune |
 | HE_42700100 | Rotenburg / Fulda |
@@ -1939,10 +1946,13 @@
 | MV_04761.1 | Gnoien / Warbel |
 | MV_04770.0 | Tangrim / Tangrimer Bach |
 | MV_04803.5 | Klempenow Straßenbrücke / Tollense |
+| MV_04808.4 | Neubrandenburg/Vierrademühle / Tollense |
 | MV_04808.9 | Neubrandenburg / Tollensesee (Bogenbr.) |
 | MV_04812.2 | Gehmkow / Augraben |
 | MV_04815.1 | Breest OP / Gr. Landgraben |
 | MV_04835.1 | Zirzow / Malliner Wasser |
+| MV_04837.0 | Kastorf / Kastorfer See |
+| MV_04840.1 | Warbende / Warbender Mühlbach |
 | MV_04841.2 | Burg Stargard / Lindebach |
 | MV_04849.0 | Rödlin / Rödliner See |
 | MV_04850.1 | Grambin / Zarow |
@@ -1971,6 +1981,7 @@
 | MV_04934.0 | Gottesheide / Schloßsee |
 | MV_04941.2 | Strasburg / Strasburger Stadtsee |
 | MV_04972.1 | Carwitz / Bäk |
+| MV_04975.1 | Feldberg / Feldberger Haussee |
 | MV_503050 | Wittenberge / Elbe |
 | MV_503120 | Lenzen / Elbe |
 | MV_580000 | VOSSWINKEL OP / Obere Havel-Wasserstrasse |
@@ -1983,6 +1994,7 @@
 | MV_580080 | Bredereiche OP / Obere Havel-Wasserstrasse |
 | MV_580090 | Bredereiche UP / Obere Havel-Wasserstrasse |
 | MV_58036.0 | Zwenzow Straßenbrücke / Havel |
+| MV_58040.0 | Fürstensee / Fürstenseer See |
 | MV_58100.0 | Mirow OP / Müritz-Havel-Wasserstrasse |
 | MV_581000 | Mirow OP / Müritz-Havel-Wasserstrasse |
 | MV_581010 | Mirow UP / Müritz-Havel-Wasserstrasse |
@@ -2277,6 +2289,7 @@
 | NW_2784700000100 | Cappel / Glenne |
 | NW_2785229000100 | Boekenfoerde_2 / Gieseler |
 | NW_2785290000200 | Overhagen / Gieseler |
+| NW_2785710000100 | Hovestadt / Lippe |
 | NW_2785790000300 | Kesseler_3 / Lippe |
 | NW_2786110000100 | Lohne / Ahse |
 | NW_2786330000100 | Oestinghausen / Ahse |
