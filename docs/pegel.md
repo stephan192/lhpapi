@@ -1818,6 +1818,7 @@
 | MV_04341.1 | Börzow / Stepenitz |
 | MV_04342.0 | Questin / Stepenitz |
 | MV_04343.0 | Diedrichshagen / Stepenitz |
+| MV_04345.0 | Cramon / Cramoner See |
 | MV_04346.0 | Schönberg / Maurine |
 | MV_04347.1 | Klocksdorf / Röggeliner See |
 | MV_04350.0 | Törber / Radegast |
@@ -1878,6 +1879,7 @@
 | MV_04491.1 | Keez / Keezer See |
 | MV_04492.0 | Langen Jarchow / Neuhofer See |
 | MV_04495.0 | Warin / Wariner See |
+| MV_04497.0 | Neukloster / Neukloster See |
 | MV_04498.0 | Langen Brütz / Cambser See |
 | MV_04501.0 | Ribnitz / Recknitz |
 | MV_04504.0 | Marlow / Recknitz |
@@ -2030,6 +2032,7 @@
 | MV_59666.0 | Passow / Passower See |
 | MV_596900 | Schwerin Werderbrücke / Stör-Wasserstrasse |
 | MV_596920 | Banzkow OP / Stör-Wasserstrasse |
+| MV_59803.0 | Dümmer / Dümmer See |
 | MV_59805.1 | Radelübbe / Sude |
 | MV_59810.0 | Garlitz / Sude |
 | MV_59831.0 | Laave / Rögnitz |
@@ -2444,7 +2447,7 @@
 | RP_2230310 | Kogenheim / Ill |
 | RP_2280350 | Chasseur-Froid / Ill |
 | RP_229150 | Remich / Mosel |
-| RP_229151 | Wasserbillig / Mosel |
+| RP_229151 | Wasserbillig / Sauer |
 | RP_2310010 | Basel-Rheinhalle / Rhein |
 | RP_2330090 | Kehl-Kronenhof / Rhein |
 | RP_2350070 | Plittersdorf / Rhein |
@@ -2502,6 +2505,7 @@
 | RP_25460307 | Eschenau / Glan |
 | RP_25460409 | Odenbach / Glan |
 | RP_25460522 | Stausee Ohmbach / Ohmbach |
+| RP_25460577 | Rodenbach 2 / Bruchbach |
 | RP_25460588 | Niedermohr / Mohrbach |
 | RP_25460613 | Rammelsbach 2 / Kuselbach |
 | RP_25460704 | Untersulzbach / Lauter |
@@ -2655,21 +2659,29 @@
 | RP_2789770000100 | Schermbeck 1 / Lippe |
 | RP_2790010 | Rees / Rhein |
 | RP_2790020 | Emmerich / Rhein |
+| RP_2860110 | Holtzheim / Bruche |
+| RP_3301010 | Schweighouse / Moder |
+| RP_3472010 | Waltenheim / Zorn |
 | RP_3501010 | Drusenheim / Moder |
+| RP_3792010 | Beinheim / La Sauer |
+| RP_3832010 | Niederroedern / Seltzbach |
+| RP_3902010 | Weiler / Wieslauter |
 | RP_39284000 | Overath / Agger |
 | RP_39284100 | Lohmar / Agger |
 | RP_42 | Ettelbruck-Alzette / Alzette |
 | RP_4250640 | Epinal / Mosel |
 | RP_5730610 | Toul / Mosel |
 | RP_6051020 | Saint-Die / Meurthe |
-| RP_6271010 | Damelevieres / Meurthe |
+| RP_676101001 | Damelevières / Meurthe |
 | RP_7 | Mersch / Alzette |
 | RP_7010610 | Custines / Mosel |
 | RP_850061001 | Uckange / Mosel |
 | RP_9021010 | Sarrebourg / Saar |
-| RP_9091050 | Keskastel / Saar |
 | RP_9091060 | Diedendorf / Saar |
-| RP_9301010 | Wittringen / Saar |
+| RP_9200100 | Sarralbe / Saar |
+| RP_9301010 | Wittring / Saar |
+| RP_9372050 | Bliesbruck / Blies |
+| RP_9372053 | Frauenberg / Blies |
 | SH_110005 | Wyk Foehr / Nordsee |
 | SH_110006 | Hooge-Anleger / Nordsee |
 | SH_110007 | Schlüttsiel AP / Nordsee |
@@ -3308,6 +3320,7 @@
 | TH_57521.1 | Wipperdorf / Wipper |
 | TH_57524.0 | Hachelbich / Wipper |
 | TH_57540.0 | Sundhausen / Helme |
+| TH_57541.0 | Bennungen / Helme |
 | TH_57550.0 | Nordhausen / Zorge |
 | TH_57566.0 | Ilfeld / Bere |
 | TH_57647.0 | Greiz / Weiße Elster |
