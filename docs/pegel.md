@@ -319,19 +319,19 @@
 | BB_6970800 | Tantow / Salveybach |
 | BB_9690088 | Ueckermünde / Kleines Haff/Stettiner Haff |
 | BB_9690093 | Koserow / Kleines Haff/Stettiner Haff |
-| BE_5800106 | Schðfersee / Schðfersee |
+| BE_5800106 | Schäfersee / Schäfersee |
 | BE_5800107 | Am Wolfsschluchtkanal / Krumme Lanke |
 | BE_5800301 | Dianasee / Dianasee |
 | BE_5800302 | Dreipfuhl / Dreipfuhl |
 | BE_5800304 | Grunewaldsee / Fenngraben |
-| BE_5800305 | GroÔ Glienicker See / GroÔ Glienicker See |
+| BE_5800305 | Groß Glienicker See / Groß Glienicker See |
 | BE_5800306 | Halensee / Halensee |
 | BE_5800308 | Hundekehlesee / Hundekehlesee |
 | BE_5800309 | Lietzensee / Lietzensee |
 | BE_5800310 | Waldsee Zehlendorf / Waldsee Zehlendorf |
-| BE_5800312 | Pl—tzensee / Pl—tzensee |
+| BE_5800312 | Plötzensee / Plötzensee |
 | BE_5800313 | Fennsee / Fennsee |
-| BE_5800314 | WeiÔer See / WeiÔer See |
+| BE_5800314 | Weißer See / Weißer See |
 | BE_5800315 | Obersee / Obersee |
 | BE_5800316 | Orankesee / Orankesee |
 | BE_5800317 | Biesdorfer Baggersee / Biesdorfer Baggersee |
@@ -343,25 +343,25 @@
 | BE_5803500 | Pfaueninsel / Havel |
 | BE_580412 | Potsdam / Potsdamer Havel |
 | BE_580430 | Ketzin / Untere Havel-Wasserstrasse |
-| BE_581000 | Mirow OP / M■ritz-Havel-Wasserstrasse |
+| BE_581000 | Mirow OP / Müritz-Havel-Wasserstrasse |
 | BE_581100 | Bolt OP / Bolter Kanal |
 | BE_581540 | Liebenwalde OP / Malzer Kanal |
 | BE_581550 | Liebenwalde UP / Malzer Kanal |
 | BE_581591 | Borgsdorf / Havel-Oder-Wasserstrasse |
 | BE_5815911 | Tegelort / Havel |
-| BE_5819900 | Am Freibad / Tegeler FlieÔ |
-| BE_5819901 | L■bars / Tegeler FlieÔ |
-| BE_5820000 | St.-Joseph-Steg / Tegeler FlieÔ |
+| BE_5819900 | Am Freibad / Tegeler Fließ |
+| BE_5819901 | Lübars / Tegeler Fließ |
+| BE_5820000 | St.-Joseph-Steg / Tegeler Fließ |
 | BE_582640 | Fuerstenwalde OP / Spree-Oder-Wasserstrasse |
 | BE_582650 | Fuerstenwalde UP / Spree-Oder-Wasserstrasse |
-| BE_582660 | Grosse Trðnke Wehr OP / M■ggelspree |
-| BE_582670 | Grosse Trðnke Wehr UP / M■ggelspree |
-| BE_5826701 | Neue Fahlenbergbr■cke / Gosener Kanal |
-| BE_5826702 | Gosener LandstraÔe / Gosener Graben |
-| BE_5827101 | Fðhre Rahnsdorf / M■ggelspree |
-| BE_5827103 | AllendestraÔe / M■ggelspree |
-| BE_582720 | Berlin-M■hlendamm OP / Spree-Oder-Wasserstrasse |
-| BE_582730 | Berlin-M■hlendamm UP / Spree-Oder-Wasserstrasse |
+| BE_582660 | Grosse Tränke Wehr OP / Müggelspree |
+| BE_582670 | Grosse Tränke Wehr UP / Müggelspree |
+| BE_5826701 | Neue Fahlenbergbrücke / Gosener Kanal |
+| BE_5826702 | Gosener Landstraße / Gosener Graben |
+| BE_5827101 | Fähre Rahnsdorf / Müggelspree |
+| BE_5827103 | Allendestraße / Müggelspree |
+| BE_582720 | Berlin-Mühlendamm OP / Spree-Oder-Wasserstrasse |
+| BE_582730 | Berlin-Mühlendamm UP / Spree-Oder-Wasserstrasse |
 | BE_582740 | Berlin-Charlottenburg OP / Spree-Oder-Wasserstrasse |
 | BE_582750 | Berlin-Charlottenburg UP / Spree-Oder-Wasserstrasse |
 | BE_5827700 | Sophienwerder / Spree |
@@ -371,22 +371,22 @@
 | BE_585930 | Wernsdorf UP / Spree-Oder-Wasserstrasse |
 | BE_585940 | Kersdorf OP / Spree-Oder-Wasserstrasse |
 | BE_585950 | Kersdorf UP / Spree-Oder-Wasserstrasse |
-| BE_586040 | Woltersdorf OP / R■dersdorfer Gewðsser |
-| BE_586050 | Woltersdorf UP / R■dersdorfer Gewðsser |
-| BE_5860900 | Fichtenau / Fredersdorfer M■hlenflieÔ |
-| BE_5861000 | Hegemeisterweg / Fredersdorfer M■hlenflieÔ |
-| BE_5861101 | Am Reitweg / Neuenhagener M■hlenflieÔ |
-| BE_5861200 | Wiesengrund / Neuenhagener M■hlenflieÔ |
-| BE_586270 | Neue M■hle Schleuse OP / Dahme-Wasserstrasse |
-| BE_586280 | Neue M■hle Schleuse UP / Dahme-Wasserstrasse |
-| BE_5862811 | Schm—ckwitz US / Zeuthener See |
-| BE_586290 | Berlin-K—penick / Spree-Oder-Wasserstrasse |
-| BE_5863000 | Eisenacher StraÔe / Wuhle |
+| BE_586040 | Woltersdorf OP / Rüdersdorfer Gewässer |
+| BE_586050 | Woltersdorf UP / Rüdersdorfer Gewässer |
+| BE_5860900 | Fichtenau / Fredersdorfer Mühlenfließ |
+| BE_5861000 | Hegemeisterweg / Fredersdorfer Mühlenfließ |
+| BE_5861101 | Am Reitweg / Neuenhagener Mühlenfließ |
+| BE_5861200 | Wiesengrund / Neuenhagener Mühlenfließ |
+| BE_586270 | Neue Mühle Schleuse OP / Dahme-Wasserstrasse |
+| BE_586280 | Neue Mühle Schleuse UP / Dahme-Wasserstrasse |
+| BE_5862811 | Schmöckwitz US / Zeuthener See |
+| BE_586290 | Berlin-Köpenick / Spree-Oder-Wasserstrasse |
+| BE_5863000 | Eisenacher Straße / Wuhle |
 | BE_5864700 | Hellersdorf / Wuhle |
 | BE_5864800 | Wuhletal / Wuhle |
 | BE_5864801 | Am Kienberg / Hellersdorfer Graben |
-| BE_5865000 | Honsfelder Br■cke / Wuhle |
-| BE_5865200 | Hoppendorfer StraÔe / Wuhle |
+| BE_5865000 | Honsfelder Brücke / Wuhle |
+| BE_5865200 | Hoppendorfer Straße / Wuhle |
 | BE_5865300 | Am Bahndamm / Wuhle |
 | BE_5865900 | Allee der Kosmonauten / M.-H.-Grenzgr. |
 | BE_586600 | Berlin-Oberschleuse OP / Landwehrkanal |
@@ -396,30 +396,30 @@
 | BE_5866301 | Zoo / Landwehrkanal |
 | BE_586640 | Berlin-Ploetzensee OP / Berlin-Spandauer-Schifffahrtskanal |
 | BE_586650 | Berlin-Ploetzensee UP / Berlin-Spandauer-Schifffahrtskanal |
-| BE_5866700 | Schleuse Neuk—lln OP / Neuk. Schifffahrtskanal |
-| BE_5866800 | Schleuse Neuk—lln UP / Neuk. Schifffahrtskanal |
-| BE_5867000 | R—ntgental / Panke |
-| BE_5867001 | WiltbergstraÔe / Panke |
+| BE_5866700 | Schleuse Neukölln OP / Neuk. Schifffahrtskanal |
+| BE_5866800 | Schleuse Neukölln UP / Neuk. Schifffahrtskanal |
+| BE_5867000 | Röntgental / Panke |
+| BE_5867001 | Wiltbergstraße / Panke |
 | BE_5867003 | Blankenfelde / Blankenfelder Graben |
-| BE_5867100 | Krontaler StraÔe / Panke |
-| BE_5867101 | FlaischlenstraÔe / Laake |
+| BE_5867100 | Krontaler Straße / Panke |
+| BE_5867101 | Flaischlenstraße / Laake |
 | BE_5867201 | Verteiler OP / Panke |
 | BE_5867202 | Verteiler UP / Panke |
 | BE_5867300 | Heinersdorf / Panke |
-| BE_5867301 | Venturigerinne / Malchower FlieÔgraben |
-| BE_5867401 | B■rgerpark / Panke |
-| BE_5867500 | K■hnemannstraÔe / Panke |
-| BE_5867600 | Sch—nwalder Str. / Panke |
-| BE_5867700 | Pasewalker Br■cke / Nordgraben |
-| BE_5867900 | Eisenbahnbr■cke / Nordgraben |
+| BE_5867301 | Venturigerinne / Malchower Fließgraben |
+| BE_5867401 | Bürgerpark / Panke |
+| BE_5867500 | Kühnemannstraße / Panke |
+| BE_5867600 | Schönwalder Str. / Panke |
+| BE_5867700 | Pasewalker Brücke / Nordgraben |
+| BE_5867900 | Eisenbahnbrücke / Nordgraben |
 | BE_586810 | Berlin-Schmoeckwitz / Dahme-Wasserstrasse |
-| BE_5869700 | Krummendammbr■cke / Neuenhagener M■hlenflieÔ |
+| BE_5869700 | Krummendammbrücke / Neuenhagener Mühlenfließ |
 | BE_5870100 | Lichterfelde / Teltowkanal |
 | BE_587020 | Kleinmachnow OP / Teltowkanal |
 | BE_587030 | Kleinmachnow UP / Teltowkanal |
-| BE_5870400 | Alsenbr■cke / Griebnitzkanal |
-| BE_587050 | Sch—nwalde OP / Havelkanal |
-| BE_596030 | Waren / M■ritz-Elde-Wasserstrasse |
+| BE_5870400 | Alsenbrücke / Griebnitzkanal |
+| BE_587050 | Schönwalde OP / Havelkanal |
+| BE_596030 | Waren / Müritz-Elde-Wasserstrasse |
 | BE_603020 | Eisenhuettenstadt Schl. UP / Spree-Oder-Wasserstrasse |
 | BE_690050 | Eisenhuettenstadt Schl. OP / Spree-Oder-Wasserstrasse |
 | BW_00001 | Eberfingen / Wutach |
