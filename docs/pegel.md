@@ -164,6 +164,7 @@
 | BB_5875001 | Trebbin, Wehr OP / Nuthe |
 | BB_5875401 | Kade / Elbe-Havel-Kanal |
 | BB_5878000 | Gröben, Wehr OP / Nuthe |
+| BB_5878102 | Seddin, Institut / Schafgraben |
 | BB_5878800 | Zauchwitz, Wehr OP / Nieplitz |
 | BB_5879406 | Luckenwalde, Schwimmbad Elsthal / Nuthe |
 | BB_5879407 | Kolzenburg / Nuthe |
@@ -1572,10 +1573,6 @@
 | HB_4970040 | Nordenham / Weser |
 | HB_4990010 | BHV Alter Leuchtturm / Weser |
 | HB_9460040 | Leuchtturm Alte Weser / Weser |
-| HE_115 | WT_Ginsheim / Schwarzbach |
-| HE_131 | WT_Bischofsh_links / Main |
-| HE_133 | WT_Nied_Main / Main |
-| HE_215 | WT_Oberbiel / Lahn |
 | HE_23800690 | Rockenau / Neckar |
 | HE_23900200 | Worms / Rhein |
 | HE_23940359 | Fahrenbach / Weschnitz |
@@ -1689,9 +1686,6 @@
 | HE_25871756 | Niederbrechen / Emsbach |
 | HE_25872114 | Hadamar / Elbbach |
 | HE_25880305 | Michelbach / Aar |
-| HE_269 | WT_Witzenhausen / Werra |
-| HE_284 | WT_Wahnhausen / Fulda |
-| HE_380 | WT_Nied_Nidda / Nidda |
 | HE_41450056 | Günthers / Ulster |
 | HE_41490050 | Philippsthal / Ulster |
 | HE_41510205 | Heimboldshausen / Werra |
@@ -1873,6 +1867,7 @@
 | MV_04465.0 | Sternberger Burg / Mildenitz |
 | MV_04466.0 | Sternberg / Sternberger See |
 | MV_04473.0 | Dobbertin / Dobbertiner See |
+| MV_04477.0 | Neu Damerow / Damerower See |
 | MV_04478.0 | Goldberg / Mildenitz |
 | MV_04479.0 | Goldberg / Goldberger See |
 | MV_04490.0 | Sülten / Brüeler Bach |
@@ -2011,6 +2006,7 @@
 | MV_5930020 | Bleckede / Elbe |
 | MV_5930033 | Boizenburg / Elbe |
 | MV_5930040 | Hohnstorf / Elbe |
+| MV_59589.0 | Krinitz / Meynbach |
 | MV_59599.0 | Buchholz / Elde |
 | MV_59601.2 | Röbel / Dambecker Graben |
 | MV_59602.2 | Groß Kelle / Kellerbach |
@@ -2329,6 +2325,7 @@
 | NW_2824590000400 | Eschweiler / Inde |
 | NW_2824890000300 | Luchem / Wehebach |
 | NW_2824900000200 | Kirchberg1 / Inde |
+| NW_2824900000300 | Lamersdorf / Inde |
 | NW_2825190000200 | Juelich-Stadion / Rur |
 | NW_2825320000100 | Kirchberg2 / Altdorf-Kirchberg-Koslarer Mühlenteich |
 | NW_2825330000100 | Linnich / Rur |
