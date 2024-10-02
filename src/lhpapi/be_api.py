@@ -21,7 +21,7 @@ def init_BE(ident: str) -> StaticData:  # pylint: disable=invalid-name
         # Get data
         page = fetch_soup(
             "https://wasserportal.berlin.de/start.php?anzeige=tabelle_ow&messanzeige=ms_ow_berlin",
-            remove_xml=True,
+            forced_encoding="ISO-8859-15",
         )
         # Parse data
         table = page.find("table", id="pegeltab")
