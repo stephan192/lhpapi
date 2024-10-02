@@ -52,24 +52,6 @@ def fetch_json(url: str, timeout: float = 10.0) -> Any:
     return json_data
 
 
-def fetch_soup(
-    url: str, timeout: float = 10.0, remove_xml: bool = False
-) -> BeautifulSoup:
-    """Fetch data via soup."""
-    response = get(url=url, timeout=timeout)
-    # Override encoding by real educated guess (required for e.g. SH)
-    response.encoding = response.apparent_encoding
-    response.raise_for_status()
-    if remove_xml and (
-        (response.text.find('<?xml version="1.0" encoding="ISO-8859-15" ?>')) == 0
-    ):
-        text = response.text[response.text.find("<!DOCTYPE html>") :]
-        soup = BeautifulSoup(text, "lxml")
-    else:
-        soup = BeautifulSoup(response.text, "lxml")
-    return soup
-
-
 def fetch_text(url: str, timeout: float = 10.0, forced_encoding: str = None) -> str:
     """Fetch data via text."""
     response = get(url=url, timeout=timeout)
@@ -80,6 +62,15 @@ def fetch_text(url: str, timeout: float = 10.0, forced_encoding: str = None) -> 
         response.encoding = response.apparent_encoding
     response.raise_for_status()
     return response.text
+
+
+def fetch_soup(
+    url: str, timeout: float = 10.0, forced_encoding: str = None
+) -> BeautifulSoup:
+    """Fetch data via soup."""
+    text = fetch_text(url=url, timeout=timeout, forced_encoding=forced_encoding)
+    soup = BeautifulSoup(text, "lxml")
+    return soup
 
 
 def calc_stage(level: float, stage_levels: list[float]) -> int:
