@@ -783,7 +783,7 @@
 | BY_11401009 | Sonthofen / Iller |
 | BY_11401185 | Rauhenzell / Iller |
 | BY_11401202 | Immenstadt Zollbrücke / Iller |
-| BY_11401205 | Immenstadt Zollbrücke virtuell / Iller |
+| BY_11401205 | Immenstadt Zollbr. (virtuell) / Iller |
 | BY_11401701 | Martinszell / Iller |
 | BY_11402001 | Kempten / Iller |
 | BY_11402770 | Aitrach KW / Iller |
@@ -791,7 +791,7 @@
 | BY_11405000 | Wiblingen / Iller |
 | BY_11411104 | Birgsau / Stillach |
 | BY_11412107 | Oberstdorf / Stillach |
-| BY_11415008 | Oberstdorf Q (virtuell) / Trettach |
+| BY_11415008 | Oberstdorf (virtuell) / Trettach |
 | BY_11417100 | Gruben / Oybach |
 | BY_11418250 | Tiefenbach / Breitach |
 | BY_11419004 | Schöllang / Eybach |
