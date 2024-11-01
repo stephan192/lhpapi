@@ -1272,7 +1272,6 @@
 | BY_18619001 | Obergäu / Lammer |
 | BY_18620500 | Berchtesgaden-Klärwerk / Berchtesgadener Ache |
 | BY_18622006 | Ilsank / Ramsauer Ache |
-| BY_18624001 | Stanggass (alt) / Bischofswieser Ache |
 | BY_18624003 | Stanggass / Bischofswieser Ache |
 | BY_18624806 | Königssee / Königssee |
 | BY_18625004 | Schwöbbrücke / Königsseer Ache |
@@ -1454,7 +1453,6 @@
 | BY_24242000 | Muggendorf / Wiesent |
 | BY_24244504 | Plankenfels / Truppach |
 | BY_24246000 | Pottenstein / Püttlach |
-| BY_24248006 | Hungenberg / Ailsbach |
 | BY_24248403 | Unterleinleiter / Leinleiterbach |
 | BY_24249009 | Bärenthal / Trubach |
 | BY_24260500 | Illesheim / Aisch |
@@ -1946,6 +1944,7 @@
 | MV_04770.0 | Tangrim / Tangrimer Bach |
 | MV_04803.5 | Klempenow Straßenbrücke / Tollense |
 | MV_04808.4 | Neubrandenburg/Vierrademühle / Tollense |
+| MV_04808.8 | HW-Meldepegel_NB-T / Tollensesee |
 | MV_04808.9 | Neubrandenburg / Tollensesee (Bogenbr.) |
 | MV_04812.2 | Gehmkow / Augraben |
 | MV_04815.1 | Breest OP / Gr. Landgraben |
@@ -1953,6 +1952,8 @@
 | MV_04837.0 | Kastorf / Kastorfer See |
 | MV_04840.1 | Warbende / Warbender Mühlbach |
 | MV_04841.2 | Burg Stargard / Lindebach |
+| MV_04841.5 | NB Heidmühle / Linde |
+| MV_04841.8 | HW-Meldepegel_NB-H / Linde |
 | MV_04849.0 | Rödlin / Rödliner See |
 | MV_04850.1 | Grambin / Zarow |
 | MV_04860.1 | Heinrichswalde Nord / Weißer Graben |
@@ -2442,6 +2443,7 @@
 | RP_11 | Diekirch / Sauer |
 | RP_1231120 | Nohfelden / Nahe |
 | RP_13 | Dasbourg / Our |
+| RP_1373130 | Einöd / Schwarzbach |
 | RP_16 | Rosport / Sauer |
 | RP_2230310 | Kogenheim / Ill |
 | RP_2280350 | Chasseur-Froid / Ill |
@@ -2908,6 +2910,7 @@
 | SN_10001120 | Sebnitz 3 / Sebnitz |
 | SN_10001580 | Kleinvoigtsberg 1 / Freiberger Mulde |
 | SN_10001720 | Raschau 1 / Weiße Elster |
+| SN_10001860 | Burgneudorf 1 / Kleine Spree |
 | SN_1100001 | Rosenthal 1 / Lausitzer Neiße |
 | SN_1100002 | Jänkendorf 1 / Schwarzer Schöps |
 | SN_1100003 | Hartau 1 / Lausitzer Neiße |
