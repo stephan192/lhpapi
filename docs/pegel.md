@@ -322,7 +322,6 @@
 | BE_5800106 | Schäfersee / Schäfersee |
 | BE_5800107 | Am Wolfsschluchtkanal / Krumme Lanke |
 | BE_5800301 | Dianasee / Dianasee |
-| BE_5800302 | Dreipfuhl / Dreipfuhl |
 | BE_5800304 | Grunewaldsee / Fenngraben |
 | BE_5800305 | Groß Glienicker See / Groß Glienicker See |
 | BE_5800306 | Halensee / Halensee |
@@ -1815,6 +1814,7 @@
 | MV_04345.0 | Cramon / Cramoner See |
 | MV_04346.0 | Schönberg / Maurine |
 | MV_04347.1 | Klocksdorf / Röggeliner See |
+| MV_04349.2 | Schlagsdorf / Mechower See |
 | MV_04350.0 | Törber / Radegast |
 | MV_04353.0 | Gadebusch / Radegast |
 | MV_04355.0 | Wotenitz / Poischower Mühlbach |
@@ -1866,6 +1866,7 @@
 | MV_04460.1 | Klueß / Lößnitz |
 | MV_04465.0 | Sternberger Burg / Mildenitz |
 | MV_04466.0 | Sternberg / Sternberger See |
+| MV_04469.0 | Klein Pritz / Klein Pritzer See |
 | MV_04473.0 | Dobbertin / Dobbertiner See |
 | MV_04477.0 | Neu Damerow / Damerower See |
 | MV_04478.0 | Goldberg / Mildenitz |
@@ -2130,6 +2131,7 @@
 | NI_4887101 | Koldingen / Leine |
 | NI_4888139 | Wunstorf / Westaue |
 | NI_4894119 | Brock / Böhme |
+| NI_4926109 | Kirchseelte II / Kloster Basch |
 | NI_4928107 | Holzkamp / Delme |
 | NI_4941115 | Lauenbrück F / Fintau |
 | NI_4941116 | Lauenbrück B75 / Wümme |
@@ -2872,7 +2874,6 @@
 | SL_1651120 | Körprich / Primss |
 | SL_1661120 | Bardenbach / Wahrnbach |
 | SN_1000000 | Hohberg / Rosenbach |
-| SN_1000001 | Burgneudorf / Kleine Spree |
 | SN_10000020 | Hagenwerder 3 / Lausitzer Neiße |
 | SN_10000080 | Pietzschwitz / Langes Wasser |
 | SN_10000100 | Bautzen 1 / Spree |
