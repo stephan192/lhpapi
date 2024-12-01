@@ -1025,6 +1025,7 @@
 | BY_15256855 | Balbersdorf / Katzbach |
 | BY_15257655 | Untergoßzell / Trailbach |
 | BY_15257755 | Untertraubenbach / Knöblinger Bach |
+| BY_15314008 | Heuweg / Otterbach |
 | BY_15315000 | Hammermühle / Otterbach |
 | BY_15325004 | Köfering / Pfatter |
 | BY_15403006 | Rottenburg / Große Laber |
@@ -1077,6 +1078,7 @@
 | BY_16408504 | Beuerberg / Loisach |
 | BY_16412002 | Griesen / Neidernach |
 | BY_16423555 | Partenkirchen oh Partnachklamm / Partnach |
+| BY_16423556 | Partenkirchen oh Partnachkl. Q / Partnach |
 | BY_16425003 | Partenkirchen / Partnach |
 | BY_16425004 | Partenkirchen (alt) / Partnach |
 | BY_16425300 | Silberackersteg / Partnach |
@@ -1090,6 +1092,8 @@
 | BY_16436055 | Eschenlohe / Eschenlaine |
 | BY_16438055 | Hechendorf / Ramsach |
 | BY_16455005 | Dürnhausen / Lothdorfer Bach |
+| BY_16455155 | Benediktbeuern / Lainbach |
+| BY_16455157 | Benediktbeuern Q / Lainbach |
 | BY_16475505 | Maxkron / Binnengraben |
 | BY_16495000 | Bruggen / Loisach-Isar-Kanal |
 | BY_16515005 | München Himmelreichbrücke / Eisbach |
@@ -2010,6 +2014,7 @@
 | MV_5930020 | Bleckede / Elbe |
 | MV_5930033 | Boizenburg / Elbe |
 | MV_5930040 | Hohnstorf / Elbe |
+| MV_59500.5 | Stresendorf / Löcknitz |
 | MV_59589.0 | Krinitz / Meynbach |
 | MV_59599.0 | Buchholz / Elde |
 | MV_59601.2 | Röbel / Dambecker Graben |
@@ -2131,7 +2136,7 @@
 | NI_4887101 | Koldingen / Leine |
 | NI_4888139 | Wunstorf / Westaue |
 | NI_4894119 | Brock / Böhme |
-| NI_4926109 | Kirchseelte II / Kloster Basch |
+| NI_4926109 | Kirchseelte II / Klosterbach |
 | NI_4928107 | Holzkamp / Delme |
 | NI_4941115 | Lauenbrück F / Fintau |
 | NI_4941116 | Lauenbrück B75 / Wümme |
@@ -2167,7 +2172,7 @@
 | NI_9352100 | Leyhörn / Nordsee |
 | NI_9374105 | Bensersiel / Nordsee |
 | NI_9429105 | Vareler Schleuse / Nordsee |
-| NW_00000001 | Porta / Weser |
+| NW_00000001 | Porta Westfalica / Weser |
 | NW_104 | Bad-Honnef / Rhein |
 | NW_1234512345 | Soestbach / Soestbach |
 | NW_2581119000100 | Feudingen / Lahn |
@@ -2206,7 +2211,7 @@
 | NW_2736510000100 | Kluserbruecke / Wupper |
 | NW_2736510000300 | Buchenhofen / Wupper |
 | NW_2736731000100 | Glueder / Wupper |
-| NW_2736790000 | Opladen_Güte / Wupper |
+| NW_2736790000 | Opladen-Güte / Wupper |
 | NW_2736790000200 | Opladen / Wupper |
 | NW_2736879000200 | Manfort / Dhünn |
 | NW_2738900000300 | Hilden_1 / Itter |
@@ -2239,7 +2244,7 @@
 | NW_2764190000100 | Balve-Garbeck / Hönne |
 | NW_2764890000100 | Hemer-Becke / Öse |
 | NW_2764950000100 | Menden_Sauerland / Hönne |
-| NW_2765190000100 | Froendenberg / Ruhr |
+| NW_2765190000100 | Fröndenberg / Ruhr |
 | NW_2765419000100 | Iserlohn / Baarbach |
 | NW_2765490000100 | Iserlohn-Hennen / Baarbach |
 | NW_2765590000100 | Villigst / Ruhr |
@@ -2389,7 +2394,7 @@
 | NW_4281490000100 | Raumland / Odeborn |
 | NW_4281591000100 | Beddelhausen / Eder |
 | NW_4284170000100 | Medelon_W / Orke |
-| NW_43 | D.-Flehe / Rhein |
+| NW_43 | Düsseldorf-Flehe / Rhein |
 | NW_43100056 | Datteln-Hötting_Schleuse_NRW / Wesel Datteln Kanal |
 | NW_43100109 | WSV_Hann-Muenden / Weser |
 | NW_43900105 | WSV_Wahmbeck / Weser |
@@ -2685,6 +2690,7 @@
 | RP_9301010 | Wittring / Saar |
 | RP_9372050 | Bliesbruck / Blies |
 | RP_9372053 | Frauenberg / Blies |
+| RP_9402110 | Bousseviller / Hornbach |
 | SH_110005 | Wyk Foehr / Nordsee |
 | SH_110006 | Hooge-Anleger / Nordsee |
 | SH_110007 | Schlüttsiel AP / Nordsee |
