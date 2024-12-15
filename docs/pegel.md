@@ -679,6 +679,7 @@
 | BW_00358 | Mägerkingen / Lauchert |
 | BW_00359 | Pfäffingen / Ammer |
 | BW_00360 | Ebingen / Schmeie |
+| BW_00361 | Bebenhausen / Goldersbach |
 | BW_00367 | Breitingen / Lone |
 | BW_00368 | Unterkirchberg / Weihung |
 | BW_00370 | Rot an der Rot / Haslach |
@@ -1871,6 +1872,7 @@
 | MV_04465.0 | Sternberger Burg / Mildenitz |
 | MV_04466.0 | Sternberg / Sternberger See |
 | MV_04469.0 | Klein Pritz / Klein Pritzer See |
+| MV_04471.0 | Woserin / Woseriner See |
 | MV_04473.0 | Dobbertin / Dobbertiner See |
 | MV_04477.0 | Neu Damerow / Damerower See |
 | MV_04478.0 | Goldberg / Mildenitz |
@@ -1879,6 +1881,7 @@
 | MV_04491.1 | Keez / Keezer See |
 | MV_04492.0 | Langen Jarchow / Neuhofer See |
 | MV_04495.0 | Warin / Wariner See |
+| MV_04496.0 | Klein Labenz / Groß Labenzer See |
 | MV_04497.0 | Neukloster / Neukloster See |
 | MV_04498.0 | Langen Brütz / Cambser See |
 | MV_04501.0 | Ribnitz / Recknitz |
@@ -1986,6 +1989,7 @@
 | MV_04934.0 | Gottesheide / Schloßsee |
 | MV_04941.2 | Strasburg / Strasburger Stadtsee |
 | MV_04972.1 | Carwitz / Bäk |
+| MV_04972.9 | Carwitz / Carwitzer See |
 | MV_04975.1 | Feldberg / Feldberger Haussee |
 | MV_503050 | Wittenberge / Elbe |
 | MV_503120 | Lenzen / Elbe |
@@ -2028,7 +2032,7 @@
 | MV_596330 | Grabow OP / Müritz-Elde-Wasserstrasse |
 | MV_596370 | Eldena OP / Müritz-Elde-Wasserstrasse |
 | MV_596390 | Malliss OP / Müritz-Elde-Wasserstrasse |
-| MV_59641.0 | Drewitz / Drewitzer See |
+| MV_59641.1 | Drewitz / Drewitzer See |
 | MV_596410 | Findshier OP / Müritz-Elde-Wasserstrasse |
 | MV_59645.5 | Siggelkow / Mooster |
 | MV_59649.0 | Klein Pankow / Gehlsbach |
@@ -2172,7 +2176,7 @@
 | NI_9352100 | Leyhörn / Nordsee |
 | NI_9374105 | Bensersiel / Nordsee |
 | NI_9429105 | Vareler Schleuse / Nordsee |
-| NW_00000001 | Porta Westfalica / Weser |
+| NW_00000001 | Porta / Weser |
 | NW_104 | Bad-Honnef / Rhein |
 | NW_1234512345 | Soestbach / Soestbach |
 | NW_2581119000100 | Feudingen / Lahn |
@@ -2211,7 +2215,7 @@
 | NW_2736510000100 | Kluserbruecke / Wupper |
 | NW_2736510000300 | Buchenhofen / Wupper |
 | NW_2736731000100 | Glueder / Wupper |
-| NW_2736790000 | Opladen-Güte / Wupper |
+| NW_2736790000 | Opladen_Güte / Wupper |
 | NW_2736790000200 | Opladen / Wupper |
 | NW_2736879000200 | Manfort / Dhünn |
 | NW_2738900000300 | Hilden_1 / Itter |
@@ -2229,6 +2233,7 @@
 | NW_2747390000100 | Glesch / Erft |
 | NW_2747900000200 | Neubrueck / Erft |
 | NW_27500100 | WSV_Duesseldorf / Rhein |
+| NW_2751270000100 | Kaarst / Nordkanal |
 | NW_2756500000100 | Ratingen / Anger |
 | NW_2761150000100 | Olsberg / Ruhr |
 | NW_2761490000200 | Meschede4 / Henne |
@@ -2244,7 +2249,7 @@
 | NW_2764190000100 | Balve-Garbeck / Hönne |
 | NW_2764890000100 | Hemer-Becke / Öse |
 | NW_2764950000100 | Menden_Sauerland / Hönne |
-| NW_2765190000100 | Fröndenberg / Ruhr |
+| NW_2765190000100 | Froendenberg / Ruhr |
 | NW_2765419000100 | Iserlohn / Baarbach |
 | NW_2765490000100 | Iserlohn-Hennen / Baarbach |
 | NW_2765590000100 | Villigst / Ruhr |
@@ -2386,7 +2391,6 @@
 | NW_3445900000100 | Hopsten / Hopstener Aa |
 | NW_3448310000600 | Lehen_2 / Ibbenbürener Aa |
 | NW_3448390000200 | Hoerstel / Ibbenbürener Aa |
-| NW_39492001 | Kaarst / Nordkanal |
 | NW_39899002 | Wesel / Lippe |
 | NW_4157 | Hattingen / Ruhr |
 | NW_4281319000100 | Muesse / Eder |
@@ -2394,7 +2398,7 @@
 | NW_4281490000100 | Raumland / Odeborn |
 | NW_4281591000100 | Beddelhausen / Eder |
 | NW_4284170000100 | Medelon_W / Orke |
-| NW_43 | Düsseldorf-Flehe / Rhein |
+| NW_43 | D.-Flehe / Rhein |
 | NW_43100056 | Datteln-Hötting_Schleuse_NRW / Wesel Datteln Kanal |
 | NW_43100109 | WSV_Hann-Muenden / Weser |
 | NW_43900105 | WSV_Wahmbeck / Weser |
@@ -2890,7 +2894,6 @@
 | SN_10000226 | Hainsberg 7 / Wilde Weißeritz |
 | SN_10000241 | Kössern / Vereinigte Mulde |
 | SN_10000242 | Großbardau 1 / Parthe |
-| SN_10000243 | Wildenhain / Schnauder |
 | SN_10000244 | Zitzschen / Weiße Elster |
 | SN_10000246 | Kleinwolmsdorf / Schwarze Röder |
 | SN_10000260 | Freiberg / Münzbach |
