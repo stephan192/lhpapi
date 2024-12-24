@@ -72,6 +72,8 @@ def update_NI(static_data: StaticData) -> DynamicData:  # pylint: disable=invali
             )
         except (IndexError, KeyError):
             value = None
+        if value == -888.0:
+            value = None
         try:
             if data["getStammdatenResult"][0]["Parameter"][0]["Einheit"] == "cm":
                 level = value
@@ -85,15 +87,18 @@ def update_NI(static_data: StaticData) -> DynamicData:  # pylint: disable=invali
         except (IndexError, KeyError):
             level = None
             flow = None
-        try:
-            last_update = convert_to_datetime(
-                data["getStammdatenResult"][0]["Parameter"][0]["Datenspuren"][0][
-                    "AktuellerMesswert_Zeitpunkt"
-                ],
-                "%d.%m.%Y %H:%M",
-            )
-        except (IndexError, KeyError):
+        if (level is None) and (flow is None):
             last_update = None
+        else:
+            try:
+                last_update = convert_to_datetime(
+                    data["getStammdatenResult"][0]["Parameter"][0]["Datenspuren"][0][
+                        "AktuellerMesswert_Zeitpunkt"
+                    ],
+                    "%d.%m.%Y %H:%M",
+                )
+            except (IndexError, KeyError):
+                last_update = None
         return DynamicData(level=level, stage=stage, flow=flow, last_update=last_update)
     except Exception as err:
         raise LHPError(err, "ni_api.py: update_NI()") from err
