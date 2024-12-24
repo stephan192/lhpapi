@@ -6,7 +6,7 @@ from datetime import datetime
 from types import FunctionType
 from typing import Final
 
-from .api_utils import DynamicData, LHPError, StaticData
+from .api_utils import DynamicData, LHPError, StaticData, fetch_json
 from .bb_api import init_BB, update_BB
 from .be_api import init_BE, update_BE
 from .bw_api import init_BW, update_BW
@@ -67,6 +67,13 @@ def update_lhp_data(static_data: StaticData) -> DynamicData:
         return FUNCTION_DICT[prefix]["update"](static_data)
     raise LHPError(
         "Invalid ident given (wrong first letters)!", "__init__.py: update_lhp_data()"
+    )
+
+
+def get_all_stations() -> dict[str, str]:
+    """Return all available stations."""
+    return fetch_json(
+        "https://raw.githubusercontent.com/stephan192/lhpapi/refs/heads/master/docs/pegel.json"
     )
 
 

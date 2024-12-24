@@ -1,7 +1,8 @@
-## 1.0.4 (202x-xx-xx)
+## 1.0.4 (2024-12-24)
 ### Fixed
 - Fix NI invalid values
 - Fix BB encoding
+- Add get_all_stations()
 
 ## 1.0.3 (2024-10-02)
 ### Fixed

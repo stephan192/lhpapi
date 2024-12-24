@@ -452,5 +452,13 @@ with open("pegel.md", "w", encoding="utf-8") as f:
     for pegel in all_stations:
         output = "| " + pegel[0] + " | " + pegel[1] + " |"
         print(output, file=f)
+    f.close()
 
+all_stations_dict = {}
+for pegel in all_stations:
+    all_stations_dict[pegel[0]] = pegel[1]
+
+print("Updating pegel.json")
+with open("pegel.json", "w", encoding="utf-8") as f:
+    json.dump(all_stations_dict, f, indent=4, ensure_ascii=False)
     f.close()
