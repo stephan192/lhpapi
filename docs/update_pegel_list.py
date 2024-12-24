@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import re
+from html import unescape
 from typing import Any
 
 from bs4 import BeautifulSoup
@@ -87,7 +88,7 @@ def fix_bb_encoding(string_in: str) -> str:
                     replace = False
         else:
             string_out = string_out + chr(num)
-    return string_out
+    return unescape(string_out)
 
 
 def get_bb_stations() -> tuple[str, str]:
