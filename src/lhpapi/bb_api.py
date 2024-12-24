@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+from html import unescape
+
 from .api_utils import (
     DynamicData,
     LHPError,
@@ -61,7 +63,7 @@ def fix_bb_encoding(string_in: str) -> str:
                     replace = False
         else:
             string_out = string_out + chr(num)
-    return string_out
+    return unescape(string_out)
 
 
 def init_BB(ident: str) -> StaticData:  # pylint: disable=invalid-name

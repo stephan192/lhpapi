@@ -20,7 +20,7 @@
 | BB_0499700 | Suckow / Stierngraben |
 | BB_150170090 | Brzeg / Oder |
 | BB_150170130 | Ujście Nysy Kłodzkiej / Oder |
-| BB_150170140 | Skorogoszcz / Nysa K&#322;odzka |
+| BB_150170140 | Skorogoszcz / Nysa Kłodzka |
 | BB_150180060 | Racibórz-Miedonia / Oder |
 | BB_151140010 | Gubin / Lausitzer Neiße |
 | BB_151140011 | Zbiornik Niedów, Odpływ / Witka |
@@ -2247,6 +2247,8 @@
 | NW_2762510000300 | Belecke3 / Bormelsbach |
 | NW_2763190000100 | Bachum / Ruhr |
 | NW_2764190000100 | Balve-Garbeck / Hönne |
+| NW_2764511000100 | Balve_Helle / Hönne |
+| NW_2764590000100 | Menden_Oberroedingh / Hönne |
 | NW_2764890000100 | Hemer-Becke / Öse |
 | NW_2764950000100 | Menden_Sauerland / Hönne |
 | NW_2765190000100 | Froendenberg / Ruhr |
@@ -2263,10 +2265,12 @@
 | NW_2766930000100 | Altena / Lenne |
 | NW_2768390000100 | Kierspe / Volme |
 | NW_2768579000100 | Stephansohl / Volme |
+| NW_2768721000100 | Gloertalsperre_Zulauf (Ennepe-Ruhr Kreis) / Glör |
 | NW_2768775000100 | Hagen-Ambrock / Volme |
 | NW_2768784000200 | Hagen-Maecking2 / Hombecke |
 | NW_2768883000100 | Heilenbecke_Ablauf / Heilenbecke |
 | NW_2768897000100 | Hagen-Haspe / Ennepe |
+| NW_2768898001 | Haspertalsperre_Zu / Hasper Bach |
 | NW_2768900000100 | Hagen-Eckesey / Volme |
 | NW_2769133000200 | Wetter_G (Ruhrverband) / Ruhr |
 | NW_2769169000100 | Wetter_Wengern_1 / Elbsche |
