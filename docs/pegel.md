@@ -2186,14 +2186,12 @@
 | NW_2710080 | WSV_Bonn / Rhein |
 | NW_2718193000100 | Neuhof / Ahr |
 | NW_2719490000100 | Niederbachem / Mehlemer Bach |
-| NW_27200500 | Betzdorf (Rheinland-Pfalz) / Sieg |
 | NW_2721390000100 | Weidenau / Sieg |
 | NW_2721459000100 | Kreuztal / Ferndorfbach |
 | NW_2721490000100 | Weidenau2 / Ferndorfbach |
 | NW_2721650000100 | Niederdielfen / Weiß |
 | NW_2721770000200 | Niederschelden / Sieg |
 | NW_2723830000200 | Morsbach / Wisserbach |
-| NW_2724900000100 | Heimborn (Rheinland-Pfalz) / Nister |
 | NW_2725851000100 | Mühleip / Eipbach |
 | NW_2725910000100 | Eitorf / Sieg |
 | NW_2726599000100 | Broeleck / Bröl |
@@ -2247,8 +2245,6 @@
 | NW_2762510000300 | Belecke3 / Bormelsbach |
 | NW_2763190000100 | Bachum / Ruhr |
 | NW_2764190000100 | Balve-Garbeck / Hönne |
-| NW_2764511000100 | Balve_Helle / Hönne |
-| NW_2764590000100 | Menden_Oberroedingh / Hönne |
 | NW_2764890000100 | Hemer-Becke / Öse |
 | NW_2764950000100 | Menden_Sauerland / Hönne |
 | NW_2765190000100 | Froendenberg / Ruhr |
@@ -2265,12 +2261,10 @@
 | NW_2766930000100 | Altena / Lenne |
 | NW_2768390000100 | Kierspe / Volme |
 | NW_2768579000100 | Stephansohl / Volme |
-| NW_2768721000100 | Gloertalsperre_Zulauf (Ennepe-Ruhr Kreis) / Glör |
 | NW_2768775000100 | Hagen-Ambrock / Volme |
 | NW_2768784000200 | Hagen-Maecking2 / Hombecke |
 | NW_2768883000100 | Heilenbecke_Ablauf / Heilenbecke |
 | NW_2768897000100 | Hagen-Haspe / Ennepe |
-| NW_2768898001 | Haspertalsperre_Zu / Hasper Bach |
 | NW_2768900000100 | Hagen-Eckesey / Volme |
 | NW_2769133000200 | Wetter_G (Ruhrverband) / Ruhr |
 | NW_2769169000100 | Wetter_Wengern_1 / Elbsche |
