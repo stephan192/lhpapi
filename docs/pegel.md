@@ -96,7 +96,6 @@
 | BB_5807500 | Garz OP / Schleusenkanal Garz |
 | BB_5807900 | Havelberg Stadt / Havel |
 | BB_5810900 | Ravensbrück / Hegensteinfließ |
-| BB_5811701 | Küstrinchen, Wehr UP / Lychener Gewässer |
 | BB_5811800 | Lychen, Wehr OP / Lychener Gewässer |
 | BB_5812401 | Storkow / Schulzenfließ |
 | BB_5815400 | Liebenwalde OP / Obere Havel-Wasserstraße / Havel-Oder-Wasserstraße |
@@ -168,7 +167,7 @@
 | BB_5878800 | Zauchwitz, Wehr OP / Nieplitz |
 | BB_5879406 | Luckenwalde, Schwimmbad Elsthal / Nuthe |
 | BB_5879407 | Kolzenburg / Nuthe |
-| BB_5879408 | Luckenwalde, Birkenwäldchen Neu / Königsgraben Luckenwalde |
+| BB_5879408 | Luckenwalde, Birkenwäldchen / Königsgraben Luckenwalde |
 | BB_5879500 | Jüterbog-Bürgermühle / Nuthe |
 | BB_5879801 | Salzbrunn / Nieplitz |
 | BB_5885200 | Bergerdamm, Wehr OP / Großer Havelländischer Hauptkanal |
@@ -1905,6 +1904,7 @@
 | MV_04581.3 | Stralsund Tierpark / Mühlgraben |
 | MV_04584.0 | Lüssow / Borgwallsee |
 | MV_04587.2 | Krummenhagen / Krummenhagener See |
+| MV_04588.1 | Schöpfwerk Zarrendorf OP / Mühlgraben |
 | MV_04591.0 | Andershof / Andershofer Teich |
 | MV_04602.0 | Stönkvitz / Sehrower Bach |
 | MV_04610.0 | Bergen / Nonnensee |
@@ -2186,12 +2186,14 @@
 | NW_2710080 | WSV_Bonn / Rhein |
 | NW_2718193000100 | Neuhof / Ahr |
 | NW_2719490000100 | Niederbachem / Mehlemer Bach |
+| NW_27200500 | Betzdorf (Rheinland-Pfalz) / Sieg |
 | NW_2721390000100 | Weidenau / Sieg |
 | NW_2721459000100 | Kreuztal / Ferndorfbach |
 | NW_2721490000100 | Weidenau2 / Ferndorfbach |
 | NW_2721650000100 | Niederdielfen / Weiß |
 | NW_2721770000200 | Niederschelden / Sieg |
 | NW_2723830000200 | Morsbach / Wisserbach |
+| NW_2724900000100 | Heimborn (Rheinland-Pfalz) / Nister |
 | NW_2725851000100 | Mühleip / Eipbach |
 | NW_2725910000100 | Eitorf / Sieg |
 | NW_2726599000100 | Broeleck / Bröl |
@@ -2206,6 +2208,7 @@
 | NW_2728759000100 | Overath (Agger Verband) / Agger |
 | NW_2728845300100 | Perke (Agger Verband) / Wiehl |
 | NW_2728849000100 | Hommerich / Kürtener Sülz |
+| NW_2728851100100 | Welzen / Sülz |
 | NW_2728893000100 | Hoffnungsthal / Sülz |
 | NW_2728930000200 | Lohmar / Agger |
 | NW_2729100000100 | Menden_1 / Sieg |
@@ -2245,6 +2248,8 @@
 | NW_2762510000300 | Belecke3 / Bormelsbach |
 | NW_2763190000100 | Bachum / Ruhr |
 | NW_2764190000100 | Balve-Garbeck / Hönne |
+| NW_2764511000100 | Balve_Helle / Hönne |
+| NW_2764590000100 | Menden_Oberroedingh / Hönne |
 | NW_2764890000100 | Hemer-Becke / Öse |
 | NW_2764950000100 | Menden_Sauerland / Hönne |
 | NW_2765190000100 | Froendenberg / Ruhr |
@@ -2260,11 +2265,14 @@
 | NW_2766929300099 | Altena_Rahmedestrasse / Rahmede |
 | NW_2766930000100 | Altena / Lenne |
 | NW_2768390000100 | Kierspe / Volme |
+| NW_2768529000200 | Jubachtalsperre_Zulauf / Jubach |
 | NW_2768579000100 | Stephansohl / Volme |
+| NW_2768721000100 | Gloertalsperre_Zulauf (Ennepe-Ruhr Kreis) / Glör |
 | NW_2768775000100 | Hagen-Ambrock / Volme |
 | NW_2768784000200 | Hagen-Maecking2 / Hombecke |
 | NW_2768883000100 | Heilenbecke_Ablauf / Heilenbecke |
 | NW_2768897000100 | Hagen-Haspe / Ennepe |
+| NW_2768898001 | Haspertalsperre_Zu / Hasper Bach |
 | NW_2768900000100 | Hagen-Eckesey / Volme |
 | NW_2769133000200 | Wetter_G (Ruhrverband) / Ruhr |
 | NW_2769169000100 | Wetter_Wengern_1 / Elbsche |
@@ -2404,7 +2412,9 @@
 | NW_4433000000100 | Westheim / Diemel |
 | NW_4449900000100 | Welda / Twiste |
 | NW_45100100 | WSV_Karlshafen / Weser |
+| NW_4523100000100 | Niesen / Nethe |
 | NW_4526900000100 | Rustenhof / Aa |
+| NW_4528199000100 | Bellersen / Brucht |
 | NW_4528900000100 | Brakel / Brucht |
 | NW_4529500000100 | Ottbergen / Nethe |
 | NW_45300109 | WSV_Hoexter / Weser |
@@ -2437,12 +2447,12 @@
 | NW_9281330000100 | Daemmerwald / Issel |
 | NW_9281700000200 | Isselburg / Issel |
 | NW_9282570000100 | Rhedebruegge / Bocholter Aa |
+| NW_9283215500100 | Südlohn / Schlinge |
 | NW_9284100000100 | Lutum / Berkel |
 | NW_9284300000010 | Gescher / Berkel |
 | NW_9284590000200 | Stadtlohn Schanzring / Berkel |
 | NW_9284730000100 | Ammeloe / Berkel |
 | NW_9285291000100 | Haarmuehle / Ahauser Aa |
-| NW_9286110000100 | Darfeld / Vechte |
 | NW_9286190000100 | Bilk / Vechte |
 | NW_9286270000100 | Temmingsmuehle / Steinfurter Aa |
 | NW_9286291000300 | Wettringen_B70 / Steinfurter Aa |
@@ -2457,7 +2467,7 @@
 | RP_2230310 | Kogenheim / Ill |
 | RP_2280350 | Chasseur-Froid / Ill |
 | RP_229150 | Remich / Mosel |
-| RP_229151 | Wasserbillig / Sauer |
+| RP_229151 | Wasserbillig / Mosel |
 | RP_2310010 | Basel-Rheinhalle / Rhein |
 | RP_2330090 | Kehl-Kronenhof / Rhein |
 | RP_2350070 | Plittersdorf / Rhein |
@@ -3205,6 +3215,7 @@
 | ST_578620 | Kleinpaschleben / Ziethe |
 | ST_578630 | Zörbig / Zörbiger Strengbach |
 | ST_578650 | Aken (Taube) / Taube-Landgraben |
+| ST_579002 | Neuwerk / Bode |
 | ST_579006 | Wendefurth / Bode |
 | ST_579020 | Thale / Bode |
 | ST_579040 | Ditfurt / Bode |
@@ -3225,6 +3236,7 @@
 | ST_579620 | Hausneindorf / Selke |
 | ST_579652 | Pfeifenkrug / Goldbach |
 | ST_579705 | Steinerne Renne / Holtemme |
+| ST_5797051 | Steinerne Renne 1 / Holtemme |
 | ST_579712 | Mahndorf / Holtemme |
 | ST_579745 | Nienhagen / Holtemme |
 | ST_579754 | Zillierbachtalsperre Zulauf / Zillierbach |
