@@ -101,8 +101,10 @@
 | BB_5815400 | Liebenwalde OP / Obere Havel-Wasserstraße / Havel-Oder-Wasserstraße |
 | BB_5815500 | Liebenwalde UP / Obere Havel-Wasserstraße / Havel-Oder-Wasserstraße |
 | BB_5815901 | Borgsdorf / Havel |
+| BB_5816801 | Krewelin, Döllnfließ / Döllnfließ |
 | BB_5816802 | Krewelin, Brücke / Havel |
 | BB_5817000 | Bischofswerder / Döllnfließ |
+| BB_5819100 | Sachsenhausen, Teerofen / Teschendorfer Graben |
 | BB_5819500 | Birkenwerder / Briese |
 | BB_5819801 | Schildow / Tegeler Fließ |
 | BB_5820800 | Sprey / Spree |
@@ -147,9 +149,12 @@
 | BB_5871600 | Babelsberg-Drewitz / Nuthe |
 | BB_5871800 | Woltersdorf II / Hammerfließ |
 | BB_5872301 | Thyrow / Großbeerener Graben |
+| BB_5872700 | Salzbrunn-Birkhorst / Brück-Neuendorfer Kanal |
 | BB_5872802 | Dobbrikow, Hammerbrücke / Pfefferfließ |
 | BB_5873101 | Trebitz / Plane |
 | BB_5873301 | Golzow, Brücke / Plane |
+| BB_5873401 | Rädigke, Venturi / Plane |
+| BB_5873402 | Rädigke, Mühle / Mühlgraben Rädigke |
 | BB_5873600 | Göttin / Plane |
 | BB_5873801 | Fredersdorf, Brücke / Belziger Bach |
 | BB_5873900 | Blankensee, Wehr OP / Nieplitz |
@@ -157,14 +162,17 @@
 | BB_5874001 | Blankensee, Brücke / Nieplitz |
 | BB_5874100 | Brandenburg-Wilhelmsdorf / Temnitz |
 | BB_5874301 | Buckau, Brücke / Buckau |
+| BB_5874600 | Görisgräben / Buckau |
 | BB_5874601 | Neue Mühle, Wehr OP / Buckau |
 | BB_5874701 | Wenzlow, Forellenanlage / Verlorenwasser |
+| BB_5874702 | Wenzlow, Sandfang / Verlorenwasser |
 | BB_5874900 | Mahlenzien, Wehr UP / Buckau |
 | BB_5875001 | Trebbin, Wehr OP / Nuthe |
 | BB_5875401 | Kade / Elbe-Havel-Kanal |
 | BB_5878000 | Gröben, Wehr OP / Nuthe |
 | BB_5878102 | Seddin, Institut / Schafgraben |
 | BB_5878800 | Zauchwitz, Wehr OP / Nieplitz |
+| BB_5879205 | Treuenbrietzen, Messwehr B2 / Nieplitz |
 | BB_5879406 | Luckenwalde, Schwimmbad Elsthal / Nuthe |
 | BB_5879407 | Kolzenburg / Nuthe |
 | BB_5879408 | Luckenwalde, Birkenwäldchen / Königsgraben Luckenwalde |
@@ -258,7 +266,6 @@
 | BB_6910009 | Groß Lindow, Wehr OP / Brieskower Kanal |
 | BB_6910200 | Brieskow, Schleuse OP / Brieskower Kanal |
 | BB_6910300 | Brieskow, Schleuse UP / Brieskower Kanal |
-| BB_6910302 | Brieskow, Seestraße / Brieskower Kanal |
 | BB_6911000 | Brieskow, Schöpfwerk AP / Brieskower Kanal |
 | BB_6916002 | Finkenheerd, Deichsiel BP / Pottack |
 | BB_6918500 | Finkenheerd, Düker OP / Buschgraben |
@@ -294,8 +301,6 @@
 | BB_6945001 | Letschin, Wehr OP / Letschiner Hauptgraben |
 | BB_6945002 | Letschin, Wehr UP / Letschiner Hauptgraben |
 | BB_6945200 | Herrenhof / Letschiner Hauptgraben |
-| BB_6945300 | Bochowsloos, Wehr OP / Volzine |
-| BB_6945301 | Bochowsloos, Wehr UP / Volzine |
 | BB_6946205 | Solikante, Wehr OP / Volzine |
 | BB_6946405 | Altlewin, Holzbrücke / Volzine |
 | BB_6946700 | Thöringswerder, Wehr UP / Volzine |
@@ -342,7 +347,7 @@
 | BE_580412 | Potsdam / Potsdamer Havel |
 | BE_580430 | Ketzin / Untere Havel-Wasserstrasse |
 | BE_581000 | Mirow OP / Müritz-Havel-Wasserstrasse |
-| BE_581100 | Bolt OP / Bolter Kanal |
+| BE_5811000 | Bolt OP / Bolter Kanal |
 | BE_581540 | Liebenwalde OP / Malzer Kanal |
 | BE_581550 | Liebenwalde UP / Malzer Kanal |
 | BE_581591 | Borgsdorf / Havel-Oder-Wasserstrasse |
@@ -366,7 +371,7 @@
 | BE_585850 | Neuhaus OP / Neuhauser Speisekanal |
 | BE_585860 | Neuhaus UP / Neuhauser Speisekanal |
 | BE_585920 | Wernsdorf OP / Spree-Oder-Wasserstrasse |
-| BE_585930 | Wernsdorf UP / Spree-Oder-Wasserstrasse |
+| BE_5859300 | Wernsdorf UP / Spree-Oder-Wasserstrasse |
 | BE_585940 | Kersdorf OP / Spree-Oder-Wasserstrasse |
 | BE_585950 | Kersdorf UP / Spree-Oder-Wasserstrasse |
 | BE_586040 | Woltersdorf OP / Rüdersdorfer Gewässer |
@@ -408,6 +413,7 @@
 | BE_5867401 | Bürgerpark / Panke |
 | BE_5867500 | Kühnemannstraße / Panke |
 | BE_5867600 | Schönwalder Str. / Panke |
+| BE_5867601 | Eisstadion / Panke |
 | BE_5867700 | Pasewalker Brücke / Nordgraben |
 | BE_5867900 | Eisenbahnbrücke / Nordgraben |
 | BE_586810 | Berlin-Schmoeckwitz / Dahme-Wasserstrasse |
@@ -417,7 +423,7 @@
 | BE_587030 | Kleinmachnow UP / Teltowkanal |
 | BE_5870400 | Alsenbrücke / Griebnitzkanal |
 | BE_587050 | Schönwalde OP / Havelkanal |
-| BE_596030 | Waren / Müritz-Elde-Wasserstrasse |
+| BE_5960300 | Waren / Müritz-Elde-Wasserstrasse |
 | BE_603020 | Eisenhuettenstadt Schl. UP / Spree-Oder-Wasserstrasse |
 | BE_690050 | Eisenhuettenstadt Schl. OP / Spree-Oder-Wasserstrasse |
 | BW_00001 | Eberfingen / Wutach |
@@ -551,7 +557,7 @@
 | BW_00172 | Pforzheim / Würm |
 | BW_00173 | Eberbach / Itter |
 | BW_00174 | Meckesheim / Elsenz |
-| BW_00176 | Wiesloch / Waldangelbach |
+| BW_00176 | Wiesloch-Hilfspegel / Waldangelbach |
 | BW_00177 | Gondelsheim / Saalbach |
 | BW_00178 | Hardheim / Erfa |
 | BW_00180 | Allfeld / Schefflenz |
@@ -885,7 +891,7 @@
 | BY_12465007 | Buchloe / Gennach |
 | BY_12483009 | Langerringen / Singold |
 | BY_12483100 | Langerringen Hochwasserlauf / Singold Hochwasserlauf |
-| BY_13124001 | Winkl / Verlorener Bach |
+| BY_13124001 | Winkl (alt) / Verlorener Bach |
 | BY_13191030 | Rennertshofen / Ussel |
 | BY_13200609 | Putzmühle HRB Beckenpegel / HRB Putzmühle |
 | BY_13200700 | Putzmühle HRB Ablauf / Paar |
@@ -2176,7 +2182,8 @@
 | NI_9352100 | Leyhörn / Nordsee |
 | NI_9374105 | Bensersiel / Nordsee |
 | NI_9429105 | Vareler Schleuse / Nordsee |
-| NW_00000001 | Porta / Weser |
+| NW_000504 | Bimmen / Rhein |
+| NW_004157 | Hattingen / Ruhr |
 | NW_104 | Bad-Honnef / Rhein |
 | NW_1234512345 | Soestbach / Soestbach |
 | NW_2581119000100 | Feudingen / Lahn |
@@ -2398,13 +2405,12 @@
 | NW_3448310000600 | Lehen_2 / Ibbenbürener Aa |
 | NW_3448390000200 | Hoerstel / Ibbenbürener Aa |
 | NW_39899002 | Wesel / Lippe |
-| NW_4157 | Hattingen / Ruhr |
 | NW_4281319000100 | Muesse / Eder |
 | NW_4281334000100 | Aue / Preisdorf |
 | NW_4281490000100 | Raumland / Odeborn |
 | NW_4281591000100 | Beddelhausen / Eder |
 | NW_4284170000100 | Medelon_W / Orke |
-| NW_43 | D.-Flehe / Rhein |
+| NW_43 | Düsseldorf-Flehe / Rhein |
 | NW_43100056 | Datteln-Hötting_Schleuse_NRW / Wesel Datteln Kanal |
 | NW_43100109 | WSV_Hann-Muenden / Weser |
 | NW_43900105 | WSV_Wahmbeck / Weser |
@@ -2443,7 +2449,7 @@
 | NW_4745000000100 | Bierde / Gehle |
 | NW_4761270000100 | Niedermehnen / Großer Dieckfluß |
 | NW_4761500000100 | Fiestel / Große Aue |
-| NW_504 | Bimmen / Rhein |
+| NW_702705 | Porta Westfalica / Weser |
 | NW_9281330000100 | Daemmerwald / Issel |
 | NW_9281700000200 | Isselburg / Issel |
 | NW_9282570000100 | Rhedebruegge / Bocholter Aa |
@@ -3158,7 +3164,7 @@
 | ST_572910 | Mellingen / Ilm |
 | ST_572920 | Niedertrebra / Ilm |
 | ST_573010 | Nägelstedt / Unstrut |
-| ST_573100 | Straußfurt / Unstrut |
+| ST_573100 | HRB Straußfurt (AP) / Unstrut |
 | ST_573110 | Oldisleben / Unstrut |
 | ST_573150 | Gehofen / Flutkanal |
 | ST_573260 | Wangen / Unstrut |
