@@ -130,7 +130,6 @@
 | BB_5845200 | Fehrow / Malxe |
 | BB_5845800 | Merzdorf 1 / Hammergraben |
 | BB_5856400 | Märkisch Buchholz 1 OP / Dahme-Umflut-Kanal |
-| BB_5856600 | Rangsdorf, Wehr OP / Zülowkanal |
 | BB_5856800 | Mittenwalde, Verteilerwehr OP / Zülowkanal |
 | BB_5857000 | Goyatz 1 / Spree |
 | BB_5859500 | Kersdorf UP / Oder-Spree-Kanal |
@@ -193,7 +192,6 @@
 | BB_5892209 | Rhinow, Wehr UP / Rhin |
 | BB_5892800 | Lindow, Wehr OP / Lindower Rhin |
 | BB_5894201 | Lentzker Mühle OP / Rhin |
-| BB_5895001 | Läsikower Brücke / Temnitz |
 | BB_5895701 | Wusterhausen, Pegel 12 / Dosse |
 | BB_5896000 | Freyenstein / Dosse |
 | BB_5896202 | Wittstock UP / Dosse |
@@ -326,6 +324,8 @@
 | BE_5800106 | Schäfersee / Schäfersee |
 | BE_5800107 | Am Wolfsschluchtkanal / Krumme Lanke |
 | BE_5800301 | Dianasee / Dianasee |
+| BE_5800302 | Dreipfuhl / Dreipfuhl |
+| BE_5800303 | Flughafensee / Flughafensee |
 | BE_5800304 | Grunewaldsee / Fenngraben |
 | BE_5800305 | Groß Glienicker See / Groß Glienicker See |
 | BE_5800306 | Halensee / Halensee |
@@ -557,7 +557,7 @@
 | BW_00172 | Pforzheim / Würm |
 | BW_00173 | Eberbach / Itter |
 | BW_00174 | Meckesheim / Elsenz |
-| BW_00176 | Wiesloch-Hilfspegel / Waldangelbach |
+| BW_00176 | Wiesloch / Waldangelbach |
 | BW_00177 | Gondelsheim / Saalbach |
 | BW_00178 | Hardheim / Erfa |
 | BW_00180 | Allfeld / Schefflenz |
@@ -700,6 +700,8 @@
 | BW_00415 | Rastatt Hindenburgbrücke / Murg |
 | BW_00416 | Rheinhausen BW6_16 / Altrheinzug |
 | BW_00417 | Rheinhausen PW / Altrheinzug |
+| BW_00435 | Wiesloch-Hilfspegel / Leimbach |
+| BW_00436 | Wiesloch-Hilfspegel / Waldangelbach |
 | BW_05000 | Königsbronn / Leerausbach |
 | BW_05002 | Wahlwies / Alte Aach |
 | BW_09000 | Lauterbourg / Rhein |
@@ -1154,6 +1156,7 @@
 | BY_16804005 | Erding / Sempt |
 | BY_16805005 | Langengeisling / Sempt |
 | BY_16806008 | Langengeisling / Saubach |
+| BY_16824955 | Angelsbruck / Strogen |
 | BY_16825002 | Appolding / Strogen |
 | BY_16827008 | Operding / Hammerbach |
 | BY_16899009 | Tiefenbach / Tiefenbach |
@@ -1357,6 +1360,7 @@
 | BY_24116005 | Untersteinach / Schorgast |
 | BY_24117008 | Kauerndorf / Schorgast |
 | BY_24118000 | Adlerhütte / Koserbach |
+| BY_24118355 | Großrehmühle / Rehbach |
 | BY_24118500 | Oberhammer / Untere Steinach |
 | BY_24118703 | Untersteinach / Untere Steinach |
 | BY_24121005 | Creußen / Roter Main |
@@ -1818,6 +1822,7 @@
 | MV_03128.0 | Zingst / Zingster Strom |
 | MV_03156.0 | Ralswiek / Gr. Jasmunder Bodden |
 | MV_03182.1 | Pudagla / Achterwasser |
+| MV_04340.0 | Dassow / Stepenitz |
 | MV_04341.1 | Börzow / Stepenitz |
 | MV_04342.0 | Questin / Stepenitz |
 | MV_04343.0 | Diedrichshagen / Stepenitz |
@@ -2056,6 +2061,7 @@
 | MV_59848.0 | Klein Bengerstorf / Schaale |
 | MV_59855.0 | Lehsen / Motel |
 | MV_59859.0 | Camin / Schilde |
+| MV_59870.1 | Hagenow / Schmaar |
 | MV_59905.0 | Schwartow / Boize |
 | MV_59910.5 | Nostorf / Horster Mühlbach |
 | MV_9620085 | Travemünde / Trave |
