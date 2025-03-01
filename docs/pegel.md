@@ -96,14 +96,15 @@
 | BB_5807500 | Garz OP / Schleusenkanal Garz |
 | BB_5807900 | Havelberg Stadt / Havel |
 | BB_5810900 | Ravensbrück / Hegensteinfließ |
-| BB_5811701 | Küstrinchen, Wehr UP / Lychener Gewässer |
 | BB_5811800 | Lychen, Wehr OP / Lychener Gewässer |
 | BB_5812401 | Storkow / Schulzenfließ |
 | BB_5815400 | Liebenwalde OP / Obere Havel-Wasserstraße / Havel-Oder-Wasserstraße |
 | BB_5815500 | Liebenwalde UP / Obere Havel-Wasserstraße / Havel-Oder-Wasserstraße |
 | BB_5815901 | Borgsdorf / Havel |
+| BB_5816801 | Krewelin, Döllnfließ / Döllnfließ |
 | BB_5816802 | Krewelin, Brücke / Havel |
 | BB_5817000 | Bischofswerder / Döllnfließ |
+| BB_5819100 | Sachsenhausen, Teerofen / Teschendorfer Graben |
 | BB_5819500 | Birkenwerder / Briese |
 | BB_5819801 | Schildow / Tegeler Fließ |
 | BB_5820800 | Sprey / Spree |
@@ -129,7 +130,6 @@
 | BB_5845200 | Fehrow / Malxe |
 | BB_5845800 | Merzdorf 1 / Hammergraben |
 | BB_5856400 | Märkisch Buchholz 1 OP / Dahme-Umflut-Kanal |
-| BB_5856600 | Rangsdorf, Wehr OP / Zülowkanal |
 | BB_5856800 | Mittenwalde, Verteilerwehr OP / Zülowkanal |
 | BB_5857000 | Goyatz 1 / Spree |
 | BB_5859500 | Kersdorf UP / Oder-Spree-Kanal |
@@ -148,9 +148,12 @@
 | BB_5871600 | Babelsberg-Drewitz / Nuthe |
 | BB_5871800 | Woltersdorf II / Hammerfließ |
 | BB_5872301 | Thyrow / Großbeerener Graben |
+| BB_5872700 | Salzbrunn-Birkhorst / Brück-Neuendorfer Kanal |
 | BB_5872802 | Dobbrikow, Hammerbrücke / Pfefferfließ |
 | BB_5873101 | Trebitz / Plane |
 | BB_5873301 | Golzow, Brücke / Plane |
+| BB_5873401 | Rädigke, Venturi / Plane |
+| BB_5873402 | Rädigke, Mühle / Mühlgraben Rädigke |
 | BB_5873600 | Göttin / Plane |
 | BB_5873801 | Fredersdorf, Brücke / Belziger Bach |
 | BB_5873900 | Blankensee, Wehr OP / Nieplitz |
@@ -158,17 +161,20 @@
 | BB_5874001 | Blankensee, Brücke / Nieplitz |
 | BB_5874100 | Brandenburg-Wilhelmsdorf / Temnitz |
 | BB_5874301 | Buckau, Brücke / Buckau |
+| BB_5874600 | Görisgräben / Buckau |
 | BB_5874601 | Neue Mühle, Wehr OP / Buckau |
 | BB_5874701 | Wenzlow, Forellenanlage / Verlorenwasser |
+| BB_5874702 | Wenzlow, Sandfang / Verlorenwasser |
 | BB_5874900 | Mahlenzien, Wehr UP / Buckau |
 | BB_5875001 | Trebbin, Wehr OP / Nuthe |
 | BB_5875401 | Kade / Elbe-Havel-Kanal |
 | BB_5878000 | Gröben, Wehr OP / Nuthe |
 | BB_5878102 | Seddin, Institut / Schafgraben |
 | BB_5878800 | Zauchwitz, Wehr OP / Nieplitz |
+| BB_5879205 | Treuenbrietzen, Messwehr B2 / Nieplitz |
 | BB_5879406 | Luckenwalde, Schwimmbad Elsthal / Nuthe |
 | BB_5879407 | Kolzenburg / Nuthe |
-| BB_5879408 | Luckenwalde, Birkenwäldchen Neu / Königsgraben Luckenwalde |
+| BB_5879408 | Luckenwalde, Birkenwäldchen / Königsgraben Luckenwalde |
 | BB_5879500 | Jüterbog-Bürgermühle / Nuthe |
 | BB_5879801 | Salzbrunn / Nieplitz |
 | BB_5885200 | Bergerdamm, Wehr OP / Großer Havelländischer Hauptkanal |
@@ -186,7 +192,6 @@
 | BB_5892209 | Rhinow, Wehr UP / Rhin |
 | BB_5892800 | Lindow, Wehr OP / Lindower Rhin |
 | BB_5894201 | Lentzker Mühle OP / Rhin |
-| BB_5895001 | Läsikower Brücke / Temnitz |
 | BB_5895701 | Wusterhausen, Pegel 12 / Dosse |
 | BB_5896000 | Freyenstein / Dosse |
 | BB_5896202 | Wittstock UP / Dosse |
@@ -259,7 +264,6 @@
 | BB_6910009 | Groß Lindow, Wehr OP / Brieskower Kanal |
 | BB_6910200 | Brieskow, Schleuse OP / Brieskower Kanal |
 | BB_6910300 | Brieskow, Schleuse UP / Brieskower Kanal |
-| BB_6910302 | Brieskow, Seestraße / Brieskower Kanal |
 | BB_6911000 | Brieskow, Schöpfwerk AP / Brieskower Kanal |
 | BB_6916002 | Finkenheerd, Deichsiel BP / Pottack |
 | BB_6918500 | Finkenheerd, Düker OP / Buschgraben |
@@ -295,8 +299,6 @@
 | BB_6945001 | Letschin, Wehr OP / Letschiner Hauptgraben |
 | BB_6945002 | Letschin, Wehr UP / Letschiner Hauptgraben |
 | BB_6945200 | Herrenhof / Letschiner Hauptgraben |
-| BB_6945300 | Bochowsloos, Wehr OP / Volzine |
-| BB_6945301 | Bochowsloos, Wehr UP / Volzine |
 | BB_6946205 | Solikante, Wehr OP / Volzine |
 | BB_6946405 | Altlewin, Holzbrücke / Volzine |
 | BB_6946700 | Thöringswerder, Wehr UP / Volzine |
@@ -322,6 +324,8 @@
 | BE_5800106 | Schäfersee / Schäfersee |
 | BE_5800107 | Am Wolfsschluchtkanal / Krumme Lanke |
 | BE_5800301 | Dianasee / Dianasee |
+| BE_5800302 | Dreipfuhl / Dreipfuhl |
+| BE_5800303 | Flughafensee / Flughafensee |
 | BE_5800304 | Grunewaldsee / Fenngraben |
 | BE_5800305 | Groß Glienicker See / Groß Glienicker See |
 | BE_5800306 | Halensee / Halensee |
@@ -343,7 +347,7 @@
 | BE_580412 | Potsdam / Potsdamer Havel |
 | BE_580430 | Ketzin / Untere Havel-Wasserstrasse |
 | BE_581000 | Mirow OP / Müritz-Havel-Wasserstrasse |
-| BE_581100 | Bolt OP / Bolter Kanal |
+| BE_5811000 | Bolt OP / Bolter Kanal |
 | BE_581540 | Liebenwalde OP / Malzer Kanal |
 | BE_581550 | Liebenwalde UP / Malzer Kanal |
 | BE_581591 | Borgsdorf / Havel-Oder-Wasserstrasse |
@@ -367,7 +371,7 @@
 | BE_585850 | Neuhaus OP / Neuhauser Speisekanal |
 | BE_585860 | Neuhaus UP / Neuhauser Speisekanal |
 | BE_585920 | Wernsdorf OP / Spree-Oder-Wasserstrasse |
-| BE_585930 | Wernsdorf UP / Spree-Oder-Wasserstrasse |
+| BE_5859300 | Wernsdorf UP / Spree-Oder-Wasserstrasse |
 | BE_585940 | Kersdorf OP / Spree-Oder-Wasserstrasse |
 | BE_585950 | Kersdorf UP / Spree-Oder-Wasserstrasse |
 | BE_586040 | Woltersdorf OP / Rüdersdorfer Gewässer |
@@ -409,6 +413,7 @@
 | BE_5867401 | Bürgerpark / Panke |
 | BE_5867500 | Kühnemannstraße / Panke |
 | BE_5867600 | Schönwalder Str. / Panke |
+| BE_5867601 | Eisstadion / Panke |
 | BE_5867700 | Pasewalker Brücke / Nordgraben |
 | BE_5867900 | Eisenbahnbrücke / Nordgraben |
 | BE_586810 | Berlin-Schmoeckwitz / Dahme-Wasserstrasse |
@@ -418,7 +423,7 @@
 | BE_587030 | Kleinmachnow UP / Teltowkanal |
 | BE_5870400 | Alsenbrücke / Griebnitzkanal |
 | BE_587050 | Schönwalde OP / Havelkanal |
-| BE_596030 | Waren / Müritz-Elde-Wasserstrasse |
+| BE_5960300 | Waren / Müritz-Elde-Wasserstrasse |
 | BE_603020 | Eisenhuettenstadt Schl. UP / Spree-Oder-Wasserstrasse |
 | BE_690050 | Eisenhuettenstadt Schl. OP / Spree-Oder-Wasserstrasse |
 | BW_00001 | Eberfingen / Wutach |
@@ -695,6 +700,8 @@
 | BW_00415 | Rastatt Hindenburgbrücke / Murg |
 | BW_00416 | Rheinhausen BW6_16 / Altrheinzug |
 | BW_00417 | Rheinhausen PW / Altrheinzug |
+| BW_00435 | Wiesloch-Hilfspegel / Leimbach |
+| BW_00436 | Wiesloch-Hilfspegel / Waldangelbach |
 | BW_05000 | Königsbronn / Leerausbach |
 | BW_05002 | Wahlwies / Alte Aach |
 | BW_09000 | Lauterbourg / Rhein |
@@ -886,7 +893,7 @@
 | BY_12465007 | Buchloe / Gennach |
 | BY_12483009 | Langerringen / Singold |
 | BY_12483100 | Langerringen Hochwasserlauf / Singold Hochwasserlauf |
-| BY_13124001 | Winkl / Verlorener Bach |
+| BY_13124001 | Winkl (alt) / Verlorener Bach |
 | BY_13191030 | Rennertshofen / Ussel |
 | BY_13200609 | Putzmühle HRB Beckenpegel / HRB Putzmühle |
 | BY_13200700 | Putzmühle HRB Ablauf / Paar |
@@ -1149,6 +1156,7 @@
 | BY_16804005 | Erding / Sempt |
 | BY_16805005 | Langengeisling / Sempt |
 | BY_16806008 | Langengeisling / Saubach |
+| BY_16824955 | Angelsbruck / Strogen |
 | BY_16825002 | Appolding / Strogen |
 | BY_16827008 | Operding / Hammerbach |
 | BY_16899009 | Tiefenbach / Tiefenbach |
@@ -1352,6 +1360,7 @@
 | BY_24116005 | Untersteinach / Schorgast |
 | BY_24117008 | Kauerndorf / Schorgast |
 | BY_24118000 | Adlerhütte / Koserbach |
+| BY_24118355 | Großrehmühle / Rehbach |
 | BY_24118500 | Oberhammer / Untere Steinach |
 | BY_24118703 | Untersteinach / Untere Steinach |
 | BY_24121005 | Creußen / Roter Main |
@@ -1813,6 +1822,7 @@
 | MV_03128.0 | Zingst / Zingster Strom |
 | MV_03156.0 | Ralswiek / Gr. Jasmunder Bodden |
 | MV_03182.1 | Pudagla / Achterwasser |
+| MV_04340.0 | Dassow / Stepenitz |
 | MV_04341.1 | Börzow / Stepenitz |
 | MV_04342.0 | Questin / Stepenitz |
 | MV_04343.0 | Diedrichshagen / Stepenitz |
@@ -1905,6 +1915,7 @@
 | MV_04581.3 | Stralsund Tierpark / Mühlgraben |
 | MV_04584.0 | Lüssow / Borgwallsee |
 | MV_04587.2 | Krummenhagen / Krummenhagener See |
+| MV_04588.1 | Schöpfwerk Zarrendorf OP / Mühlgraben |
 | MV_04591.0 | Andershof / Andershofer Teich |
 | MV_04602.0 | Stönkvitz / Sehrower Bach |
 | MV_04610.0 | Bergen / Nonnensee |
@@ -2050,6 +2061,7 @@
 | MV_59848.0 | Klein Bengerstorf / Schaale |
 | MV_59855.0 | Lehsen / Motel |
 | MV_59859.0 | Camin / Schilde |
+| MV_59870.1 | Hagenow / Schmaar |
 | MV_59905.0 | Schwartow / Boize |
 | MV_59910.5 | Nostorf / Horster Mühlbach |
 | MV_9620085 | Travemünde / Trave |
@@ -2176,7 +2188,8 @@
 | NI_9352100 | Leyhörn / Nordsee |
 | NI_9374105 | Bensersiel / Nordsee |
 | NI_9429105 | Vareler Schleuse / Nordsee |
-| NW_00000001 | Porta / Weser |
+| NW_000504 | Bimmen / Rhein |
+| NW_004157 | Hattingen / Ruhr |
 | NW_104 | Bad-Honnef / Rhein |
 | NW_1234512345 | Soestbach / Soestbach |
 | NW_2581119000100 | Feudingen / Lahn |
@@ -2208,6 +2221,7 @@
 | NW_2728759000100 | Overath (Agger Verband) / Agger |
 | NW_2728845300100 | Perke (Agger Verband) / Wiehl |
 | NW_2728849000100 | Hommerich / Kürtener Sülz |
+| NW_2728851100100 | Welzen / Sülz |
 | NW_2728893000100 | Hoffnungsthal / Sülz |
 | NW_2728930000200 | Lohmar / Agger |
 | NW_2729100000100 | Menden_1 / Sieg |
@@ -2264,6 +2278,7 @@
 | NW_2766929300099 | Altena_Rahmedestrasse / Rahmede |
 | NW_2766930000100 | Altena / Lenne |
 | NW_2768390000100 | Kierspe / Volme |
+| NW_2768529000200 | Jubachtalsperre_Zulauf / Jubach |
 | NW_2768579000100 | Stephansohl / Volme |
 | NW_2768721000100 | Gloertalsperre_Zulauf (Ennepe-Ruhr Kreis) / Glör |
 | NW_2768775000100 | Hagen-Ambrock / Volme |
@@ -2396,13 +2411,12 @@
 | NW_3448310000600 | Lehen_2 / Ibbenbürener Aa |
 | NW_3448390000200 | Hoerstel / Ibbenbürener Aa |
 | NW_39899002 | Wesel / Lippe |
-| NW_4157 | Hattingen / Ruhr |
 | NW_4281319000100 | Muesse / Eder |
 | NW_4281334000100 | Aue / Preisdorf |
 | NW_4281490000100 | Raumland / Odeborn |
 | NW_4281591000100 | Beddelhausen / Eder |
 | NW_4284170000100 | Medelon_W / Orke |
-| NW_43 | D.-Flehe / Rhein |
+| NW_43 | Düsseldorf-Flehe / Rhein |
 | NW_43100056 | Datteln-Hötting_Schleuse_NRW / Wesel Datteln Kanal |
 | NW_43100109 | WSV_Hann-Muenden / Weser |
 | NW_43900105 | WSV_Wahmbeck / Weser |
@@ -2410,7 +2424,9 @@
 | NW_4433000000100 | Westheim / Diemel |
 | NW_4449900000100 | Welda / Twiste |
 | NW_45100100 | WSV_Karlshafen / Weser |
+| NW_4523100000100 | Niesen / Nethe |
 | NW_4526900000100 | Rustenhof / Aa |
+| NW_4528199000100 | Bellersen / Brucht |
 | NW_4528900000100 | Brakel / Brucht |
 | NW_4529500000100 | Ottbergen / Nethe |
 | NW_45300109 | WSV_Hoexter / Weser |
@@ -2439,16 +2455,16 @@
 | NW_4745000000100 | Bierde / Gehle |
 | NW_4761270000100 | Niedermehnen / Großer Dieckfluß |
 | NW_4761500000100 | Fiestel / Große Aue |
-| NW_504 | Bimmen / Rhein |
+| NW_702705 | Porta Westfalica / Weser |
 | NW_9281330000100 | Daemmerwald / Issel |
 | NW_9281700000200 | Isselburg / Issel |
 | NW_9282570000100 | Rhedebruegge / Bocholter Aa |
+| NW_9283215500100 | Südlohn / Schlinge |
 | NW_9284100000100 | Lutum / Berkel |
 | NW_9284300000010 | Gescher / Berkel |
 | NW_9284590000200 | Stadtlohn Schanzring / Berkel |
 | NW_9284730000100 | Ammeloe / Berkel |
 | NW_9285291000100 | Haarmuehle / Ahauser Aa |
-| NW_9286110000100 | Darfeld / Vechte |
 | NW_9286190000100 | Bilk / Vechte |
 | NW_9286270000100 | Temmingsmuehle / Steinfurter Aa |
 | NW_9286291000300 | Wettringen_B70 / Steinfurter Aa |
@@ -2463,7 +2479,7 @@
 | RP_2230310 | Kogenheim / Ill |
 | RP_2280350 | Chasseur-Froid / Ill |
 | RP_229150 | Remich / Mosel |
-| RP_229151 | Wasserbillig / Sauer |
+| RP_229151 | Wasserbillig / Mosel |
 | RP_2310010 | Basel-Rheinhalle / Rhein |
 | RP_2330090 | Kehl-Kronenhof / Rhein |
 | RP_2350070 | Plittersdorf / Rhein |
@@ -3154,7 +3170,7 @@
 | ST_572910 | Mellingen / Ilm |
 | ST_572920 | Niedertrebra / Ilm |
 | ST_573010 | Nägelstedt / Unstrut |
-| ST_573100 | Straußfurt / Unstrut |
+| ST_573100 | HRB Straußfurt (AP) / Unstrut |
 | ST_573110 | Oldisleben / Unstrut |
 | ST_573150 | Gehofen / Flutkanal |
 | ST_573260 | Wangen / Unstrut |
@@ -3211,6 +3227,7 @@
 | ST_578620 | Kleinpaschleben / Ziethe |
 | ST_578630 | Zörbig / Zörbiger Strengbach |
 | ST_578650 | Aken (Taube) / Taube-Landgraben |
+| ST_579002 | Neuwerk / Bode |
 | ST_579006 | Wendefurth / Bode |
 | ST_579020 | Thale / Bode |
 | ST_579040 | Ditfurt / Bode |
@@ -3231,6 +3248,7 @@
 | ST_579620 | Hausneindorf / Selke |
 | ST_579652 | Pfeifenkrug / Goldbach |
 | ST_579705 | Steinerne Renne / Holtemme |
+| ST_5797051 | Steinerne Renne 1 / Holtemme |
 | ST_579712 | Mahndorf / Holtemme |
 | ST_579745 | Nienhagen / Holtemme |
 | ST_579754 | Zillierbachtalsperre Zulauf / Zillierbach |
