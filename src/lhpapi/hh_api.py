@@ -54,14 +54,14 @@ def update_HH(static_data: StaticData) -> DynamicData:  # pylint: disable=invali
             text = div.getText()
             level = convert_to_float(
                 text[
-                    text.find("Wasserstand") + 11 : text.find("[NHN\u00A0+/-\u00A0cm]")
+                    text.find("Wasserstand") + 11 : text.find("[NHN\u00a0+/-\u00a0cm]")
                 ]
                 .replace(".", "")
                 .strip()
             )
             last_update = convert_to_datetime(
                 text[
-                    text.find("\u00A0\u00A0\u00A0 um") + 6 : text.find("Trend")
+                    text.find("\u00a0\u00a0\u00a0 um") + 6 : text.find("Trend")
                 ].strip(),
                 "%d.%m.%Y %H:%M",
             )
