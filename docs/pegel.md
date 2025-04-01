@@ -96,6 +96,7 @@
 | BB_5807500 | Garz OP / Schleusenkanal Garz |
 | BB_5807900 | Havelberg Stadt / Havel |
 | BB_5810900 | Ravensbrück / Hegensteinfließ |
+| BB_5811701 | Küstrinchen, Wehr UP / Lychener Gewässer |
 | BB_5811800 | Lychen, Wehr OP / Lychener Gewässer |
 | BB_5812401 | Storkow / Schulzenfließ |
 | BB_5815400 | Liebenwalde OP / Obere Havel-Wasserstraße / Havel-Oder-Wasserstraße |
@@ -789,7 +790,7 @@
 | BY_11401009 | Sonthofen / Iller |
 | BY_11401185 | Rauhenzell / Iller |
 | BY_11401202 | Immenstadt Zollbrücke / Iller |
-| BY_11401205 | Immenstadt Zollbr. (virtuell) / Iller |
+| BY_11401205 | Immenstadt Zollbr. (virtuell) / Iller mit Konstanzer Ach |
 | BY_11401701 | Martinszell / Iller |
 | BY_11402001 | Kempten / Iller |
 | BY_11402770 | Aitrach KW / Iller |
@@ -2473,6 +2474,48 @@
 | NW_9286410000100 | Legden / Dinkel |
 | NW_9286453000200 | Heek / Dinkel |
 | NW_9286455000200 | Gronau / Dinkel |
+| RP_1032137010 | Camping Falkley / Nette |
+| RP_1032137020 | Thür / Nette |
+| RP_1032137030 | Hammesmuehle (ecoLog 1000) / Nette |
+| RP_1032137040 | Bermel-KA / Elzbach |
+| RP_1032137050 | Monreal - Schnürenhof / Elzbach |
+| RP_1032137060 | Virneburg (ecoLog 1000) / Elzbach |
+| RP_1032233010 | Nitz / Elzbach |
+| RP_1033143010 | Brexbach - Drosselbauwerk / Saynbach |
+| RP_1033143020 | Hüttenmühle / Saynbach |
+| RP_1033143030 | Breitenau / Saynbach |
+| RP_1034232010 | Hermespand / Prüm |
+| RP_1034232020 | Niederprüm / Prüm |
+| RP_1034232030 | Niedermehlen / Prüm |
+| RP_1034232040 | Pittenbach / Prüm |
+| RP_1034232050 | Habscheid / Our |
+| RP_1034232060 | Kinzenburg / Prüm |
+| RP_1034232070 | Mauel / Prüm |
+| RP_1034232080 | Merkeshausen / Prüm |
+| RP_1034232090 | Brecht / Prüm |
+| RP_1034232100 | Bettingen / Prüm |
+| RP_1034232110 | Holsthum Prüm / Enz |
+| RP_1034232120 | Neurath / Arzfeld / Enz |
+| RP_1034232130 | Neuerburg / Enz |
+| RP_1034232140 | Sinspelt Gemeindehaus / Enz |
+| RP_1034232150 | Enzen / Enz |
+| RP_1034232160 | Holsthum Schloss / Enz |
+| RP_1034232170 | Philippsheim Kahlenbach / Kyll |
+| RP_1034232180 | Geichlingen / Enz |
+| RP_1034232190 | Hüttingen bei Lahr / Enz |
+| RP_1034232200 | Hickershausen / Irsen |
+| RP_1034232210 | Irrhausen / Irsen |
+| RP_1034232220 | Sevenig (Our) / Irsen |
+| RP_1034232230 | Machtemesmühle / Irsen |
+| RP_1034232240 | Rommersheim / Nims |
+| RP_1034232250 | Nimsreuland / Nims |
+| RP_1034232260 | Rittersdorf / Nims |
+| RP_1034232270 | Dockendorf / Nims |
+| RP_1034232280 | Usch Zendscheid / Kyll |
+| RP_1034232290 | St. Thomas / Kyll |
+| RP_1034232300 | Kyllburg / Kyll |
+| RP_1034232310 | Philippsheim Bahnhof / Kyll |
+| RP_1034232320 | Auw an der Kyll / Kyll |
 | RP_11 | Diekirch / Sauer |
 | RP_1231120 | Nohfelden / Nahe |
 | RP_13 | Dasbourg / Our |
