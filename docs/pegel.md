@@ -115,6 +115,7 @@
 | BB_5821200 | Schmogrow, Spreewehr OP / Spree |
 | BB_5821300 | Schmogrow, Spreewehr UP / Spree |
 | BB_5823800 | Lübben, Zusammenfluss / Spree |
+| BB_5824600 | Leibsch, Spreewehr OP / Spree |
 | BB_5824700 | Leibsch, Spreewehr UP / Spree |
 | BB_5825500 | Beeskow, Spreeschleuse UP / Spree |
 | BB_5826000 | Neubrück, Schleuse OP / Spree |
@@ -341,6 +342,7 @@
 | BE_5800317 | Biesdorfer Baggersee / Biesdorfer Baggersee |
 | BE_5800318 | Malchower See / Malchower See |
 | BE_5800320 | Fennpfuhl / Fennpfuhl |
+| BE_5800321 | Jungfernheideteich / Jungfernheideteich |
 | BE_580090 | Bredereiche UP / Obere Havel-Wasserstrasse |
 | BE_580300 | Berlin-Spandau OP / Havel-Oder-Wasserstrasse |
 | BE_5803200 | Tiefwerder / Havel |
@@ -1322,6 +1324,7 @@
 | BY_19145208 | Erlachleiten / Erlau |
 | BY_19168000 | Rannasäge / Ranna |
 | BY_20001001 | Lindau / Bodensee |
+| BY_21491355 | Riegen / Hausbach |
 | BY_21513155 | Scheidegg HRB Beckenpegel / HRB Scheidegg |
 | BY_21514600 | Unterhochsteg / Leiblach |
 | BY_21516505 | Aeschach / Oberreitnauer Ach |
