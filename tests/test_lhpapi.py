@@ -10,7 +10,7 @@ MIN_STAGE = 0
 MAX_STAGE = 4
 
 testdata = [
-    ("BB_5804300", "Ketzin / Havel", True, True, True),
+    ("BB_6602200", "Klein Bademeusel / Lausitzer Neiße", True, True, True),
     ("BE_5866301", "Zoo / Landwehrkanal", True, False, True),
     ("BW_00102", "Rottenburg / Bronnbachquelle", True, True, True),
     ("BY_16005701", "München / Isar", True, True, True),

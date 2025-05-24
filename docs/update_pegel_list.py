@@ -94,7 +94,9 @@ def fix_bb_encoding(string_in: str) -> str:
 def get_bb_stations() -> tuple[str, str]:
     """Get all available stations for Brandenburg."""
     stations = []
-    page = fetch_text("https://pegelportal.brandenburg.de/start.php")
+    page = fetch_text(
+        "https://pegelportal.brandenburg.de/start.php", forced_encoding="ISO-8859-15"
+    )
     lines = page.split("\n")
     start_found = False
     for line in lines:
