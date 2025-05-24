@@ -70,7 +70,10 @@ def init_BB(ident: str) -> StaticData:  # pylint: disable=invalid-name
     """Init data for Brandenburg."""
     try:
         # Get data
-        page = fetch_text("https://pegelportal.brandenburg.de/start.php")
+        page = fetch_text(
+            "https://pegelportal.brandenburg.de/start.php",
+            forced_encoding="ISO-8859-15",
+        )
         lines = page.split("\n")
         # Parse data
         start_found = False
@@ -105,7 +108,10 @@ def update_BB(static_data: StaticData) -> DynamicData:  # pylint: disable=invali
     """Update data for Brandenburg."""
     try:
         # Get data
-        page = fetch_text("https://pegelportal.brandenburg.de/start.php")
+        page = fetch_text(
+            "https://pegelportal.brandenburg.de/start.php",
+            forced_encoding="ISO-8859-15",
+        )
         lines = page.split("\n")
         # Parse data
         start_found = False

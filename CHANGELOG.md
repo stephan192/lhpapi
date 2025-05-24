@@ -1,3 +1,7 @@
+## 1.0.5 (2025-05-24)
+### Fixed
+- Fix BB encoding
+
 ## 1.0.4 (2024-12-24)
 ### Fixed
 - Fix NI invalid values
