@@ -54,7 +54,6 @@
 | BB_5010600 | Dresden / Elbe |
 | BB_5011100 | Riesa / Elbe |
 | BB_5011600 | Mühlberg / Elbe |
-| BB_5012601 | Torgau / Elbe |
 | BB_5020700 | Barby / Elbe |
 | BB_5023500 | Tangermünde / Elbe |
 | BB_5030500 | Wittenberge / Elbe |
@@ -185,7 +184,7 @@
 | BB_5890500 | Rägelsdorf / Rhin |
 | BB_5890601 | Rheinsberg, Wehr Brücke / Rhin |
 | BB_5890801 | Wustrau UP, Steg / Wustrauer Rhin |
-| BB_5891001 | Altfriesack, Wehr OP / Umfluter Schleuse Altfriesack |
+| BB_5891001 | Altfriesack, Umfluter, Wehr OP / Umfluter Schleuse Altfriesack |
 | BB_5891200 | Alt Ruppin, Schleuse OP / Rhin |
 | BB_5891600 | Fehrbellin, Wehr 19 OP / Rhin |
 | BB_5891701 | Fehrbellin, Wehr 19 Wegebrücke / Rhin |
@@ -832,6 +831,7 @@
 | BY_11602480 | Dirlewang HRB Abfluss / Mindel |
 | BY_11605009 | Hasberg / Östliche Mindel |
 | BY_11605202 | Hasberg / Mindel |
+| BY_11606155 | Mindelzell (virtuell) / Mindel mit Östl. Mindel |
 | BY_11606355 | Balzhausen HRB / Mindel |
 | BY_11609000 | Offingen / Mindel |
 | BY_11649004 | Zaisertshofen / Flossach |
@@ -2269,6 +2269,7 @@
 | NW_2746790000100 | Langenich / Neffelbach |
 | NW_2747390000100 | Glesch / Erft |
 | NW_2747900000200 | Neubrueck / Erft |
+| NW_2748900000100 | Weckhoven / Gillbach |
 | NW_27500100 | WSV_Duesseldorf / Rhein |
 | NW_2751270000100 | Kaarst / Nordkanal |
 | NW_2756500000100 | Ratingen / Anger |
@@ -2362,6 +2363,7 @@
 | NW_2789770000100 | Schermbeck_1 / Lippe |
 | NW_2790010 | WSV_Rees / Rhein |
 | NW_2790020 | WSV_Emmerich / Rhein |
+| NW_2796300000100 | Marienbaum / Kalflack |
 | NW_2799222000100 | Kranenburg / Groesbecker-Bach |
 | NW_2818100000200 | Suesterseel / Rodebach |
 | NW_2821530000200 | Monschau / Rur |
@@ -2896,7 +2898,6 @@
 | SH_9570070 | LIST AUF SYLT / Nordsee |
 | SH_9610010 | Flensburg / Ostsee |
 | SH_9610015 | Langballigau / Ostsee |
-| SH_9610020 | LT Kalkgrund / Ostsee |
 | SH_9610025 | Schleimünde SP / Ostsee |
 | SH_9610035 | Kappeln / Schlei |
 | SH_9610040 | Schleswig / Schlei |
