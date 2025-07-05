@@ -292,7 +292,6 @@
 | BB_6943706 | Reitwein, Wehr Triftweg OP / Letschiner Hauptgraben |
 | BB_6943707 | Reitwein, Wehr Triftweg UP / Letschiner Hauptgraben |
 | BB_6943709 | Reitwein, Überleitung UP / Ableiter Überleitung Reitwein |
-| BB_6943900 | Manschnow UP / Letschiner Hauptgraben |
 | BB_6944100 | Golzow / Letschiner Hauptgraben |
 | BB_6944200 | Golzow, Wehr OP / Letschiner Hauptgraben |
 | BB_6944300 | Golzow, Wehr UP / Letschiner Hauptgraben |
@@ -761,6 +760,7 @@
 | BW_09150 | Bieberehren / Gollach |
 | BW_09151 | Wüstenzell / Aalbach |
 | BY_10024000 | Berg / Donau |
+| BY_10026293 | Neu-Ulm / Donau |
 | BY_10026301 | Neu Ulm, Bad Held / Donau |
 | BY_10026302 | Neu Ulm, Bad Held Q / Donau |
 | BY_10032009 | Günzburg u. d. Günzmündung / Donau |
@@ -1558,6 +1558,7 @@
 | BY_56113404 | Förmitz Speicherzufluss / Förmitz |
 | BY_56113700 | Förmitz Seepegel / Förmitztalsperre |
 | BY_56114000 | Förmitz Speicherabfluss / Förmitz |
+| BY_56116002 | Schnepfenmühle / Lamitz |
 | BY_56116005 | Fahrenbühl / Lamitz |
 | BY_56121655 | Rehau / Mähringsbach |
 | BY_56121855 | Rehau / Höllbach |
@@ -1747,6 +1748,7 @@
 | HE_42810204 | Auhammer / Eder |
 | HE_42810205 | Muesse / Eder |
 | HE_42840453 | Dalwigksthal / Orke |
+| HE_42850209 | Dorfitter / Itter |
 | HE_42850650 | Oberwerbe / Werbe |
 | HE_42870057 | Fritzlar / Eder |
 | HE_42880458 | Alsfeld / Schwalm |
@@ -1973,6 +1975,7 @@
 | MV_04770.0 | Tangrim / Tangrimer Bach |
 | MV_04803.5 | Klempenow Straßenbrücke / Tollense |
 | MV_04808.4 | Neubrandenburg/Vierrademühle / Tollense |
+| MV_04808.8 | HW-Meldepegel_NB-T / Tollensesee |
 | MV_04808.9 | Neubrandenburg / Tollensesee (Bogenbr.) |
 | MV_04811.0 | Ivenack / Ivenacker See |
 | MV_04812.2 | Gehmkow / Augraben |
@@ -1982,6 +1985,8 @@
 | MV_04837.0 | Kastorf / Kastorfer See |
 | MV_04840.1 | Warbende / Warbender Mühlbach |
 | MV_04841.2 | Burg Stargard / Lindebach |
+| MV_04841.5 | NB Heidmühle / Linde |
+| MV_04841.8 | HW-Meldepegel_NB-H / Linde |
 | MV_04847.0 | Wanzka / Wanzkaer See |
 | MV_04849.0 | Rödlin / Rödliner See |
 | MV_04850.1 | Grambin / Zarow |
@@ -2249,6 +2254,7 @@
 | NW_2728930000200 | Lohmar / Agger |
 | NW_2729100000100 | Menden_1 / Sieg |
 | NW_2730010 | WSV_Koeln / Rhein |
+| NW_2736135100100 | Egerpohl / Wupper |
 | NW_2736510000100 | Kluserbruecke / Wupper |
 | NW_2736510000300 | Buchenhofen / Wupper |
 | NW_2736731000100 | Glueder / Wupper |
@@ -2416,6 +2422,7 @@
 | NW_3113000000100 | Steinhorst / Ems |
 | NW_3119000000200 | Rheda / Ems |
 | NW_3125000000100 | Avenwedde / Dalkebach |
+| NW_3128100000100 | Kaunitz / Wapelbach |
 | NW_3128490000100 | Verl / Ölbach |
 | NW_3132900000100 | Marienfeld_W / Lutter |
 | NW_3166000000100 | Versmold_W / Hessel |
@@ -2441,8 +2448,6 @@
 | NW_4281490000100 | Raumland / Odeborn |
 | NW_4281591000100 | Beddelhausen / Eder |
 | NW_4284170000100 | Medelon_W / Orke |
-| NW_43 | Düsseldorf-Flehe / Rhein |
-| NW_43100056 | Datteln-Hötting_Schleuse_NRW / Wesel Datteln Kanal |
 | NW_43100109 | WSV_Hann-Muenden / Weser |
 | NW_43900105 | WSV_Wahmbeck / Weser |
 | NW_4427000000100 | Bredelar / Hoppecke |
@@ -2490,6 +2495,7 @@
 | NW_9284590000200 | Stadtlohn Schanzring / Berkel |
 | NW_9284730000100 | Ammeloe / Berkel |
 | NW_9285291000100 | Haarmuehle / Ahauser Aa |
+| NW_9286139100100 | Schöppingen / Vechte |
 | NW_9286190000100 | Bilk / Vechte |
 | NW_9286270000100 | Temmingsmuehle / Steinfurter Aa |
 | NW_9286291000300 | Wettringen_B70 / Steinfurter Aa |
@@ -3304,6 +3310,7 @@
 | ST_579205 | Tanne / Warme Bode |
 | ST_579209 | Königshütte-WB / Warme Bode |
 | ST_579305 | Elend / Kalte Bode |
+| ST_5793052 | Elend 1 / Kalte Bode |
 | ST_579330 | Königshütte-KB / Kalte Bode |
 | ST_579405 | Trautenstein / Rappbode |
 | ST_579504 | Hasselfelde / Hassel |
