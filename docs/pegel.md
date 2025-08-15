@@ -899,7 +899,7 @@
 | BY_12483100 | Langerringen Hochwasserlauf / Singold Hochwasserlauf |
 | BY_13123995 | Winkl / Verlorener Bach |
 | BY_13191030 | Rennertshofen / Ussel |
-| BY_13200609 | Putzmühle HRB Beckenpegel / HRB PutzmÃ¼hle |
+| BY_13200609 | Putzmühle HRB Beckenpegel / HRB Putzmühle |
 | BY_13200700 | Putzmühle HRB Ablauf / Paar |
 | BY_13201000 | Mering / Paar |
 | BY_13202003 | Dasing / Paar |
@@ -1102,6 +1102,7 @@
 | BY_16427702 | Partenkirchen TÜ / Kanker |
 | BY_16427703 | Partenkirchen TÜ Q / Kanker |
 | BY_16427955 | Partenkirchen Badgasse / Kankerbach |
+| BY_16432000 | Burgrain / Lahnenwiesgraben |
 | BY_16436055 | Eschenlohe / Eschenlaine |
 | BY_16438055 | Hechendorf / Ramsach |
 | BY_16455005 | Dürnhausen / Lothdorfer Bach |
@@ -1189,7 +1190,7 @@
 | BY_17406005 | Kalteneck / Ilz |
 | BY_17413000 | Taferlruck / Große Ohe |
 | BY_17415006 | Schönberg / Große Ohe |
-| BY_17418004 | Rachel Diensthütte / Markungsgraben |
+| BY_17418004 | Rachel-Diensthütte / Markungsgraben |
 | BY_17425000 | Eberhardsreuth / Mitternacher Ohe |
 | BY_17445007 | Grafenau / Kleine Ohe |
 | BY_17464001 | Fürsteneck / Wolfsteiner Ohe |
@@ -2231,6 +2232,7 @@
 | NW_2718193000100 | Neuhof / Ahr |
 | NW_2719490000100 | Niederbachem / Mehlemer Bach |
 | NW_27200500 | Betzdorf (Rheinland-Pfalz) / Sieg |
+| NW_2721330000100 | Obernetphen / Sieg |
 | NW_2721390000100 | Weidenau / Sieg |
 | NW_2721459000100 | Kreuztal / Ferndorfbach |
 | NW_2721490000100 | Weidenau2 / Ferndorfbach |
@@ -2382,7 +2384,7 @@
 | NW_2821890000100 | Einruhr / Erkensruhr |
 | NW_2822700000200 | Kall-Sportplatz / Urft |
 | NW_2822849000100 | Hellenthal / Platißbach |
-| NW_2822867000200 | Reifferscheid2 / Reifferscheiderbach |
+| NW_28228671 | Reifferscheid2 / Reifferscheiderbach |
 | NW_2822870000100 | Schleiden / Olef |
 | NW_2822900000200 | Gemuend / Urft |
 | NW_2823100000100 | RurbergVA / Weidenbach |
@@ -2455,6 +2457,7 @@
 | NW_4281490000100 | Raumland / Odeborn |
 | NW_4281591000100 | Beddelhausen / Eder |
 | NW_4284170000100 | Medelon_W / Orke |
+| NW_43 | Duesseldorf-Flehe / Rhein |
 | NW_43100109 | WSV_Hann-Muenden / Weser |
 | NW_43900105 | WSV_Wahmbeck / Weser |
 | NW_4427000000100 | Bredelar / Hoppecke |
