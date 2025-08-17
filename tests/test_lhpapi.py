@@ -17,7 +17,7 @@ testdata = [
     ("HB_4970010", "Elsfleth / Weser", True, True, False),
     ("HE_42881552", "Treysa / Schwalm", True, True, True),
     ("HH_99256", "Rahmoor / Tarpenbek", True, True, False),
-    ("MV_59599.0", "Buchholz / Elde", True, True, True),
+    ("MV_04443.1", "Dobbin / Nebel", True, True, True),
     ("NI_4885154", "Poppenburg / Leine", True, True, False),
     ("NW_4433000000100", "Westheim / Diemel", True, True, False),
     ("RP_23900200", "Worms / Rhein", True, True, True),
