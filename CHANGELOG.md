@@ -1,3 +1,7 @@
+## 1.0.6 (2025-05-24)
+### Added
+- Added a new CLI tool `pegel` to fetch data annd output it in JSON format.
+
 ## 1.0.5 (2025-05-24)
 ### Fixed
 - Fix BB encoding
