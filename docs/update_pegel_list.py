@@ -315,7 +315,15 @@ def get_rp_stations() -> tuple[str, str]:
     for key in measurementsites:
         site = measurementsites[key]
         ident = "RP_" + site["number"]
-        name = site["name"] + " / " + rivers[site["rivers"][0]]["name"]
+        if site["type"] == "default":
+            name = site["name"] + " / " + rivers[site["rivers"][0]]["name"]
+        elif site["type"] == "municipal":
+            if site["riverMunicipalName"] is not None:
+                name = site["name"] + " / " + site["riverMunicipalName"]
+            else:
+                name = site["name"]
+        else:
+            continue
         stations.append((ident, name))
     return stations
 

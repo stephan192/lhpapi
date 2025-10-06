@@ -26,19 +26,22 @@ def init_RP(ident: str) -> StaticData:  # pylint: disable=invalid-name
         for key in measurementsites:
             site = measurementsites[key]
             if site["number"] == ident[3:]:
-                name = site["name"] + " / " + rivers[site["rivers"][0]]["name"]
+                url = "https://www.hochwasser.rlp.de/"
+                if site["type"] == "default":
+                    name = site["name"] + " / " + rivers[site["rivers"][0]]["name"]
+                    url = url + "flussgebiet/"
+                elif site["type"] == "municipal":
+                    if site["riverMunicipalName"] is not None:
+                        name = site["name"] + " / " + site["riverMunicipalName"]
+                    else:
+                        name = site["name"]
+                else:
+                    continue
                 url = (
-                    "https://www.hochwasser.rlp.de/flussgebiet/"
-                    + riverareas[str(site["riverAreas"][0])]["name"].lower()
+                    url
+                    + riverareas[str(site["riverAreas"][0])]["slug"]
                     + "/"
-                    + site["name"]
-                    .replace(" ", "-")
-                    .replace(",", "")
-                    .replace("ß", "ss")
-                    .replace("ä", "ae")
-                    .replace("ö", "oe")
-                    .replace("ü", "ue")
-                    .lower()
+                    + site["slug"]
                 )
                 try:
                     stage_levels = [None] * 4

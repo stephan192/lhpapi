@@ -1,3 +1,7 @@
+## 1.0.6 (2025-10-06)
+### Fixed
+- Fix RP name and url generation
+
 ## 1.0.5 (2025-05-24)
 ### Fixed
 - Fix BB encoding
