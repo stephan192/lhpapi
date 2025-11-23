@@ -1,3 +1,7 @@
+## 1.0.7 (2025-11-23)
+### Fixed
+- Fix HE without flow
+
 ## 1.0.6 (2025-10-06)
 ### Fixed
 - Fix RP name and url generation
