@@ -411,7 +411,7 @@ def get_th_stations() -> tuple[str, str]:
     trs = tbody.find_all("tr")
     for row in trs:
         tds = row.find_all("td")
-        if len(tds) > 10:
+        if len(tds) > 3:
             ident = "TH_" + tds[1].getText().strip()
             name = tds[2].getText().strip() + " / " + tds[3].getText().strip()
             stations.append((ident, name))

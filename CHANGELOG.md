@@ -1,3 +1,7 @@
+## 1.0.8 (2025-12-09)
+### Fixed
+- Fix TH pegel page scraping
+
 ## 1.0.7 (2025-11-23)
 ### Fixed
 - Fix HE without flow
