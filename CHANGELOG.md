@@ -1,3 +1,7 @@
+## 1.0.9 (2025-12-16)
+### Fixed
+- Fix SH pegel page scraping
+
 ## 1.0.8 (2025-12-09)
 ### Fixed
 - Fix TH pegel page scraping
