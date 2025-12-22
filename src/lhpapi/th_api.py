@@ -23,7 +23,7 @@ def init_TH(ident: str) -> StaticData:  # pylint: disable=invalid-name
         # Parse data
         for row in trs:
             tds = row.find_all("td")
-            if len(tds) > 10:
+            if len(tds) > 3:
                 if tds[1].getText().strip() != ident[3:]:
                     continue
                 links = tds[1].find_all("a")
@@ -49,10 +49,10 @@ def update_TH(static_data: StaticData) -> DynamicData:  # pylint: disable=invali
         # Parse data
         for row in trs:
             tds = row.find_all("td")
-            if len(tds) > 10:
+            if len(tds) > 11:
                 if tds[1].getText().strip() != static_data.ident[3:]:
                     continue
-                if str(tds[6]).find("Hochwassermeldepegel") != -1:
+                if str(tds[7]).find("Hochwassermeldepegel") != -1:
                     if "w3-purple" in row["class"]:
                         stage = 4
                     elif "w3-red" in row["class"]:
@@ -66,10 +66,10 @@ def update_TH(static_data: StaticData) -> DynamicData:  # pylint: disable=invali
                 else:
                     stage = None
                 last_update = convert_to_datetime(
-                    tds[7].getText().strip(), "%d.%m.%Y %H:%M"
+                    tds[8].getText().strip(), "%d.%m.%Y %H:%M"
                 )
-                level = convert_to_float(tds[8].getText().strip(), True)
-                flow = convert_to_float(tds[10].getText().strip(), True)
+                level = convert_to_float(tds[9].getText().strip(), True)
+                flow = convert_to_float(tds[11].getText().strip(), True)
                 return DynamicData(
                     level=level, stage=stage, flow=flow, last_update=last_update
                 )

@@ -94,6 +94,8 @@ def init_HE(ident: str) -> StaticData:  # pylint: disable=invalid-name
 def update_HE(static_data: StaticData) -> DynamicData:  # pylint: disable=invalid-name
     """Update data for Hessen."""
     try:
+        level = None
+        stage = None
         last_update_str_w = None
         try:
             # Get data
@@ -109,6 +111,7 @@ def update_HE(static_data: StaticData) -> DynamicData:  # pylint: disable=invali
             level = None
             stage = None
 
+        flow = None
         last_update_str_q = None
         try:
             # Get data

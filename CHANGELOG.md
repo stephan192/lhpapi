@@ -1,6 +1,22 @@
-## 1.0.6 (2025-05-24)
+## 1.0.10 (2025-12-22)
 ### Added
 - Added a new CLI tool `pegel` to fetch data annd output it in JSON format.
+
+## 1.0.9 (2025-12-18)
+### Fixed
+- Fix SH pegel page scraping
+
+## 1.0.8 (2025-12-09)
+### Fixed
+- Fix TH pegel page scraping
+
+## 1.0.7 (2025-11-23)
+### Fixed
+- Fix HE without flow
+
+## 1.0.6 (2025-10-06)
+### Fixed
+- Fix RP name and url generation
 
 ## 1.0.5 (2025-05-24)
 ### Fixed
