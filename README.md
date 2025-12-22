@@ -9,13 +9,16 @@ pip install lhpapi
 ## Usage
 
 ### Quickstart example
+
+#### API
+
 Get values for the Isar in Munich
 ```
 from lhpapi import HochwasserPortalAPI, LHPError
 
 try:
     api = HochwasserPortalAPI("BY_16005701")
-    
+
     print(f"ident:\t\t{api.ident}")
     print(f"name:\t\t{api.name}")
     print(f"url:\t\t{api.url}")
@@ -40,43 +43,63 @@ flow:           73.6 m³/s
 last_update:    2024-03-01 21:15:00+00:00
 ```
 
+#### CLI
+
+Same as above, but using the CLI:
+
+```
+pegel BY_16005701
+[
+  {
+    "ident": "BY_16005701",
+    "name": "M\u00fcnchen / Isar",
+    "url": "https://www.hnd.bayern.de/pegel/isar/muenchen-16005701",
+    "hint": null,
+    "level": 120.0,
+    "stage": 0,
+    "flow": 73.6,
+    "last_update": "2024-03-01 21:15:00+00:00"
+  }
+]
+```
+
 ### Detailed description
 **Methods:**
-- **`__init__(ident: str)`**  
+- **`__init__(ident: str)`**
   Create a new LHP API class instance
-  
+
   The `ident` must be one of the stream gauges (`Pegel`) listed in [pegel.md](https://github.com/stephan192/lhpapi/blob/master/docs/pegel.md). Some stream gauges are listed twice or even more often in [pegel.md](https://github.com/stephan192/lhpapi/blob/master/docs/pegel.md), because they are listed on more than one state portal. Select the one of your choice.
-  
+
   Method `update()` is automatically called at the end of a successfull init.
 
-- **`update()`**  
+- **`update()`**
   Update data by querying the LHP servers and parsing the result
-  
+
   Function should be called regularly, e.g. every 15minutes, to update the data stored in the class attributes.
 
 **Attributes (read only):**
-- **`ident : str`**  
+- **`ident : str`**
   The identifier of the selected stream gauge
 
-- **`name : str`**  
+- **`name : str`**
   The name of the selected stream gauge
 
-- **`url : str`**  
+- **`url : str`**
   An URL pointing to additional information about the selected stream gauge
 
-- **`hint : str`**  
+- **`hint : str`**
   A hint reported for the the selected stream gauge
 
-- **`level : float`**  
+- **`level : float`**
   The actual water level (in German *Pegelstand* or colloquially *Wasserstand*). A value in centimetres, starting from 0 cm = *Pegelnullpunktshöhe*.
-  
-- **`stage : int`**  
+
+- **`stage : int`**
   The actual warning stage (in German depending on ferderal state e.g. *Meldestufe* in Bavaria, *Alarmstufe* in Brandenburg). A number between 0 (=no flood) and 4 (= very large flood).
 
-- **`flow : float`**  
+- **`flow : float`**
   The actual flow rate (in German *Abfluss* or *Durchfluss*). A value in m³/s.
 
-- **`last_update : datetime`**  
+- **`last_update : datetime`**
   A datetime object representing the last update
 
 

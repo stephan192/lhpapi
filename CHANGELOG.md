@@ -1,3 +1,7 @@
+## 1.0.10 (2025-12-22)
+### Added
+- Added a new CLI tool `pegel` to fetch data annd output it in JSON format.
+
 ## 1.0.9 (2025-12-18)
 ### Fixed
 - Fix SH pegel page scraping
