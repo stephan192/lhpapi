@@ -1910,7 +1910,7 @@
 | MV_04478.0 | Goldberg / Mildenitz |
 | MV_04479.0 | Goldberg / Goldberger See |
 | MV_04490.0 | Sülten / Brüeler Bach |
-| MV_04491.1 | Keez / Keezer See |
+| MV_04491.1 | Häven / Keezer See |
 | MV_04492.0 | Langen Jarchow / Neuhofer See |
 | MV_04495.0 | Warin / Wariner See |
 | MV_04496.0 | Klein Labenz / Groß Labenzer See |
@@ -1996,10 +1996,12 @@
 | MV_04831.2 | Neubrandenburg NO / Datze |
 | MV_04835.1 | Zirzow / Malliner Wasser |
 | MV_04837.0 | Kastorf / Kastorfer See |
+| MV_04837.2 | Penzlin / Großer Stadtsee |
 | MV_04840.1 | Warbende / Warbender Mühlbach |
 | MV_04841.2 | Burg Stargard / Lindebach |
 | MV_04841.5 | NB Heidmühle / Linde |
 | MV_04841.8 | HW-Meldepegel_NB-H / Linde |
+| MV_04845.2 | Usadel / Nonnenbach |
 | MV_04847.0 | Wanzka / Wanzkaer See |
 | MV_04849.0 | Rödlin / Rödliner See |
 | MV_04850.1 | Grambin / Zarow |
@@ -2041,6 +2043,7 @@
 | MV_580070 | Fürstenberg UP / Obere Havel-Wasserstrasse |
 | MV_580080 | Bredereiche OP / Obere Havel-Wasserstrasse |
 | MV_580090 | Bredereiche UP / Obere Havel-Wasserstrasse |
+| MV_58031.1 | Dalmsdorf / Käbelicksee |
 | MV_58036.0 | Zwenzow Straßenbrücke / Havel |
 | MV_58040.0 | Fürstensee / Fürstenseer See |
 | MV_58043.0 | Herzwolde / Lutow See |
@@ -2286,6 +2289,7 @@
 | NW_2741490000200 | Moeschemer-Muehle / Eschweiler Bach |
 | NW_2741500000100 | Arloff / Erft |
 | NW_2741870000100 | Burg_Veynau / Veybach |
+| NW_2742310000100 | Meckenheim / Swistbach |
 | NW_2742510000100 | Morenhoven / Swistbach |
 | NW_2742990000200 | Weilerswist / Swistbach |
 | NW_2743000000100 | Bliesheim / Erft |
@@ -2453,6 +2457,7 @@
 | NW_3128490000100 | Verl / Ölbach |
 | NW_3132900000100 | Marienfeld_W / Lutter |
 | NW_3134510000100 | Brockhagen / Abrooksbach |
+| NW_3147110000100 | Beelen / Axtbach |
 | NW_3153900000100 | Warendorf / Ems |
 | NW_3166000000100 | Versmold_W / Hessel |
 | NW_3169000000100 | Milte / Hessel |
@@ -2941,7 +2946,6 @@
 | SH_9570070 | LIST AUF SYLT / Nordsee |
 | SH_9610010 | Flensburg / Ostsee |
 | SH_9610015 | Langballigau / Ostsee |
-| SH_9610025 | Schleimünde SP / Ostsee |
 | SH_9610035 | Kappeln / Schlei |
 | SH_9610040 | Schleswig / Schlei |
 | SH_9610045 | Eckernförde / Ostsee |
