@@ -706,6 +706,8 @@
 | BW_00381 | HRB Urlau-Mönch / Eschach |
 | BW_00389 | Ebnet / Dreisam |
 | BW_00394 | Oppenweiler / Murr |
+| BW_00396 | Bopfingen Stadion / Eger |
+| BW_00399 | Sulzbach / Lauter |
 | BW_00415 | Rastatt Hindenburgbrücke / Murg |
 | BW_00416 | Rheinhausen BW6_16 / Altrheinzug |
 | BW_00417 | Rheinhausen PW / Altrheinzug |
@@ -840,7 +842,7 @@
 | BY_11605009 | Hasberg / Östliche Mindel |
 | BY_11605202 | Hasberg / Mindel |
 | BY_11606155 | Mindelzell (virtuell) / Mindel mit Östl. Mindel |
-| BY_11606355 | Balzhausen HRB / Mindel |
+| BY_11606355 | Balzhausen HRB Ablauf / Mindel |
 | BY_11609000 | Offingen / Mindel |
 | BY_11649004 | Zaisertshofen / Flossach |
 | BY_11649255 | Balzhausen HRB / HW-Lauf Hasel |
@@ -1176,6 +1178,7 @@
 | BY_16827008 | Operding / Hammerbach |
 | BY_16899009 | Tiefenbach / Tiefenbach |
 | BY_16924707 | Altdorf / Pfettrach |
+| BY_16964995 | Wallersdorf (neu) / Reißinger Bach |
 | BY_16965001 | Wallersdorf / Reißingerbach |
 | BY_17125006 | Auerbach / Hengersberger Ohe |
 | BY_17131055 | Neusling / Neuslinger Graben |
@@ -1906,7 +1909,7 @@
 | MV_04469.0 | Klein Pritz / Klein Pritzer See |
 | MV_04471.0 | Woserin / Woseriner See |
 | MV_04473.0 | Dobbertin / Dobbertiner See |
-| MV_04477.0 | Neu Damerow / Damerower See |
+| MV_04477.1 | Sandhof / Damerower See |
 | MV_04478.0 | Goldberg / Mildenitz |
 | MV_04479.0 | Goldberg / Goldberger See |
 | MV_04490.0 | Sülten / Brüeler Bach |
