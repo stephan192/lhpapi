@@ -82,7 +82,7 @@ def init_NW(ident: str) -> StaticData:  # pylint: disable=invalid-name
     """Init data for Nordrhein-Westfalen."""
     try:
         # Get stations data
-        (name, internal_url, url) = get_basic_station_data(ident)
+        name, internal_url, url = get_basic_station_data(ident)
         # Get stage levels and hint
         if internal_url is not None:
             stage_levels = get_stage_levels(internal_url)
