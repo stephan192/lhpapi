@@ -80,7 +80,7 @@ def init_HB(ident: str) -> StaticData:  # pylint: disable=invalid-name
         stations = stations_string.split(",")
         stations_names = [station.replace('"', "") for station in stations]
         # Parse data - Collect data from PegelOnline
-        (station_name, name, internal_url, url) = get_basic_station_data(
+        station_name, name, internal_url, url = get_basic_station_data(
             ident, stations_names
         )
         # Parse data - Collect stage levels from Pegelstände Bremen

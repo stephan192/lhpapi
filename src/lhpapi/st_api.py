@@ -80,7 +80,7 @@ def init_ST(ident: str) -> StaticData:  # pylint: disable=invalid-name
     """Init data for Sachsen-Anhalt."""
     try:
         # Get Stations Data
-        (name, internal_url, url, hint) = get_basic_station_data(ident)
+        name, internal_url, url, hint = get_basic_station_data(ident)
         if internal_url is not None:
             stage_levels = get_stage_levels(internal_url)
         else:
