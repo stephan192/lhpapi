@@ -84,6 +84,7 @@
 | BB_5800509 | Peetschsee, Steinförde / Seen |
 | BB_580080 | Bredereiche OP / Havel |
 | BB_5802600 | Sachsenhausen, Sohlabsturz / Havel |
+| BB_5804101 | Potsdam, Seestr. / Hasengraben |
 | BB_580430 | Ketzin / Havel |
 | BB_580440 | Brandenburg OP / Havel |
 | BB_580450 | Brandenburg UP / Havel |
@@ -1799,7 +1800,7 @@
 | HH_99006 | Herrenhausallee / Ammersbek |
 | HH_99007 | Vogt-Kölln-Straße / Kollau |
 | HH_99014 | Wohldorfer Damm / Bredenbek |
-| HH_99019 | Poppenbütteler Hauptstraße / Mellingbek |
+| HH_99019 | Poppenbüttler Hauptstraße / Mellingbek |
 | HH_99020 | Bergstedter Chaussee / Saselbek |
 | HH_99021 | Schleuse Poppenbüttel / Alster |
 | HH_99023 | Teetzparkweg / Susebek |
@@ -1812,12 +1813,12 @@
 | HH_99109 | Nordschleswiger Straße / Osterbek |
 | HH_99121 | Fünfhausener Landweg / Fünfhausener Landwegwettern |
 | HH_99136 | Olloweg / Mühlenau |
-| HH_99137 | Billstedter Hauptstraße / Schleemer Bach |
+| HH_99137 | Billstedter Hauptsraße / Schleemer Bach |
 | HH_99154 | Niendorfer Weg / Tarpenbek |
 | HH_99182 | Pollhof / Alte Brookwetterung |
 | HH_99210 | Bramfelder Straße / Seebek |
 | HH_99256 | Rahmoor / Tarpenbek |
-| HH_99304 | Krohnstieg / Tarpenbek(RHB Krohnstieg) |
+| HH_99304 | Krohnstieg (RHB) / Tarpenbek |
 | HH_99306 | An der Steinbek / Glinder Au |
 | HH_99328 | Torfhuder Stieg / Ammersbek |
 | HH_99329 | Berner Heerweg / Berner Au |
@@ -1881,6 +1882,7 @@
 | MV_04413.1 | Gustävel / Warnow |
 | MV_04414.0 | Barnin / Barniner See |
 | MV_04415.0 | Godern / Pinnower See |
+| MV_04416.1 | Kladrum / Warnow |
 | MV_04421.0 | Rostock Schmarl / Schmarler Bach |
 | MV_04422.0 | Mönchhagen / Peezer Bach |
 | MV_04423.2 | Kessin / Kösterbeck |
@@ -1902,6 +1904,7 @@
 | MV_04455.2 | Liessow / Augraben |
 | MV_04455.5 | Dehmen / Augraben |
 | MV_04456.0 | Dolgen / Dolgener See |
+| MV_04457.0 | Gülzow / Krebssee |
 | MV_04459.0 | Tolzin / Kuhlensee |
 | MV_04460.1 | Klueß / Lößnitz |
 | MV_04465.0 | Sternberger Burg / Mildenitz |
@@ -2280,7 +2283,7 @@
 | NW_2736135100100 | Egerpohl / Wupper |
 | NW_2736510000100 | Kluserbruecke / Wupper |
 | NW_2736510000300 | Buchenhofen / Wupper |
-| NW_27366330000100 | Remscheid / Morsbach |
+| NW_2736633000100 | Remscheid / Morsbach |
 | NW_2736731000100 | Glueder / Wupper |
 | NW_2736790000 | Opladen_Güte / Wupper |
 | NW_2736790000200 | Opladen / Wupper |
@@ -2297,6 +2300,7 @@
 | NW_2742990000200 | Weilerswist / Swistbach |
 | NW_2743000000100 | Bliesheim / Erft |
 | NW_2744910000100 | Friesheim / Rotbach |
+| NW_2745400000100 | Bliesheim_2 / Liblarer Mühlengraben |
 | NW_2746310000100 | Bessenich / Neffelbach |
 | NW_2746790000100 | Langenich / Neffelbach |
 | NW_2747390000100 | Glesch / Erft |
@@ -2316,7 +2320,7 @@
 | NW_2761895000100 | Mueschede / Röhr |
 | NW_2761990000200 | Neheim3 / Ruhr |
 | NW_2762510000100 | Belecke_1 / Möhne |
-| NW_2762510000300 | Belecke3 / Bormelsbach |
+| NW_2762510000300 | Belecke3 / Mühlengraben |
 | NW_2763190000100 | Bachum / Ruhr |
 | NW_2764190000100 | Balve-Garbeck / Hönne |
 | NW_2764511000100 | Balve_Helle / Hönne |
@@ -3310,6 +3314,7 @@
 | ST_575970 | Thalwinkel / Biberbach |
 | ST_576000 | Mertendorf / Wethau |
 | ST_576100 | Rippach / Rippach |
+| ST_576201 | Geiseltalsee - Seepegel / Geiseltalsee |
 | ST_576210 | Frankleben / Geisel |
 | ST_576470 | Greiz / Weiße Elster |
 | ST_576520 | Gera-Langenberg / Weiße Elster |
@@ -3328,8 +3333,8 @@
 | ST_578310 | Zappendorf / Salza |
 | ST_578350 | Unterrißdorf / Böse Sieben |
 | ST_578362 | Süßer See - Seepegel Südschleuse / Süßer See Ablauf |
-| ST_578370 | Querfurt / Querne-Weida |
-| ST_578380 | Stedten / Querne-Weida |
+| ST_578370 | Querfurt / Querne |
+| ST_578380 | Stedten / Weida |
 | ST_578390 | Friedeburg / Schlenze |
 | ST_5784001 | VS Wippra Zulaufpegel / Wipper |
 | ST_5784003 | VS Wippra Ablaufpegel / Wipper |
@@ -3365,6 +3370,7 @@
 | ST_579610 | Meisdorf / Selke |
 | ST_579620 | Hausneindorf / Selke |
 | ST_579652 | Pfeifenkrug / Goldbach |
+| ST_579703 | Hanneckenbruch / Holtemme |
 | ST_579705 | Steinerne Renne / Holtemme |
 | ST_5797051 | Steinerne Renne 1 / Holtemme |
 | ST_579712 | Mahndorf / Holtemme |
@@ -3428,6 +3434,7 @@
 | ST_597205 | Tylsen / Salzwedeler Dumme |
 | ST_597208 | Salzwedel-Dumme / Salzwedeler Dumme |
 | ST_597570 | Ziessau / Arendsee |
+| TH_24168.0 | Autenhausen / Kreck |
 | TH_25240.1 | Steinach / Steinach |
 | TH_25245.0 | Mupperg / Steinach |
 | TH_42000.1 | Eisfeld Bahnbrücke / Werra |
