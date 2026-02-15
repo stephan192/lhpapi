@@ -40,6 +40,7 @@
 | BB_152140010 | Bielinek / Oder |
 | BB_152140020 | Gozdowice / Oder |
 | BB_152140050 | Słubice / Oder |
+| BB_152140060 | Kostrzyn Nad Odrą Odra / Oder |
 | BB_152140070 | Kostrzyn Nad Odrą / Warta |
 | BB_152140090 | Biała Góra / Oder |
 | BB_152140130 | Połęcko / Oder |
@@ -2121,7 +2122,7 @@
 | MV_9650043 | Stralsund / Ostsee |
 | MV_9650070 | Stahlbrode / Ostsee |
 | MV_9650073 | Greifswald Wiek / Ostsee |
-| MV_9650080 | Wolgast / Ostsee |
+| MV_9650080 | Wolgast / Kleines Haff |
 | MV_9660001 | Anklam / Peene |
 | MV_9660005 | Jarmen / Peene |
 | MV_9660007 | Demmin / Peene |
@@ -2134,7 +2135,7 @@
 | MV_9670067 | Thiessow / Ostsee |
 | MV_9690078 | Greifswald OIE / Ostsee |
 | MV_9690084 | Karnin / Kleines Haff |
-| MV_9690085 | Karlshagen / Ostsee |
+| MV_9690085 | Karlshagen / Kleines Haff |
 | MV_9690088 | Ueckermünde / Kleines Haff |
 | MV_9690093 | Koserow / Ostsee |
 | NI_10110 | Salzderhelden / Leine |
@@ -2158,8 +2159,12 @@
 | NI_4569105 | Bad Pyrmont / Emmer |
 | NI_4569106 | Welsede / Emmer |
 | NI_4589101 | Uchtdorf / Exter |
+| NI_4765103 | Ströhen / Große Aue |
 | NI_4767109 | Heide OP / Große Aue |
+| NI_4768111 | Sieden / Siede |
 | NI_4769112 | Steyerberg / Große Aue |
+| NI_4781106 | Wilhelmstein / Steinhuder Meer |
+| NI_4785101 | Schessinghausen / Steinhuder Meerbach |
 | NI_4813105 | Grafhorst 1 / Aller |
 | NI_4813107 | Grafhorst 2 / Aller |
 | NI_4816123 | Neudorf-Platendorf / Ise |
@@ -2204,6 +2209,8 @@
 | NI_4888121 | Rodenberg / Rodenberger Aue |
 | NI_4888139 | Wunstorf / Westaue |
 | NI_4894119 | Brock / Böhme |
+| NI_4921109 | Sudweyhe / Süstedter Bach |
+| NI_4922106 | Steimke H / Hache |
 | NI_4926109 | Kirchseelte II / Klosterbach |
 | NI_4928107 | Holzkamp / Delme |
 | NI_4941115 | Lauenbrück F / Fintau |
@@ -2212,6 +2219,9 @@
 | NI_4945108 | Hellwege / Wümme |
 | NI_4946105 | Grasberg / Wörpe |
 | NI_4961125 | Schäferhof / Hunte |
+| NI_4961130 | Dümmer-Ost / Dümmer |
+| NI_4961133 | Eickhöpen / Lohne |
+| NI_4963101 | Hoopen OP / Hunte |
 | NI_4964115 | Düste / Wagenfelder Aue |
 | NI_4965116 | Colnrade / Hunte |
 | NI_4965142 | Huntlosen II / Hunte |
@@ -2577,7 +2587,7 @@
 | RP_1034232170 | Philippsheim Kahlenbach / Kahlenbach |
 | RP_1034232180 | Geichlingen / Geichlingerbach |
 | RP_1034232190 | Hüttingen bei Lahr |
-| RP_1034232200 | Hickershausen / Mannerbach |
+| RP_1034232200 | Hickeshausen / Mannerbach |
 | RP_1034232210 | Irrhausen / Irsen |
 | RP_1034232220 | Sevenig (Our) / Irsen |
 | RP_1034232230 | Machtemesmühle / Irsen |
