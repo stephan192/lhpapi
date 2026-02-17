@@ -4,11 +4,13 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from datetime import UTC, datetime
+from json import JSONDecodeError
 from typing import Any
 from zoneinfo import ZoneInfo
 
 from bs4 import BeautifulSoup
 from requests import get
+from requests.exceptions import RequestException
 
 
 class LHPError(Exception):
@@ -20,6 +22,10 @@ class LHPError(Exception):
             super().__init__(f"{location}: {exception}")
         else:
             super().__init__(f"{location}: {exception.__class__.__name__}: {exception}")
+
+
+class FetchError(Exception):
+    """ "Exception occurred while fetching data via requests."""
 
 
 @dataclass
@@ -46,22 +52,28 @@ class DynamicData:
 
 def fetch_json(url: str, timeout: float = 10.0) -> Any:
     """Fetch data via json."""
-    response = get(url=url, timeout=timeout)
-    response.raise_for_status()
-    json_data = response.json()
-    return json_data
+    try:
+        response = get(url=url, timeout=timeout)
+        response.raise_for_status()
+        json_data = response.json()
+        return json_data
+    except (RequestException, JSONDecodeError) as err:
+        raise FetchError(err) from err
 
 
 def fetch_text(url: str, timeout: float = 10.0, forced_encoding: str = None) -> str:
     """Fetch data via text."""
-    response = get(url=url, timeout=timeout)
-    if forced_encoding is not None:
-        response.encoding = forced_encoding
-    else:
-        # Override encoding by real educated guess (required for e.g. BW)
-        response.encoding = response.apparent_encoding
-    response.raise_for_status()
-    return response.text
+    try:
+        response = get(url=url, timeout=timeout)
+        if forced_encoding is not None:
+            response.encoding = forced_encoding
+        else:
+            # Override encoding by real educated guess (required for e.g. BW)
+            response.encoding = response.apparent_encoding
+        response.raise_for_status()
+        return response.text
+    except RequestException as err:
+        raise FetchError(err) from err
 
 
 def fetch_soup(

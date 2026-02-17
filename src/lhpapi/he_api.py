@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from .api_utils import (
     DynamicData,
+    FetchError,
     LHPError,
     StaticData,
     calc_stage,
@@ -51,22 +52,25 @@ def get_basic_station_data(ident: str) -> tuple[str, str, str, str]:
 def get_stage_levels(internal_url: str) -> list[float]:
     """Get stage levels."""
     stage_levels = [None] * 4
-    alarmlevels = fetch_json(internal_url + "/W/alarmlevel.json")
-    for station_data in alarmlevels:
-        if (
-            "ts_name" in station_data
-            and "data" in station_data
-            and isinstance(station_data["data"], list)
-            and len(station_data["data"]) > 0
-        ):
-            # Check if ts_name is one of the desired values
-            if station_data["ts_name"] == "Meldestufe1":
-                stage_levels[0] = convert_to_float(station_data["data"][-1][1])
-            elif station_data["ts_name"] == "Meldestufe2":
-                stage_levels[1] = convert_to_float(station_data["data"][-1][1])
-            # No equivalent to stage_levels[2] available
-            elif station_data["ts_name"] == "Meldestufe3":
-                stage_levels[3] = convert_to_float(station_data["data"][-1][1])
+    try:
+        alarmlevels = fetch_json(internal_url + "/W/alarmlevel.json")
+        for station_data in alarmlevels:
+            if (
+                "ts_name" in station_data
+                and "data" in station_data
+                and isinstance(station_data["data"], list)
+                and len(station_data["data"]) > 0
+            ):
+                # Check if ts_name is one of the desired values
+                if station_data["ts_name"] == "Meldestufe1":
+                    stage_levels[0] = convert_to_float(station_data["data"][-1][1])
+                elif station_data["ts_name"] == "Meldestufe2":
+                    stage_levels[1] = convert_to_float(station_data["data"][-1][1])
+                # No equivalent to stage_levels[2] available
+                elif station_data["ts_name"] == "Meldestufe3":
+                    stage_levels[3] = convert_to_float(station_data["data"][-1][1])
+    except FetchError:
+        pass
     return stage_levels
 
 
@@ -107,7 +111,7 @@ def update_HE(static_data: StaticData) -> DynamicData:  # pylint: disable=invali
                     level = convert_to_float(dataset["data"][-1][1])
                     stage = calc_stage(level, static_data.stage_levels)
                     break
-        except (IndexError, KeyError):
+        except (IndexError, KeyError, FetchError):
             level = None
             stage = None
 
@@ -122,7 +126,7 @@ def update_HE(static_data: StaticData) -> DynamicData:  # pylint: disable=invali
                     last_update_str_q = dataset["data"][-1][0]
                     flow = convert_to_float(dataset["data"][-1][1])
                     break
-        except (IndexError, KeyError):
+        except (IndexError, KeyError, FetchError):
             flow = None
 
         last_update = None

@@ -2,10 +2,9 @@
 
 from __future__ import annotations
 
-import requests
-
 from .api_utils import (
     DynamicData,
+    FetchError,
     LHPError,
     StaticData,
     calc_stage,
@@ -70,8 +69,7 @@ def get_stage_levels(internal_url: str) -> list[float]:
                     stage_levels[2] = convert_to_float(station_data["data"][-1][1])
                 elif station_data["ts_name"] == "Alarmstufe 4":
                     stage_levels[3] = convert_to_float(station_data["data"][-1][1])
-    # eg, 502180/W/alarmlevel.json does not exist (404)
-    except requests.exceptions.HTTPError:
+    except FetchError:
         pass
     return stage_levels
 
@@ -108,8 +106,7 @@ def update_ST(static_data: StaticData) -> DynamicData:  # pylint: disable=invali
             last_update_str_w = data[0]["data"][-1][0]
             level = convert_to_float(data[0]["data"][-1][1])
             stage = calc_stage(level, static_data.stage_levels)
-        # requests.exceptions.HTTPError for handling 404 etc
-        except (IndexError, KeyError, requests.exceptions.HTTPError):
+        except (IndexError, KeyError, FetchError):
             level = None
             stage = None
 
@@ -120,8 +117,7 @@ def update_ST(static_data: StaticData) -> DynamicData:  # pylint: disable=invali
             # Parse data
             last_update_str_q = data[0]["data"][-1][0]
             flow = convert_to_float(data[0]["data"][-1][1])
-        # requests.exceptions.HTTPError for handling 404 etc
-        except (IndexError, KeyError, requests.exceptions.HTTPError):
+        except (IndexError, KeyError, FetchError):
             flow = None
 
         last_update = None

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from .api_utils import (
     DynamicData,
+    FetchError,
     LHPError,
     StaticData,
     calc_stage,
@@ -45,36 +46,42 @@ def get_stage_levels(internal_url: str) -> list[float]:
     """Get stage levels."""
     stage_levels = [None] * 4
     nw_stages = fetch_json(internal_url + "/S/alarmlevel.json")
-    for station_data in nw_stages:
-        # Unfortunately the source data seems quite incomplete.
-        # So we check if the required keys are present in the station_data dictionary:
-        if (
-            "ts_name" in station_data
-            and "data" in station_data
-            and isinstance(station_data["data"], list)
-            and len(station_data["data"]) > 0
-        ):
-            # Check if ts_name is one of the desired values
-            if station_data["ts_name"] == "W.Informationswert_1":
-                stage_levels[0] = convert_to_float(station_data["data"][-1][1])
-            elif station_data["ts_name"] == "W.Informationswert_2":
-                stage_levels[1] = convert_to_float(station_data["data"][-1][1])
-            elif station_data["ts_name"] == "W.Informationswert_3":
-                stage_levels[2] = convert_to_float(station_data["data"][-1][1])
+    try:
+        for station_data in nw_stages:
+            # Unfortunately the source data seems quite incomplete.
+            # So we check if the required keys are present in the station_data dictionary:
+            if (
+                "ts_name" in station_data
+                and "data" in station_data
+                and isinstance(station_data["data"], list)
+                and len(station_data["data"]) > 0
+            ):
+                # Check if ts_name is one of the desired values
+                if station_data["ts_name"] == "W.Informationswert_1":
+                    stage_levels[0] = convert_to_float(station_data["data"][-1][1])
+                elif station_data["ts_name"] == "W.Informationswert_2":
+                    stage_levels[1] = convert_to_float(station_data["data"][-1][1])
+                elif station_data["ts_name"] == "W.Informationswert_3":
+                    stage_levels[2] = convert_to_float(station_data["data"][-1][1])
+    except FetchError:
+        pass
     return stage_levels
 
 
 def get_hint(internal_url: str) -> str:
     """Get hint."""
     hint = None
-    data = fetch_json(internal_url + "/S/week.json")
-    if len(data[0]["AdminStatus"].strip()) > 0:
-        hint = data[0]["AdminStatus"].strip()
-    if len(data[0]["AdminBemerkung"].strip()) > 0:
-        if len(hint) > 0:
-            hint += " / " + data[0]["AdminBemerkung"].strip()
-        else:
-            hint = data[0]["AdminBemerkung"].strip()
+    try:
+        data = fetch_json(internal_url + "/S/week.json")
+        if len(data[0]["AdminStatus"].strip()) > 0:
+            hint = data[0]["AdminStatus"].strip()
+        if len(data[0]["AdminBemerkung"].strip()) > 0:
+            if len(hint) > 0:
+                hint += " / " + data[0]["AdminBemerkung"].strip()
+            else:
+                hint = data[0]["AdminBemerkung"].strip()
+    except FetchError:
+        pass
     return hint
 
 
