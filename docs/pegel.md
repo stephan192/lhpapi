@@ -4,9 +4,9 @@
 | BB_0491101 | Prenzlau, Wehr OP / Ucker |
 | BB_0491200 | Prenzlau, Wehr UP / Ucker |
 | BB_0494101 | Wilsickow / Strasburger Mühlbach |
-| BB_0494502 | Trebenow, oh Straßenbrücke / Köhntop |
+| BB_0494502 | Trebenow, oh Straßenbrücke / Köhntop |
 | BB_0494800 | Wolfshagen / Köhntop |
-| BB_0494900 | Fürstenwerder / Köhntop |
+| BB_0494900 | Fürstenwerder / Köhntop |
 | BB_0495000 | Hildebrandshagen / Köhntop |
 | BB_0495300 | Falkenhagen / Quillow |
 | BB_0495601 | Prenzlau, Neubg. Str. / Quillow |
@@ -40,7 +40,7 @@
 | BB_152140010 | Bielinek / Oder |
 | BB_152140020 | Gozdowice / Oder |
 | BB_152140050 | Słubice / Oder |
-| BB_152140060 | Kostrzyn Nad Odrą Odra / Oder |
+| BB_152140060 | Kostrzyn Nad Odrą / Oder |
 | BB_152140070 | Kostrzyn Nad Odrą / Warta |
 | BB_152140090 | Biała Góra / Oder |
 | BB_152140130 | Połęcko / Oder |
@@ -453,7 +453,6 @@
 | BW_00026 | Beuron / Donau |
 | BW_00027 | Pforzheim / Enz |
 | BW_00028 | Vaihingen / Enz |
-| BW_00029 | Oppenweiler / Murr |
 | BW_00030 | Neustadt / Rems |
 | BW_00032 | Schorndorf / Rems |
 | BW_00033 | Wendlingen / Lauter |
@@ -772,7 +771,7 @@
 | BW_09151 | Wüstenzell / Aalbach |
 | BY_10024000 | Berg / Donau |
 | BY_10026293 | Neu-Ulm / Donau |
-| BY_10026302 | Neu-Ulm, Bad Held Q / Donau |
+| BY_10026302 | Neu-Ulm Bad Held Q / Donau |
 | BY_10032009 | Günzburg u. d. Günzmündung / Donau |
 | BY_10035801 | Dillingen / Donau |
 | BY_10039802 | Donauwörth / Donau |
@@ -2953,7 +2952,6 @@
 | SH_9520050 | Nordfeld Unterwasser / EIDER |
 | SH_9520060 | Friedrichstadt Strassenbrücke / Eider |
 | SH_9520070 | Tönning / Eider |
-| SH_9520081 | Eider-Sperrwerk BP / Eider |
 | SH_9530010 | Eider-Sperrwerk AP / Nordsee |
 | SH_9530020 | Husum / Nordsee |
 | SH_9550021 | Pellworm Anleger / Nordsee |
