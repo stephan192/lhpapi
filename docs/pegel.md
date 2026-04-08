@@ -71,6 +71,7 @@
 | BB_5534400 | Niemtsch, Auslaufbauwerk OP, BP3 / Ableiter Senftenberger See |
 | BB_5541200 | Schönau / Klosterwasser |
 | BB_5542200 | Zescha / Hoyerswerdaer Schwarzwasser |
+| BB_5543400 | Lipsa / Ruhlander Schwarzwasser |
 | BB_5543701 | Plessa 2 / Hammergraben Lauchhammer |
 | BB_5544101 | Reichenau 1 / Pulsnitz |
 | BB_5544201 | Lindenau / Pulsnitz |
@@ -843,6 +844,7 @@
 | BY_11605009 | Hasberg / Östliche Mindel |
 | BY_11605202 | Hasberg / Mindel |
 | BY_11606155 | Mindelzell (virtuell) / Mindel mit Östl. Mindel |
+| BY_11606353 | Balzhausen HRB Becken / Balzhausen HRB |
 | BY_11606355 | Balzhausen HRB Ablauf / Mindel |
 | BY_11609000 | Offingen / Mindel |
 | BY_11649004 | Zaisertshofen / Flossach |
@@ -859,7 +861,7 @@
 | BY_11808006 | Heroldingen / Wörnitz |
 | BY_11809009 | Harburg / Wörnitz |
 | BY_11840508 | Rödenweiler / Sulzach |
-| BY_11857500 | Hahnenkammsee / Rohrach |
+| BY_11857500 | Hahnenkammsee / Hahnenkammsee |
 | BY_11861009 | Bopfingen / Eger |
 | BY_11864007 | Lierheim / Eger |
 | BY_11921701 | Fleinhausen / Zusam |
@@ -1180,14 +1182,14 @@
 | BY_16899009 | Tiefenbach / Tiefenbach |
 | BY_16924707 | Altdorf / Pfettrach |
 | BY_16964995 | Wallersdorf (neu) / Reißinger Bach |
-| BY_16965001 | Wallersdorf / Reißingerbach |
+| BY_16965001 | Wallersdorf / Reißinger Bach |
 | BY_17125006 | Auerbach / Hengersberger Ohe |
-| BY_17131055 | Neusling / Neuslinger Graben |
+| BY_17131055 | Neusling / Neuslinger Bach |
 | BY_17201501 | Aham / Vils |
 | BY_17203507 | Marklkofen Seepegel / Vilstalsee |
-| BY_17203802 | Neumühle / Vilsflutkanal |
+| BY_17203802 | Neumühle / Vilskanal |
 | BY_17204204 | Rottersdorf / Vils |
-| BY_17206006 | Reichstorf / Vilsflutkanal |
+| BY_17206006 | Reichstorf / Vilskanal |
 | BY_17207508 | Grafenmühle / Vils |
 | BY_17215007 | Vilsbiburg / Große Vils |
 | BY_17224155 | Geisenhausen / Fimbach |
@@ -1227,7 +1229,7 @@
 | BY_18009002 | Passau Marienbrücke Q / Inn |
 | BY_18182005 | Bleyerbrücke / Kieferbach |
 | BY_18193001 | Bad Trißl / Auerbach |
-| BY_18194503 | Mühlhausen / Euzenauer Bach |
+| BY_18194503 | Mühlhausen / Euzenauerbach |
 | BY_18196000 | Nußdorf / Steinbach |
 | BY_18197501 | Krottenmühl / Simssee |
 | BY_18199008 | Stephanskirchen / Sims |
@@ -1251,7 +1253,7 @@
 | BY_18261000 | Mühlthal / Glonn |
 | BY_18262002 | Beyharting / Glonn |
 | BY_18263005 | Bad Aibling / Glonn |
-| BY_18269001 | Bad Aibling / Triftbach linker Mühlkanal |
+| BY_18269001 | Bad Aibling / Triftbach |
 | BY_18269055 | Bad Aibling Q / Triftbach |
 | BY_18284504 | Bad Feilnbach / Jenbach |
 | BY_18284606 | Bad Feilnbach / Mühlbach |
@@ -1282,11 +1284,11 @@
 | BY_18458503 | Reit im Winkl / Schwarzlofer |
 | BY_18459007 | Mühlau / Mühlbach |
 | BY_18460403 | Übersee / Überseer Bach |
-| BY_18461257 | Bernau / Bernauer Ache |
+| BY_18461257 | Bernau / Bernauer Achen |
 | BY_18462205 | Aschau / Prien |
 | BY_18463004 | Prien / Prien |
 | BY_18465000 | Dickertsmühle / Mühlbach |
-| BY_18465600 | Bergen / Weiße Ache |
+| BY_18465600 | Bergen / Weiße Achen |
 | BY_18466002 | Grabenstätt / Rothgraben |
 | BY_18481006 | Hochberg / Traun |
 | BY_18482009 | Traunstein Heilig-Geist / Traun |
@@ -1499,7 +1501,8 @@
 | BY_24269055 | Gutenstetten Rückhaltebecken / Steinach |
 | BY_24292507 | Röbersdorf / Reiche Ebrach |
 | BY_24292802 | Burghaslach Rückhaltebecken / Haslach |
-| BY_24293500 | Schönbrunn / Rauhe Ebrach |
+| BY_24293497 | Schönbrunn / Rauhe Ebrach |
+| BY_24293500 | Schönbrunn (alt) / Rauhe Ebrach |
 | BY_24295505 | Vorra / Rauhe Ebrach |
 | BY_24322506 | Römershofen / Nassach |
 | BY_24336806 | Dingolshausen / Volkach |
@@ -2025,12 +2028,14 @@
 | MV_04904.1 | Torgelow OP / Uecker |
 | MV_04907.1 | Pasewalk Bollwerk / Uecker |
 | MV_04920.0 | Eggesin / Randow |
+| MV_04922.1 | Karpin / Rothenfurter Bach |
 | MV_04925.0 | Koblentz / Großer Koblentzer See |
 | MV_04927.0 | Löcknitz Eisenbahnbrücke / Randow |
 | MV_04927.3 | Löcknitz Nord / Plöwenscher Abzugsgraben |
 | MV_04927.4 | Boock / Regowbach |
 | MV_04928.2 | Penkun West / Schloßsee |
 | MV_04928.3 | Penkun Ost / Bürgersee |
+| MV_04930.1 | Rieth / Grenzgraben |
 | MV_04931.0 | Hintersee / Mützelburger See |
 | MV_04933.0 | Ludwigshof / Teufelsgraben |
 | MV_04934.0 | Gottesheide / Schloßsee |
@@ -2962,6 +2967,7 @@
 | SH_9570070 | LIST AUF SYLT / Nordsee |
 | SH_9610010 | Flensburg / Ostsee |
 | SH_9610015 | Langballigau / Ostsee |
+| SH_9610020 | LT Kalkgrund / Ostsee |
 | SH_9610035 | Kappeln / Schlei |
 | SH_9610040 | Schleswig / Schlei |
 | SH_9610045 | Eckernförde / Ostsee |
