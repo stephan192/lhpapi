@@ -2259,6 +2259,8 @@
 | NW_004157 | Hattingen / Ruhr |
 | NW_104 | Bad-Honnef / Rhein |
 | NW_1234512345 | Soestbach / Soestbach |
+| NW_123456 | St. Obermaubach UW / Rur |
+| NW_1234567 | St. Heimbach UW / Rur |
 | NW_2581119000100 | Feudingen / Lahn |
 | NW_25900700 | WSV_Koblenz / Rhein |
 | NW_27100400 | WSV_Andernach / Rhein |
@@ -2539,7 +2541,6 @@
 | NW_4667100000100 | Oberahle / Else |
 | NW_4670000000100 | Loehne / Werre |
 | NW_47100100 | WSV_Porta / Weser |
-| NW_47138 | DuisburgLaar / Rhein |
 | NW_4714900000100 | Rodenbeck / Bastau |
 | NW_47300100 | WSV_Petershagen / Weser |
 | NW_4745000000100 | Bierde / Gehle |
