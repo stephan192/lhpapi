@@ -1064,6 +1064,7 @@
 | BY_15247002 | Leming / Freybach |
 | BY_15247501 | Ösbühl / Danglesbach |
 | BY_15248555 | Dieberg / Warme Pastritz |
+| BY_15249355 | Hammerschmiede / Kalte Pastritz |
 | BY_15256855 | Balbersdorf / Katzbach |
 | BY_15257655 | Untergoßzell / Trailbach |
 | BY_15257755 | Untertraubenbach / Knöblinger Bach |
@@ -1884,6 +1885,7 @@
 | MV_04373.0 | Hohen Viecheln / Wallensteingraben |
 | MV_04373.4 | Grönings / Wallensteingraben |
 | MV_04375.0 | Schwerin Neumühle / Neumühler See |
+| MV_04376.1 | Schwerin Schelfwerder / Ziegelaußensee |
 | MV_04377.0 | Schwerin Lankow / Lankower See |
 | MV_04378.0 | Schwerin Schleifmühle / Fauler See |
 | MV_04380.0 | Schwerin Medewege / Medeweger See |
