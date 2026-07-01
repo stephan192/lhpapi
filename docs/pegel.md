@@ -2102,6 +2102,7 @@
 | MV_59596.0 | Fincken / Finckener See |
 | MV_59596.8 | Wredenhagen / Zepkower Elde |
 | MV_59599.0 | Buchholz / Elde |
+| MV_59599.2 | Buchholz Redundanz / Elde |
 | MV_59601.2 | Röbel / Dambecker Graben |
 | MV_59602.2 | Groß Kelle / Kellerbach |
 | MV_596030 | Waren / Müritz-Elde-Wasserstrasse |
