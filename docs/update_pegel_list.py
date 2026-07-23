@@ -226,22 +226,18 @@ def get_he_stations() -> tuple[str, str]:
 def get_hh_stations() -> tuple[str, str]:
     """Get all available stations for Hamburg."""
     stations = []
-    data = fetch_soup("https://www.wabiha.de/karte.html")
-    tooltipwrapper = data.find("div", id="tooltipwrapper")
-    divs = tooltipwrapper.find_all("div", class_="tooltip-content")
-    for div in divs:
-        spans = div.find_all("span")
-        if len(spans) == 8:
-            ident = "HH_" + div["id"].split("-")[-1]
-            text = div.getText()
-            name = text[: text.find("Gewässer:")].strip()
-            name = (
-                name
-                + " / "
-                + text[
-                    text.find("Gewässer:") + 9 : text.find("Niederschlagsvorhersage")
-                ].strip()
-            )
+    data = fetch_soup("https://www.wabiha.de/pegel.html")
+    table = data.find_all("table", id="pegeltabelle")[0]
+    tbody = table.find_all("tbody")[0]
+    trs = tbody.find_all("tr")
+    for row in trs:
+        tds = row.find_all("td")
+        if len(tds) > 4:
+            river = tds[0].find("span").text.strip()
+            pegel_span = tds[1].find("span")
+            pegel_name = pegel_span.text.strip()
+            ident = "HH_" + pegel_span.get("title").split()[1]
+            name = pegel_name + " / " + river
             stations.append((ident, name))
     return stations
 
