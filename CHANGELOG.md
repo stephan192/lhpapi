@@ -1,3 +1,7 @@
+## 1.0.11 (2026-07-23)
+### Fixed
+- Fix HH pegel page scraping
+
 ## 1.0.10 (2026-02-17)
 ### Fixed
 - Fix HE without flow (add FetchError class)
