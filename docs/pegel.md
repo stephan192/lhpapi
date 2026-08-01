@@ -1309,6 +1309,7 @@
 | BY_18465000 | Dickertsmühle / Mühlbach |
 | BY_18465600 | Bergen / Weiße Achen |
 | BY_18466002 | Grabenstätt / Rothgraben |
+| BY_18472005 | Seeon / Klostersee |
 | BY_18481006 | Hochberg / Traun |
 | BY_18482009 | Traunstein Heilig-Geist / Traun |
 | BY_18483500 | Stein bei Altenmarkt / Traun |
