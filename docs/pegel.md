@@ -170,7 +170,6 @@
 | BB_5874301 | Buckau, Brücke / Buckau |
 | BB_5874600 | Görisgräben / Buckau |
 | BB_5874601 | Neue Mühle, Wehr OP / Buckau |
-| BB_5874701 | Wenzlow, Forellenanlage / Verlorenwasser |
 | BB_5874702 | Wenzlow, Sandfang / Verlorenwasser |
 | BB_5874900 | Mahlenzien, Wehr UP / Buckau |
 | BB_5875001 | Trebbin, Wehr OP / Nuthe |
@@ -1151,7 +1150,6 @@
 | BY_16527503 | Oberding / Gfällach |
 | BY_16602008 | Stegen / Ammersee |
 | BY_16602303 | Stegen / Amper |
-| BY_16602800 | Grafrath Ampermoos / Amper |
 | BY_16603000 | Grafrath / Amper |
 | BY_16605006 | Fürstenfeldbruck / Amper |
 | BY_16606009 | Ampermoching / Amper |
@@ -1906,7 +1904,6 @@
 | MV_04373.0 | Hohen Viecheln / Wallensteingraben |
 | MV_04373.4 | Grönings / Wallensteingraben |
 | MV_04375.0 | Schwerin Neumühle / Neumühler See |
-| MV_04376.1 | Schwerin Schelfwerder / Ziegelaußensee |
 | MV_04377.0 | Schwerin Lankow / Lankower See |
 | MV_04378.0 | Schwerin Schleifmühle / Fauler See |
 | MV_04380.0 | Schwerin Medewege / Medeweger See |
@@ -3014,6 +3011,7 @@
 | SH_9570070 | LIST AUF SYLT / Nordsee |
 | SH_9610010 | Flensburg / Ostsee |
 | SH_9610015 | Langballigau / Ostsee |
+| SH_9610025 | Schleimünde SP / Ostsee |
 | SH_9610035 | Kappeln / Schlei |
 | SH_9610040 | Schleswig / Schlei |
 | SH_9610045 | Eckernförde / Ostsee |
