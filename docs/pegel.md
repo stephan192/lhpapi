@@ -148,6 +148,7 @@
 | BB_5863001 | Teupitz 2 / Teupitzer Gewässer |
 | BB_587020 | Kleinmachnow OP / Teltowkanal |
 | BB_5870801 | Zeestow, Einlassbauwerk UP / Großer Havelländischer Hauptkanal |
+| BB_5870802 | Zeestow, Schöpfwerk BP / Schlaggraben |
 | BB_5870901 | Jüterbog, Rückhaltebecken Einlauf / Nuthe |
 | BB_5871101 | Woltersdorf I, Wehr OP / Nuthe |
 | BB_5871102 | Woltersdorf I, Brücke / Nuthe |
@@ -185,7 +186,7 @@
 | BB_5879801 | Salzbrunn / Nieplitz |
 | BB_5885200 | Bergerdamm, Wehr OP / Großer Havelländischer Hauptkanal |
 | BB_5886400 | Rhinsmühlen, Wehr OP / Großer Havelländischer Hauptkanal |
-| BB_5886703 | Siel III Hohennauen BP / Havel |
+| BB_5886703 | Siel III Hohennauen BP / Sielgraben Hohenauen |
 | BB_5886706 | Parey, Schöpfwerk BP / SW-Graben Parey |
 | BB_5890200 | Rheinsberg, Wehr OP / Rhin |
 | BB_5890500 | Rägelsdorf / Rhin |
@@ -881,6 +882,7 @@
 | BY_11857500 | Hahnenkammsee / Hahnenkammsee |
 | BY_11857503 | Hahnenkammsee Ablauf / Hahnenkammsee |
 | BY_11861009 | Bopfingen / Eger |
+| BY_11861013 | Bopfingen Stadion Q / Eger |
 | BY_11864007 | Lierheim / Eger |
 | BY_11921701 | Fleinhausen / Zusam |
 | BY_11923555 | Wertingen / Zusamkanal |
@@ -976,6 +978,7 @@
 | BY_13418055 | Berching. / LDM-Kanal |
 | BY_13424901 | Bechhofen / Wieseth |
 | BY_13434009 | Unterwurmbach / Wurmbach |
+| BY_13434010 | Unterwurmbach Q / Wurmbach |
 | BY_13450300 | Schambach / Schambach |
 | BY_13455020 | Altendorf / Gailach |
 | BY_13465002 | Mettendorf / Schwarzach |
@@ -3373,6 +3376,7 @@
 | ST_575700 | Stolberg / Thyra |
 | ST_575710 | Berga / Thyra |
 | ST_575850 | Sangerhausen / Gonna |
+| ST_575870 | Allstedt / Rohne |
 | ST_575970 | Thalwinkel / Biberbach |
 | ST_576000 | Mertendorf / Wethau |
 | ST_576100 | Rippach / Rippach |
