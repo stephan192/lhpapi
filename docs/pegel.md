@@ -561,7 +561,6 @@
 | BW_00139 | Hausach / Kinzig |
 | BW_00142 | Hüttlingen / Kocher |
 | BW_00143 | Stefansweiler Mühle / Schwarzer Kocher |
-| BW_00146 | Rottweil / Neckar |
 | BW_00147 | Ramsbach / Rench |
 | BW_00148 | Mosbach / Elz |
 | BW_00149 | Hausen / Zaber |
@@ -733,6 +732,7 @@
 | BW_00417 | Rheinhausen PW / Altrheinzug |
 | BW_00435 | Wiesloch-Hilfspegel / Leimbach |
 | BW_00436 | Wiesloch-Hilfspegel / Waldangelbach |
+| BW_00441 | Rottweil / Neckar |
 | BW_05000 | Königsbronn / Leerausbach |
 | BW_05002 | Wahlwies / Alte Aach |
 | BW_09000 | Lauterbourg / Rhein |
@@ -1479,7 +1479,7 @@
 | BY_24215302 | Rothsee Hauptsperre / Rothsee |
 | BY_24215404 | Rothsee Hauptsperre Ablauf / Rothsee |
 | BY_24215903 | Rothaurach / Aurach |
-| BY_24217005 | Labersricht. / Pilsacher Leitgraben |
+| BY_24217005 | Labersricht / Pilsacher Leitgraben |
 | BY_24217012 | Haslach NM. / Kettenbacher Leitgraben |
 | BY_24217055 | Mitterrohrenstadt / Rohrenstadter Bach |
 | BY_24217104 | Rasch / Schwarzach |
@@ -1610,7 +1610,6 @@
 | BY_56143008 | Kautendorf / Südliche Regnitz |
 | BY_56161509 | Hölle / Selbitz |
 | BY_81617935 | Flecker Wehr / Isar-Seitenkanal |
-| BY_81842200 | 8_WWA Traunstein Projektpegel /  |
 | HB_47300100 | Petershagen / Weser |
 | HB_47900118 | Nienburg / Weser |
 | HB_47900129 | Hoya / Weser |
@@ -1703,6 +1702,7 @@
 | HE_24861189 | Wolf / Wolfsbach |
 | HE_24861258 | Düdelsheim / Seemenbach |
 | HE_24861407 | Windecken / Nidder |
+| HE_24861451 | Büdesheim / Nidder |
 | HE_24870055 | Bad_Vilbel / Nidda |
 | HE_24880208 | Ober-Erlenbach / Erlenbach |
 | HE_24890256 | Ober-Eschbach / Eschbach |
@@ -2159,6 +2159,7 @@
 | MV_59870.1 | Hagenow / Schmaar |
 | MV_59905.0 | Schwartow / Boize |
 | MV_59910.5 | Nostorf / Horster Mühlbach |
+| MV_59999.9 | Boizenburg Schack / Schacksgraben |
 | MV_9620085 | Travemünde / Trave |
 | MV_9630007 | Timmendorf Poel / Ostsee |
 | MV_9630008 | Wismar-Baumhaus-Alt / Ostsee |
@@ -2444,7 +2445,7 @@
 | NW_2783990000100 | Lippstadt2 / Lippe |
 | NW_2784133000100 | Siedlingsheide1 / Haustenbach |
 | NW_2784149100100 | Siedlingsheide2 / Krollbach |
-| NW_2784651000100 | Liesborn / Liese |
+| NW_2784650000100 | Liesborn / Liese |
 | NW_2784700000100 | Cappel / Glenne |
 | NW_2785229000100 | Boekenfoerde_2 / Gieseler |
 | NW_2785290000200 | Overhagen / Gieseler |
@@ -2608,8 +2609,12 @@
 | NW_9286410000100 | Legden / Dinkel |
 | NW_9286453000200 | Heek / Dinkel |
 | NW_9286455000200 | Gronau / Dinkel |
+| RP_1032131010 | Königsfeld / Vinxtbach |
+| RP_1032131020 | Kempenich / Weiberner Bach |
+| RP_1032131030 | Niederzissen / Brohlbach |
+| RP_1032131040 | Schalkenbach / Schalkenbach |
 | RP_1032137010 | Camping Falkley / Nette |
-| RP_1032137020 | Thür |
+| RP_1032137020 | Thür / Krufterbach |
 | RP_1032137030 | Hammesmühle / Nette |
 | RP_1032137040 | Bermel-KA / Elzbach |
 | RP_1032137050 | Monreal - Schnürenhof / Elzbach |
@@ -2636,7 +2641,7 @@
 | RP_1034232160 | Holsthum Schloss / Enz |
 | RP_1034232170 | Philippsheim Kahlenbach / Kahlenbach |
 | RP_1034232180 | Geichlingen / Geichlingerbach |
-| RP_1034232190 | Hüttingen bei Lahr |
+| RP_1034232190 | Hüttingen bei Lahr / Notzenbach |
 | RP_1034232200 | Hickeshausen / Mannerbach |
 | RP_1034232210 | Irrhausen / Irsen |
 | RP_1034232220 | Sevenig (Our) / Irsen |
@@ -3027,66 +3032,6 @@
 | SH_9610080 | Neustadt / Ostsee |
 | SH_9620085 | Travemünde / Trave |
 | SH_9620090 | Lübeck-Bauhof / Trave |
-| SL_1011120 | Oberthal / Blies |
-| SL_1012120 | Bliesen / Blies |
-| SL_1013120 | Alsfassen / Blies |
-| SL_1014120 | Urweiler / Todbach |
-| SL_1022120 | Ottweiler / Blies |
-| SL_1031120 | Bebelsheim / Mandelbach |
-| SL_1041120 | Neunkirchen / Blies |
-| SL_1051110 | Blieskastel / Blies |
-| SL_1062220 | Reinheim / Blies |
-| SL_1071120 | Nonnweiler IV / Prims |
-| SL_1081120 | Wolfersweiler / Freisbach |
-| SL_1092220 | Nalbach / Prims |
-| SL_1102220 | Niedaltdorf / Nied |
-| SL_1113120 | Überherrn / Bist |
-| SL_1122120 | Geislautern / Rossel |
-| SL_1131120 | Merzig / Seffersbach |
-| SL_1142120 | Perl / Mosel |
-| SL_1151120 | Roden / Ellbach |
-| SL_1162120 | Völklingen / Köllerbach |
-| SL_1171120 | Rußhütte / Fischbach |
-| SL_1181120 | Jägersfreude / Sulzbach |
-| SL_1191120 | Schafbrücke / Rohrbach |
-| SL_1201120 | Fechingen / Saarbach |
-| SL_1211120 | Lautzkirchen / Würzbach |
-| SL_1221120 | Walsheim / Hetschenbach |
-| SL_1231120 | Nohfelden / Nahe |
-| SL_1241120 | Eckelhausen / Bos |
-| SL_1251120 | Gonnesweiler / Bos |
-| SL_1261120 | Dagstuhl / Löster |
-| SL_1271120 | Schieferstollen / Wadrill |
-| SL_1281120 | Wadern / Wadrill |
-| SL_1291120 | Rappweiler / Hölzbach |
-| SL_1301120 | Niederlosheim / Hölzbach |
-| SL_1311120 | Althornbach / Hornbach |
-| SL_1312220 | Contwig / Schwarzbach |
-| SL_1321120 | Losheim I / Losheimer Bach |
-| SL_1332220 | Lebach / Theel |
-| SL_1341120 | Eppelborn / Ill |
-| SL_1351120 | Nunkirchen / Losheimer Bach |
-| SL_1362120 | Hangard / Oster |
-| SL_1373130 | Einöd / Schwarzbach |
-| SL_1381120 | Weiler / Kohlenbrucher Bach |
-| SL_1391120 | Nonnweiler I / Prims |
-| SL_1401120 | Nonnweiler II / Altbach |
-| SL_1411120 | Weiskirchen / Holzbach |
-| SL_1421120 | Oberleuken / Leuk |
-| SL_1433120 | Losheim III / Losheimer Bach |
-| SL_1451120 | Buttnich / Prims |
-| SL_1451130 | Michelbach / Prims |
-| SL_1462230 | Fremersdorf / Saar |
-| SL_1463130 | St. Arnual / Saar |
-| SL_1464130 | Wittringen / Saar |
-| SL_1472120 | Hanweiler / Saar |
-| SL_1482120 | Lisdorf / Saar |
-| SL_1494120 | Rehlingen / Saar |
-| SL_1502120 | Mettlach / Saar |
-| SL_1631120 | Beeden / Erbach |
-| SL_1641120 | Ihn / Ihner Bach |
-| SL_1651120 | Körprich / Primss |
-| SL_1661120 | Bardenbach / Wahrnbach |
 | SN_1000000 | Hohberg / Rosenbach |
 | SN_10000020 | Hagenwerder 3 / Lausitzer Neiße |
 | SN_10000080 | Pietzschwitz / Langes Wasser |
