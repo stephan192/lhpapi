@@ -1,3 +1,7 @@
+## 1.0.12 (2026-11-02)
+### Deleted
+- Deleted SL pegel due to new homepage
+
 ## 1.0.11 (2026-07-23)
 ### Fixed
 - Fix HH pegel page scraping

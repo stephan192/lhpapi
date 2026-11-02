@@ -98,7 +98,7 @@ last_update:    2024-03-01 21:15:00+00:00
 | NW     | Nordrhein-Westfalen    | :heavy_check_mark: | :heavy_check_mark: | :x:                | [Hochwassermeldedienst NRW](https://www.hochwasserportal.nrw.de)|
 | RP     | Rheinland-Pfalz        | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | [Hochwasservorhersagedienst - Landesamt für Umwelt Rheinland-Pfalz](https://hochwasser.rlp.de)|
 | SH     | Schleswig-Holstein     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | [Hochwasser-Sturmflut-Information Schleswig-Holstein](https://hsi-sh.de) |
-| SL     | Saarland               | :heavy_check_mark: | :heavy_check_mark: | :x:                | [Pegel Saarland](https://www.saarland.de/mukmav/DE/portale/wasser/informationen/hochwassermeldedienst/wasserstaende_warnlage/wasserstaende_warnlage_node.html) |
+| ~~SL~~ | ~~Saarland~~           | :x:                | :x:                | :x:                | [Hochwassermeldezentrale des Saarlandes](https://hmz.saarland.de/) :exclamation: Currently not working :exclamation: |
 | SN     | Sachsen                | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | [Landeshochwasserzentrum Sachsen](https://www.umwelt.sachsen.de/umwelt/infosysteme/hwims/portal/web/wasserstand-uebersicht) |
 | ST     | Sachsen-Anhalt         | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | [Landesportal Sachsen-Anhalt](https://hochwasservorhersage.sachsen-anhalt.de) |
 | TH     | Thüringen              | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | [Hochwassernachrichtenzentrale Thüringen](https://hnz.thueringen.de/hw-portal) |

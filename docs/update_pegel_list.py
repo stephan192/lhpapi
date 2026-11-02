@@ -346,26 +346,6 @@ def get_sh_stations() -> tuple[str, str]:
     return stations
 
 
-def get_sl_stations() -> tuple[str, str]:
-    """Get all available stations for Saarland."""
-    stations = []
-    data = fetch_text(
-        "https://iframe01.saarland.de/extern/wasser/Daten.js",
-        forced_encoding="ISO-8859-1",
-    )
-    lines = data.split("\r\n")
-    for line in lines:
-        if line.find("Pegel(") != -1:
-            content = line[line.find("Pegel(") + 6 : line.find(");")]
-            content = content.replace("'", "")
-            elements = content.split(",")
-            if len(elements) == 9:
-                ident = "SL_" + elements[2].strip()
-                name = elements[4].strip() + " / " + elements[5].strip()
-                stations.append((ident, name))
-    return stations
-
-
 def get_sn_stations() -> tuple[str, str]:
     """Get all available stations for Sachsen."""
     stations = []
@@ -440,8 +420,6 @@ print("Fetching RP")
 all_stations.extend(get_rp_stations())
 print("Fetching SH")
 all_stations.extend(get_sh_stations())
-print("Fetching SL")
-all_stations.extend(get_sl_stations())
 print("Fetching SN")
 all_stations.extend(get_sn_stations())
 print("Fetching ST")

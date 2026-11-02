@@ -19,7 +19,6 @@ from .ni_api import init_NI, update_NI
 from .nw_api import init_NW, update_NW
 from .rp_api import init_RP, update_RP
 from .sh_api import init_SH, update_SH
-from .sl_api import init_SL, update_SL
 from .sn_api import init_SN, update_SN
 from .st_api import init_ST, update_ST
 from .th_api import init_TH, update_TH
@@ -37,7 +36,6 @@ FUNCTION_DICT: Final[dict[str, dict[str, FunctionType]]] = {
     "NW": {"init": init_NW, "update": update_NW},
     "RP": {"init": init_RP, "update": update_RP},
     "SH": {"init": init_SH, "update": update_SH},
-    "SL": {"init": init_SL, "update": update_SL},
     "SN": {"init": init_SN, "update": update_SN},
     "ST": {"init": init_ST, "update": update_ST},
     "TH": {"init": init_TH, "update": update_TH},
