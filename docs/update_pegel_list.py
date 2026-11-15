@@ -346,6 +346,27 @@ def get_sh_stations() -> tuple[str, str]:
     return stations
 
 
+def get_sl_stations() -> tuple[str, str]:
+    """Get all available stations for Saarland."""
+    stations = []
+    data = fetch_json(
+        "https://hmz.saarland.de/FewsWebServices/rest/fewspiservice/v1/locations?"
+        + "documentFormat=GEO_JSON&filterId=P&showAttributes=true"
+    )
+    features = data["features"]
+    for feature in features:
+        ident = "SL_" + feature["properties"]["locationId"].split(".")[-1]
+        name = feature["properties"]["locationName"].replace("Pegel ", "", 1)
+        river = ""
+        for attribute in feature["properties"]["attributes"]:
+            if attribute["name"] == "Gewaesser":
+                river = attribute["value"]
+                break
+        name = name + " / " + river
+        stations.append((ident, name))
+    return stations
+
+
 def get_sn_stations() -> tuple[str, str]:
     """Get all available stations for Sachsen."""
     stations = []
@@ -420,6 +441,8 @@ print("Fetching RP")
 all_stations.extend(get_rp_stations())
 print("Fetching SH")
 all_stations.extend(get_sh_stations())
+print("Fetching SL")
+all_stations.extend(get_sl_stations())
 print("Fetching SN")
 all_stations.extend(get_sn_stations())
 print("Fetching ST")
