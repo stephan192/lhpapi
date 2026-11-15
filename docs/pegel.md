@@ -204,6 +204,7 @@
 | BB_5892302 | Twerl, Schöpfwerk BP / Bärengraben |
 | BB_5892800 | Lindow, Wehr OP / Lindower Rhin |
 | BB_5894201 | Lentzker Mühle OP / Rhin |
+| BB_5894900 | Garz, Sohlschwelle OP / Temnitz |
 | BB_5895701 | Wusterhausen, Pegel 12 / Dosse |
 | BB_5895800 | Fretzdorf, Wehr OP / Dosse |
 | BB_5896000 | Freyenstein / Dosse |
@@ -214,6 +215,7 @@
 | BB_5896900 | Neustadt, Umfluterwehr / Umfluter Dosse |
 | BB_5896901 | Neustadt, Wehr OP / Dosse-Jäglitz-Zuleiter |
 | BB_5896902 | Neustadt, Wehr UP / Dosse-Jäglitz-Zuleiter |
+| BB_5896909 | Neustadt / Schwenze |
 | BB_5897001 | Hohenofen, Wehr OP / Dosse |
 | BB_5897100 | Friedrichsbruch, Wehr OP / Dosse |
 | BB_5897700 | Wittstock / Glinze |
@@ -412,7 +414,6 @@
 | BE_586280 | Neue Mühle Schleuse UP / Dahme-Wasserstrasse |
 | BE_5862811 | Schmöckwitz US / Zeuthener See |
 | BE_586290 | Berlin-Köpenick / Spree-Oder-Wasserstrasse |
-| BE_5863000 | Eisenacher Straße / Wuhle |
 | BE_5864700 | Hellersdorf / Wuhle |
 | BE_5864800 | Wuhletal / Wuhle |
 | BE_5864801 | Am Kienberg / Hellersdorfer Graben |
@@ -963,7 +964,6 @@
 | BY_13403504 | Ornbau Wehr Oberwasser / Altmühl |
 | BY_13404460 | Muhr / Altmühl |
 | BY_13404799 | Gunzenhausen / Altmühlüberleiter |
-| BY_13404802 | Muhr Seepegel / Altmühlsee |
 | BY_13404904 | Altmühlsee Seepegel / Altmühlsee |
 | BY_13405408 | Aha / Altmühl |
 | BY_13406105 | Treuchtlingen / Altmühl |
@@ -2292,7 +2292,6 @@
 | NI_5963104 | Klein Hollenbeck / Aue |
 | NI_5972105 | Schwinge / Schwinge |
 | NI_5983110 | Rockstedt / Oste |
-| NI_5993101 | Otterndorf - Hadelner Kanalschleuse / Elbe |
 | NI_9286106 | Ohne / Vechte |
 | NI_9286127 | Wehr Neuenhaus / Vechte |
 | NI_9286136 | Lage I / Dinkel |
@@ -3032,6 +3031,72 @@
 | SH_9610080 | Neustadt / Ostsee |
 | SH_9620085 | Travemünde / Trave |
 | SH_9620090 | Lübeck-Bauhof / Trave |
+| SL_1011120 | Oberthal / Blies |
+| SL_1012120 | Bliesen / Blies |
+| SL_1013120 | Alsfassen / Blies |
+| SL_1014120 | Urweiler / Todbach |
+| SL_1022120 | Ottweiler / Blies |
+| SL_1031120 | Bebelsheim / Mandelbach |
+| SL_1041120 | Neunkirchen / Blies |
+| SL_1051110 | Blieskastel / Blies |
+| SL_1062220 | Reinheim / Blies |
+| SL_1071120 | Nonnweiler IV / Prims |
+| SL_1081120 | Wolfersweiler / Freisbach |
+| SL_1092220 | Nalbach / Prims |
+| SL_1102220 | Niedaltdorf / Nied |
+| SL_1113120 | Überherrn / Bist |
+| SL_1122120 | Geislautern / Rossel |
+| SL_1131120 | Merzig / Seffersbach |
+| SL_1142120 | Perl / Mosel |
+| SL_1151120 | SLS-Roden / Ellbach |
+| SL_1162120 | Völklingen / Köllerbach |
+| SL_1171120 | Sbr.-Rußhütte / Fischbach |
+| SL_1181120 | Jägersfreude / Sulzbach |
+| SL_1191120 | Sbr.-Schafbrücke / Rohrbach |
+| SL_1201120 | Fechingen / Saarbach |
+| SL_1211120 | Lautzkirchen / Würzbach |
+| SL_1221120 | Walsheim / Hetschenbach |
+| SL_1231120 | Nohfelden / Nahe |
+| SL_1241120 | Eckelhausen / Bos |
+| SL_1251120 | Gonnesweiler / Bos |
+| SL_1261120 | Dagstuhl / Löster |
+| SL_1271120 | Schieferstollen / Wadrill |
+| SL_1281120 | Wadern / Wadrill |
+| SL_1291120 | Rappweiler / Hölzbach |
+| SL_1301120 | Niederlosheim / Hölzbach |
+| SL_1321120 | Losheim I / Losheimer Bach |
+| SL_1332220 | Lebach / Theel |
+| SL_1341120 | Eppelborn / Ill |
+| SL_1351120 | Nunkirchen / Losheimer Bach |
+| SL_1362120 | Hangard / Oster |
+| SL_1373130 | Einöd / Schwarzbach |
+| SL_1381120 | Weiler / Kohlenbrucherbach |
+| SL_1391120 | Nonnweiler I / Prims |
+| SL_1401120 | Nonnweiler II / Altbach |
+| SL_1411120 | Weiskirchen / Holzbach |
+| SL_1421120 | Oberleuken / Leuk |
+| SL_1433120 | Losheim III / Losheimer Bach |
+| SL_1451120 | Buttnich / Prims |
+| SL_1451130 | Michelbach / Prims |
+| SL_1462230 | Fremersdorf / Saar |
+| SL_1463130 | St. Arnual / Saar |
+| SL_1464130 | Wittringen / Saar |
+| SL_1472120 | Hanweiler / Saar |
+| SL_1482120 | Lisdorf / Saar |
+| SL_1494120 | Rehlingen / Saar |
+| SL_1502120 | Mettlach / Saar |
+| SL_1631120 | Beeden / Erbach |
+| SL_1641120 | Ihn / Ihner Bach |
+| SL_1651120 | Körprich / Prims |
+| SL_1661120 | Bardenbach / Wahnbach |
+| SL_1671120 | Sötern / Söterbach |
+| SL_1681120 | Sinnerthal / Sinnerbach |
+| SL_1691120 | Bliesdalheim / Blies |
+| SL_1701120 | Walpershofen / Köllerbach |
+| SL_1711120 | Lauterbach / Lauterbach |
+| SL_1721120 | Beckingen / Mühlenbach |
+| SL_26420308 | Contwig / Schwarzbach |
+| SL_2642603 | Althornbach / Hornbach |
 | SN_1000000 | Hohberg / Rosenbach |
 | SN_10000020 | Hagenwerder 3 / Lausitzer Neiße |
 | SN_10000080 | Pietzschwitz / Langes Wasser |
@@ -3072,6 +3137,7 @@
 | SN_10001720 | Raschau 1 / Weiße Elster |
 | SN_10001860 | Burgneudorf 1 / Kleine Spree |
 | SN_10002000 | Flößberg / Eula |
+| SN_10002080 | Panschwitz 1 / Klosterwasser |
 | SN_1100001 | Rosenthal 1 / Lausitzer Neiße |
 | SN_1100002 | Jänkendorf 1 / Schwarzer Schöps |
 | SN_1100003 | Hartau 1 / Lausitzer Neiße |
@@ -3122,7 +3188,6 @@
 | SN_553012 | Trado 2 / Schwarze Elster-Umflut (Tradoer Teichgruppe) |
 | SN_553013 | Trado 3 / Schwarze Elster |
 | SN_553020 | Neuwiese / Schwarze Elster |
-| SN_554100 | Panschwitz / Klosterwasser |
 | SN_554120 | Schönau / Klosterwasser |
 | SN_554210 | Prischwitz / Hoyerswerdaer Schwarzwasser |
 | SN_554220 | Zescha / Hoyerswerdaer Schwarzwasser |

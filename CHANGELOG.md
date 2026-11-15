@@ -1,3 +1,7 @@
+## 1.0.13 (2026-11-15)
+### Added
+- Readd SL pegel again
+
 ## 1.0.12 (2026-11-02)
 ### Deleted
 - Deleted SL pegel due to new homepage
