@@ -19,7 +19,7 @@ def init_SL(ident: str) -> StaticData:  # pylint: disable=invalid-name
         # Get data
         data = fetch_json(
             "https://hmz.saarland.de/FewsWebServices/rest/fewspiservice/v1/locations?"
-            + "documentFormat=GEO_JSON&filterId=P&showAttributes=true"
+            + "documentFormat=GEO_JSON&filterId=P.INTERN&showAttributes=true"
         )
         features = data["features"]
         # Parse data
@@ -52,7 +52,7 @@ def init_SL(ident: str) -> StaticData:  # pylint: disable=invalid-name
                     "https://hmz.saarland.de/FewsWebServices/rest/fewspiservice/v1/locations/"
                     + "tooltip?locationId="
                     + feature["properties"]["locationId"]
-                    + "&filterId=P"
+                    + "&filterId=P.INTERN"
                 )
                 return StaticData(
                     ident=ident,
