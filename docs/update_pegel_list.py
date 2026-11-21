@@ -351,7 +351,7 @@ def get_sl_stations() -> tuple[str, str]:
     stations = []
     data = fetch_json(
         "https://hmz.saarland.de/FewsWebServices/rest/fewspiservice/v1/locations?"
-        + "documentFormat=GEO_JSON&filterId=P&showAttributes=true"
+        + "documentFormat=GEO_JSON&filterId=P.INTERN&showAttributes=true"
     )
     features = data["features"]
     for feature in features:

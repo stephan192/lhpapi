@@ -1,3 +1,7 @@
+## 1.0.14 (2026-11-21)
+### Fixed
+- Fix SL pegel again
+
 ## 1.0.13 (2026-11-15)
 ### Added
 - Readd SL pegel again
